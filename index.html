@@ -51,6 +51,7 @@ footer{margin-top:24px;color:#666;font-size:14px}
 <div class="big" onclick="show('leadership')"><h3>Leadership Academy</h3><p>Every child has a strength. Here children learn to lead — hosting, presenting and organising, one step at a time.</p><span>Enter &rarr;</span></div>
 <div class="big" onclick="show('teacherled')"><h3>Teacher-Led Reading</h3><p>A teacher reads with you and guides you — English, French and Chinese reading, all levels, from kids to adults. A separate club from Student-Led Reading.</p><span>Enter &rarr;</span></div>
 <div class="big" onclick="show('tutors')"><h3>Find a Tutor</h3><p>When your child needs a teacher, we match you with one.</p><span>Enter &rarr;</span></div>
+<div class="big" onclick="show('studenttutors')"><h3>Student Tutors</h3><p>Students in Grade 5 and up tutor younger children — reading, homework and math. Good for the younger child, and good for the tutor too.</p><span>Enter &rarr;</span></div>
 <div class="big" onclick="show('forteachers')"><h3>For Teachers</h3><p>Are you a teacher looking for students? Tell us about yourself — we match you with families.</p><span>Enter &rarr;</span></div>
 </div>
 </div>
@@ -178,6 +179,7 @@ footer{margin-top:24px;color:#666;font-size:14px}
 <span id="count"></span></p>
 <p id="chips" style="margin:8px 0"><button type="button" class="chip on" data-v="">All</button> <button type="button" class="chip" data-v="Math">Math</button> <button type="button" class="chip" data-v="English">English</button> <button type="button" class="chip" data-v="French">French</button> <button type="button" class="chip" data-v="Spanish">Spanish</button> <button type="button" class="chip" data-v="Science">Science</button> <button type="button" class="chip" data-v="Physics">Physics</button> <button type="button" class="chip" data-v="Chemistry">Chemistry</button> <button type="button" class="chip" data-v="Biology">Biology</button> <button type="button" class="chip" data-v="Computer Science">Computer Science</button></p>
 <p style="background:#fdf6ee;border:1px solid #ecd9bd;border-radius:12px;padding:12px 16px">Interested in a tutor? Please send us a message and leave your email &mdash; we will match your child with the right teacher and get back to you soon. <button type="button" class="bigbtn" style="padding:8px 16px;font-size:15px" onclick="openForm()">Send us a message</button></p>
+<p>Looking for a lower-cost option? <a href="#" onclick="show('studenttutors');return false;">Student Tutors</a> — older students tutor younger children.</p>
 <div class="grid" id="grid"><div class="card tutor-card" data-subj="English, Math, Science, Chemistry, Physics, Mandarin" data-text="james l. english, math, science, chemistry, physics, mandarin elementary school, secondary school">
       <h3>James L.</h3>
       <p><b>Subjects:</b> English, Math, Science, Chemistry, Physics, Mandarin</p>
@@ -930,10 +932,58 @@ footer{margin-top:24px;color:#666;font-size:14px}
 </div>
 </div>
 
+<div id="studenttutors" style="display:none">
+<button class="back" type="button" onclick="show('home')">&larr; Back to home</button>
+<h2>Student Tutors</h2>
+<p>Older students tutor younger children — reading together, homework and math, one on one. Good for the younger child, and good for the tutor too.</p>
+<h3>Who can be a student tutor?</h3>
+<p>Students in Grade 5 and up, through the first three years of university. A tutor must be at least two grades above the student they teach.</p>
+<p>Grade 5-6 students tutor Grades 1-3 in reading and simple homework. Grade 7-9 students tutor elementary school children. Grade 10-12 students tutor up to middle school. University students in years 1-3 tutor up to high school.</p>
+<p>If you are under 18, your parent must agree before you can tutor.</p>
+<h3>First step: join the reading club</h3>
+<p>Before joining Student Tutors, every new student tutor first joins the Student-Led Reading Club as a tutor a few times — even one on one, just two children. This gives you experience, and lets us see how you teach. After that, you can move into Student Tutors.</p>
+<h3>What do student tutors teach?</h3>
+<p>Reading together, homework, math, English, French and Chinese reading, and study habits. For exams and IB diplomas, please see <a href="#" onclick="show('tutors');return false;">Find a Tutor</a> for an adult teacher.</p>
+<h3>How it works</h3>
+<p>Students sign up to tutor, and parents ask for a student tutor. We check every student tutor first, then match you. You choose your own times, and we group children with matching times together. Lessons are online first. In-person lessons happen only with a parent present or in a public place — never alone, and never at the tutor's home.</p>
+<p>Every match starts with a trial lesson, and the trial lesson is charged. A parent must be present for the trial lesson. You can stop after the trial if it is not a good fit.</p>
+<h3>Safety first</h3>
+<p>We check every student tutor before they start: a video chat, a short test, a reference, and a parent's confirmation. Online lessons use the parent's account or our link. We never show a student tutor's phone, email or other contact details on this website. We check in after the first three lessons, and every month after that. If there is any concern, we pause the match right away.</p>
+<p>Student tutors cost less than adult teachers. Ask us for the price for your child.</p>
+<div style="background:#fff;border:1px solid #e5ddd2;border-radius:12px;padding:16px;margin-bottom:16px">
+<h2 style="margin-top:0">I want to be a student tutor</h2>
+<p style="color:#555;font-size:14px">Fill this in and send it to us. Nothing is stored on this website. Your phone and email are only for us to contact you — they are never shown on the website. If you are under 18, your parent must agree. Questions? Contact Mia: <a href="tel:+16049011618">604-901-1618</a> or <a href="mailto:mia.lilyfunlearning@gmail.com">mia.lilyfunlearning@gmail.com</a>.</p>
+<label>Your name<br><input id="st-name" type="text" placeholder="e.g. Amy" style="width:90%"></label><br>
+<label>Your grade<br><input id="st-grade" type="text" placeholder="e.g. Grade 9" style="width:90%"></label><br>
+<label>Your school<br><input id="st-school" type="text" placeholder="e.g. Churchill Secondary" style="width:90%"></label><br>
+<label>Subjects and grades you can teach<br><input id="st-subj" type="text" placeholder="e.g. Math up to Grade 6, reading" style="width:90%"></label><br>
+<label>Languages<br><input id="st-lang" type="text" placeholder="e.g. English, French" style="width:90%"></label><br>
+<label>Online or in person<br><select id="st-mode" style="width:92%"><option>Online</option><option>In person</option><option>Either</option></select></label><br>
+<label>Times you are free<br><input id="st-time" type="text" placeholder="e.g. Weekday evenings, Saturday morning" style="width:90%"></label><br>
+<label>Hours per week<br><input id="st-hours" type="text" placeholder="e.g. 2 hours" style="width:90%"></label><br>
+<label>Expected pay<br><input id="st-pay" type="text" placeholder="e.g. $20/hour" style="width:90%"></label><br>
+<label>About yourself<br><textarea id="st-about" rows="3" placeholder="e.g. I love reading and I help my little brother with his homework" style="width:90%"></textarea></label><br>
+<label>Your parent's name<br><input id="st-parent" type="text" placeholder="e.g. Mary" style="width:90%"></label><br>
+<label>Your parent's contact (phone or email)<br><input id="st-pcontact" type="text" placeholder="e.g. 604-xxx-xxxx or email" style="width:90%"></label><br>
+<p><button class="bigbtn" type="button" id="st-send">Send to Lily Fun Learning</button></p>
+</div>
+<div style="background:#fff;border:1px solid #e5ddd2;border-radius:12px;padding:16px;margin-bottom:16px">
+<h2 style="margin-top:0">I want a student tutor for my child</h2>
+<p style="color:#555;font-size:14px">Fill this in and send it to us. Nothing is stored on this website. Questions? Contact Mia: <a href="tel:+16049011618">604-901-1618</a> or <a href="mailto:mia.lilyfunlearning@gmail.com">mia.lilyfunlearning@gmail.com</a>.</p>
+<label>Your child's grade<br><input id="sp-grade" type="text" placeholder="e.g. Grade 3" style="width:90%"></label><br>
+<label>Subject<br><input id="sp-subj" type="text" placeholder="e.g. Math, reading" style="width:90%"></label><br>
+<label>Online or in person<br><select id="sp-mode" style="width:92%"><option>Online</option><option>In person</option><option>Either</option></select></label><br>
+<label>Preferred times<br><input id="sp-time" type="text" placeholder="e.g. Weekday evenings" style="width:90%"></label><br>
+<label>Parent's name<br><input id="sp-name" type="text" placeholder="e.g. Mary" style="width:90%"></label><br>
+<label>Parent's contact (phone or email)<br><input id="sp-contact" type="text" placeholder="e.g. 604-xxx-xxxx or email" style="width:90%"></label><br>
+<p><button class="bigbtn" type="button" id="sp-send">Send to Lily Fun Learning</button></p>
+</div>
+</div>
 <div id="forteachers" style="display:none">
 <button class="back" type="button" onclick="show('home')">&larr; Back to home</button>
 <h2>Teachers — find students</h2>
 <p>Are you a teacher looking for students? Tell us about yourself. We check every teacher before listing — nothing you send here is published directly.</p>
+<p>Are you a student in Grade 5 or above who would like to tutor younger children? See <a href="#" onclick="show('studenttutors');return false;">Student Tutors</a>.</p>
 <div style="background:#fff;border:1px solid #e5ddd2;border-radius:12px;padding:16px;margin-bottom:16px">
 <h2 style="margin-top:0">Tell us about yourself</h2>
 <p style="color:#555;font-size:14px">Fill this in and send it to us by email. Nothing is stored on this website. Your phone and email are only for us to contact you — they are never shown on the website. Questions? Contact Mia: <a href="tel:+16049011618">604-901-1618</a> or <a href="mailto:mia.lilyfunlearning@gmail.com">mia.lilyfunlearning@gmail.com</a>.</p>
@@ -965,7 +1015,7 @@ function showMsg(title,subj,body){document.getElementById('md-title').textConten
 function askPrice(name){showMsg('Ask about price','Price enquiry: '+name,'Hi Mia,\n\nCould you tell me the price for lessons with '+name+'?\n\nThank you!');}
 function closeMsg(){document.getElementById('msgDlg').style.display='none';}
 function copyMsg(){var t=document.getElementById('md-msg');t.focus();t.select();var done=function(){alert('Message copied. Paste it into your email app and send it to mia.lilyfunlearning@gmail.com.');};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,function(){try{document.execCommand('copy');}catch(e){}done();});}else{try{document.execCommand('copy');}catch(e){}done();}}
-function show(id){for(const x of ['home','reading','leadership','teacherled','tutors','forteachers']){document.getElementById(x).style.display=(x===id)?'':'none';}window.scrollTo(0,0);}
+function show(id){for(const x of ['home','reading','leadership','teacherled','tutors','studenttutors','forteachers']){document.getElementById(x).style.display=(x===id)?'':'none';}window.scrollTo(0,0);}
 const q=document.getElementById('q'),s=document.getElementById('s'),grid=document.getElementById('grid'),count=document.getElementById('count');
 let shown=12;function f(){let total=0,vis=0;for(const c of grid.children){const okQ=!q.value||c.dataset.text.includes(q.value.toLowerCase());const okS=!s.value||c.dataset.subj.includes(s.value);if(okQ&&okS){total++;if(vis<shown){c.style.display='';vis++;}else{c.style.display='none';}}else{c.style.display='none';}}count.textContent=vis+' of '+total+' shown';document.getElementById('more').style.display=(vis<total)?'':'none';}function setChip(v){document.querySelectorAll('#chips .chip').forEach(function(b){b.classList.toggle('on',b.dataset.v===v);});}
 q.addEventListener('input',function(){shown=12;f();});s.addEventListener('change',function(){shown=12;setChip(s.value);f();});f();
@@ -1011,5 +1061,17 @@ var gr=document.getElementById('j-group').value,g=document.getElementById('j-gra
 if(!co){alert('Please fill in your contact, so we can reply.');return;}
 var body="Group: "+gr+"\nPreferred times: "+(tm.join(", ")||"Not stated")+"\nChild's grade: "+g+"\nParent's name: "+na+"\nContact: "+co+"\nNote: "+no;
 showMsg('Your message is ready','Join Student-Led Reading Club: '+gr,body);
+});
+document.getElementById('st-send').addEventListener('click',function(){
+var na=document.getElementById('st-name').value,gr=document.getElementById('st-grade').value,sc=document.getElementById('st-school').value,su=document.getElementById('st-subj').value,la=document.getElementById('st-lang').value,mo=document.getElementById('st-mode').value,ti=document.getElementById('st-time').value,ho=document.getElementById('st-hours').value,pa=document.getElementById('st-pay').value,ab=document.getElementById('st-about').value,pn=document.getElementById('st-parent').value,pc=document.getElementById('st-pcontact').value;
+if(!na||!gr||!pc){alert('Please fill in at least your name, your grade and your parent contact, so we can reply.');return;}
+var body="Name: "+na+"\nGrade: "+gr+"\nSchool: "+sc+"\nSubjects and grades I can teach: "+su+"\nLanguages: "+la+"\nOnline / in person: "+mo+"\nTimes: "+ti+"\nHours per week: "+ho+"\nExpected pay: "+pa+"\nAbout me: "+ab+"\nParent's name: "+pn+"\nParent contact: "+pc;
+showMsg('Your message is ready','Become a Student Tutor: '+na,body);
+});
+document.getElementById('sp-send').addEventListener('click',function(){
+var g=document.getElementById('sp-grade').value,su=document.getElementById('sp-subj').value,mo=document.getElementById('sp-mode').value,ti=document.getElementById('sp-time').value,na=document.getElementById('sp-name').value,co=document.getElementById('sp-contact').value;
+if(!co){alert('Please fill in your contact, so we can reply.');return;}
+var body="Child's grade: "+g+"\nSubject: "+su+"\nOnline / in person: "+mo+"\nTimes: "+ti+"\nParent's name: "+na+"\nContact: "+co;
+showMsg('Your message is ready','Find a Student Tutor: '+su+' '+g,body);
 });
 </script></body></html>
