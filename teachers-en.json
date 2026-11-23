@@ -1,1383 +1,1383 @@
 [
-  {
-    "name": "James L.",
-    "subjects": [
-      "English",
-      "Math",
-      "Science",
-      "Chemistry",
-      "Physics",
-      "Mandarin"
-    ],
-    "grades": "Elementary school, secondary school",
-    "location": "",
-    "format": "Online (Zoom); one post says so, the other does not say whether home visits are offered",
-    "rate": "Ask for price",
-    "bg": "Graduate of Richmond Palmer Secondary; St. Paul's College in Hong Kong for Forms 1–2, then Forms 3–6 in Canada. Grade 12 average 96%: Chemistry 12 100%, Math 12 97%, Physics 12 97%, English 12 85%, Mandarin 12 100%."
-  },
-  {
-    "name": "Nusrat P.",
-    "subjects": [
-      "Math",
-      "Physics",
-      "Chemistry",
-      "Science",
-      "Statistics",
-      "Economics"
-    ],
-    "grades": "Math Grades 1–12, first-year university, Physics / Chemistry 11–12, Science up to Grade 10",
-    "location": "",
-    "format": "At the student's home or the teacher's home; home visits available, with a travel-time fee",
-    "rate": "70",
-    "bg": ""
-  },
-  {
-    "name": "Justin",
-    "subjects": [
-      "Chemistry",
-      "Biology",
-      "Physics",
-      "Math",
-      "Calculus",
-      "Computer Science",
-      "Accounting",
-      "IB",
-      "AP"
-    ],
-    "grades": "Grade 9-12",
-    "location": "",
-    "format": "In person at the student's home, or online via Zoom",
-    "rate": "55",
-    "bg": "BC-certified teacher with 6+ years of experience; Honours Computer Science and Math from Waterloo; has taught 200+ students."
-  },
-  {
-    "name": "Eira",
-    "subjects": [
-      "Physics"
-    ],
-    "grades": "Not stated",
-    "location": "",
-    "format": "Not clear whether home visits are offered; please ask first whether lessons are online or in person",
-    "rate": "50",
-    "bg": "Mechanics, waves, energy, electricity and magnetism, with a focus on logic and problem-solving."
-  },
-  {
-    "name": "Kijiji T.",
-    "subjects": [
-      "Math",
-      "Biology",
-      "Chemistry",
-      "Physics"
-    ],
-    "grades": "Not stated",
-    "location": "",
-    "format": "Not confirmed",
-    "rate": "60",
-    "bg": ""
-  },
-  {
-    "name": "Kijiji V.",
-    "subjects": [
-      "Physics"
-    ],
-    "grades": "High school, university",
-    "location": "",
-    "format": "Online",
-    "rate": "79",
-    "bg": "PhD, bachelor's in physics, 20+ years of experience."
-  },
-  {
-    "name": "Ms T.",
-    "subjects": [
-      "Physics"
-    ],
-    "grades": "Science 8 to Physics 12",
-    "location": "",
-    "format": "One-on-one, 60 minutes online, or in person near a library / café",
-    "rate": "Ask for price",
-    "bg": "Public school teacher; has taught Physics 11 and 12 and taken students to the UBC Physics Olympics."
-  },
-  {
-    "name": "PhD P.",
-    "subjects": [
-      "Physics",
-      "Calculus",
-      "Math",
-      "Chemistry"
-    ],
-    "grades": "High school Grades 9–12, AP Physics",
-    "location": "",
-    "format": "Online or in person; Richmond and home visits not stated",
-    "rate": "Ask for price",
-    "bg": ""
-  },
-  {
-    "name": "In person Math, Stats & Physics Tutor",
-    "subjects": [
-      "Physics",
-      "Math",
-      "Stats"
-    ],
-    "grades": "High school Physics 11/12",
-    "location": "",
-    "format": "In person only in public places: South Hill Public Library, Killarney Community Centre, Langara College; does not come to students' homes; not in Richmond",
-    "rate": "60",
-    "bg": ""
-  },
-  {
-    "name": "Rama T.",
-    "subjects": [
-      "Math",
-      "Physics",
-      "Computer Science",
-      "Calculus",
-      "SAT/ACT/GRE"
-    ],
-    "grades": "High school, Physics grade not stated",
-    "location": "",
-    "format": "Both in person and online; exact place and home visits not stated",
-    "rate": "60",
-    "bg": ""
-  },
-  {
-    "name": "25+ S.",
-    "subjects": [
-      "Physics",
-      "Math",
-      "Statistics"
-    ],
-    "grades": "Physics 11 & 12, AP/IB Physics, K-12",
-    "location": "",
-    "format": "In person preferred; online also possible",
-    "rate": "80",
-    "bg": ""
-  },
-  {
-    "name": "Wayne S.",
-    "subjects": [
-      "Math",
-      "Physics"
-    ],
-    "grades": "High school, IB/AP",
-    "location": "",
-    "format": "As stated: 'in the privacy of your own home or online', and at the library",
-    "rate": "60",
-    "bg": ""
-  },
-  {
-    "name": "Ivan A.",
-    "subjects": [
-      "Math",
-      "Chemistry",
-      "Physics",
-      "Biology"
-    ],
-    "grades": "Elementary school to first-year university",
-    "location": "",
-    "format": "1-on-1 online lessons only",
-    "rate": "45",
-    "bg": ""
-  },
-  {
-    "name": "Lucy T.",
-    "subjects": [
-      "Math",
-      "Science",
-      "Biology",
-      "Physics",
-      "Chemistry",
-      "English",
-      "Pre-calculus"
-    ],
-    "grades": "Math 10/11/12, Biology 11/12, Physics 11/12, Chemistry 11/12",
-    "location": "",
-    "format": "Zoom only",
-    "rate": "50",
-    "bg": ""
-  },
-  {
-    "name": "SAURAV T.",
-    "subjects": [
-      "Physics",
-      "Chemistry",
-      "Biology"
-    ],
-    "grades": "Not stated",
-    "location": "",
-    "format": "Online only: Zoom / Teams / Google Meet / Discord",
-    "rate": "30",
-    "bg": "21+ years of experience."
-  },
-  {
-    "name": "Louise",
-    "subjects": [
-      "English",
-      "IB English Language and Literature",
-      "IGCSE"
-    ],
-    "grades": "Elementary, middle school, high school; suitable for Grade 8",
-    "location": "",
-    "format": "Online only; calm, focused, speaking-based",
-    "rate": "78",
-    "bg": "English teacher at an IB school in Hong Kong, 18+ years; MA Linguistics (York), UK-qualified teacher, TEFL (OISE, Toronto); examiner for IB English Language and Literature Paper 1; colleagues note 10+ years working in IB international schools."
-  },
-  {
-    "name": "Willy W.",
-    "subjects": [
-      "IB English MYP/DP",
-      "IELTS",
-      "TOEFL",
-      "TOEIC",
-      "Cambridge",
-      "Academic English"
-    ],
-    "grades": "MYP (ages 11–16, including Grade 8), DP, adults",
-    "location": "",
-    "format": "Online, via Preply",
-    "rate": "40",
-    "bg": "OCT-certified Canadian teacher with 10+ years teaching in Canadian public schools, international schools and IB programmes; former Head of Department for 6 years; native English speaker who also speaks Mandarin and Cantonese."
-  },
-  {
-    "name": "Aparna",
-    "subjects": [
-      "English",
-      "Reading",
-      "Literacy",
-      "Grammar",
-      "Creative writing",
-      "IG",
-      "IB"
-    ],
-    "grades": "Grades 4–12, suitable for Grade 8",
-    "location": "",
-    "format": "Online only",
-    "rate": "20",
-    "bg": "BEd + MA (English Literature), 10+ years teaching; specialises in IG and IB students and has taught English Language and Literature to Grades 7–10 in international schools."
-  },
-  {
-    "name": "Kate B.",
-    "subjects": [
-      "English Language & Literature",
-      "English Literature",
-      "IB DP",
-      "IB MYP",
-      "IGCSE",
-      "GCSE"
-    ],
-    "grades": "MYP, DP, IGCSE, GCSE",
-    "location": "",
-    "format": "Online 1-on-1, free 60-min trial",
-    "rate": "Ask for price",
-    "bg": "IB Examiner for English Language and Literature and Head of English at an international school, 20 years; Head of English at TEMS Madrid 2025–2026; IBO examiner 2023–2026; 25 years teaching; 4.7/5 from 7 reviews."
-  },
-  {
-    "name": "Dr M.",
-    "subjects": [
-      "IB English A",
-      "MYP English Language Acquisition",
-      "MYP Language and Literature",
-      "DP English A/B"
-    ],
-    "grades": "MYP, DP, Elementary",
-    "location": "",
-    "format": "Online 1-on-1",
-    "rate": "Ask for price",
-    "bg": "PhD in Educational Psychology; international school teacher and IB-certified English A examiner, 17 years."
-  },
-  {
-    "name": "Mike M.",
-    "subjects": [
-      "IB English Language and Literature",
-      "MYP",
-      "DP",
-      "English B",
-      "TOK"
-    ],
-    "grades": "MYP 10 years, DP 4 years",
-    "location": "",
-    "format": "Online, confirm on profile",
-    "rate": "65",
-    "bg": "10 years teaching IB English Language and Literature, 4 years as Head of English, 3 years as an IBDP English examiner, 10+ years in IB schools."
-  },
-  {
-    "name": "Martyn",
-    "subjects": [
-      "IB Diploma English A Language and Literature",
-      "MYP Language and Literature",
-      "Cambridge"
-    ],
-    "grades": "MYP, IB Diploma",
-    "location": "",
-    "format": "Online",
-    "rate": "40",
-    "bg": "London teacher living in Barcelona; IB English A Paper 2 and HL Essay examiner; 5 years in IB/MYP and 3 years teaching secondary English in London."
-  },
-  {
-    "name": "Michael A.",
-    "subjects": [
-      "English",
-      "IB MYP/DP",
-      "Global Politics",
-      "History"
-    ],
-    "grades": "Grades 5-13, IB DP and MYP",
-    "location": "",
-    "format": "Online 1-on-1 video",
-    "rate": "10",
-    "bg": "Currently living in Germany, teaching English and Global Politics; English teacher at Leibniz Privatschule Elmshorn since 2021 (Grades 5–10 English, Grade 11 English, IB DP Global Politics); previously IB MYP History and IB DP Language B English (2020–2021)."
-  },
-  {
-    "name": "Simon",
-    "subjects": [
-      "IB MYP DP English",
-      "AP English"
-    ],
-    "grades": "MYP, DP, High School",
-    "location": "",
-    "format": "Online",
-    "rate": "45",
-    "bg": "Canadian living in Japan; 25+ years at leading private and international schools in Tokyo; high school English teacher (IB, AP, IELTS)."
-  },
-  {
-    "name": "Maria A.",
-    "subjects": [
-      "IB",
-      "IGCSE",
-      "MYP English"
-    ],
-    "grades": "MYP, all levels",
-    "location": "",
-    "format": "Online",
-    "rate": "42",
-    "bg": "IB-certified educator (MYP, IB DP, CAS) with 20 years teaching English in American schools and international schools in the Middle East."
-  },
-  {
-    "name": "Ms T.",
-    "subjects": [
-      "IB English B",
-      "IGCSE English",
-      "MYP Language Acquisition",
-      "MYP Language and Literature"
-    ],
-    "grades": "MYP, Elementary",
-    "location": "",
-    "format": "Online via Zoom",
-    "rate": "Ask for price",
-    "bg": "16 years teaching; bilingual international school teacher (IBDP English B, MYP)."
-  },
-  {
-    "name": "Antony W.",
-    "subjects": [
-      "IB MYP English Language and Literature"
-    ],
-    "grades": "MYP, Mulgrave Middle School Grades 7–9, suitable for Grade 8",
-    "location": "",
-    "format": "Online — to be confirmed; local, same time zone as Vancouver",
-    "rate": "Ask for price",
-    "bg": "IB MYP English teacher and Head of Global Citizenship Experiential Education (GEx) at Mulgrave School; BC-certified teacher with 25+ years teaching English and humanities, 15+ years in IB, MYP Level 3 Language A; BEd (OISE / University of Toronto)."
-  },
-  {
-    "name": "Kenneth C.",
-    "subjects": [
-      "IB MYP / DP English",
-      "TOK"
-    ],
-    "grades": "IB MYP, IGCSE, IBDP",
-    "location": "",
-    "format": "Online — to be confirmed",
-    "rate": "Ask for price",
-    "bg": "Previously led IB English and TOK at PLK Ngan Po Ling College as Deputy IB Coordinator; later taught English (IB MYP, IGCSE, IBDP) and TOK at South Island School (ESF)."
-  },
-  {
-    "name": "Henry L.",
-    "subjects": [
-      "MYP English",
-      "IB English"
-    ],
-    "grades": "MYP, IGCSE, IB Diploma, from age 10",
-    "location": "",
-    "format": "Online — to be confirmed",
-    "rate": "Ask for price",
-    "bg": "BA (Oxon) in English, MA from York, 10+ years; has taught 250+ students at Hong Kong international schools, from age 10 through MYP / IGCSE / IB Diploma; full-time tutor, not currently in a school post."
-  },
-  {
-    "name": "Paul Y.",
-    "subjects": [
-      "IB MYP / DP English Language and Literature"
-    ],
-    "grades": "MYP, DP",
-    "location": "",
-    "format": "Online — to be confirmed",
-    "rate": "Ask for price",
-    "bg": "Full-time IB English Language and Literature teacher at Malvern College Hong Kong (Nov 2025–Mar 2026); IGCSE/IB English in 2025; IB MYP/DP at Chinese International School, Hong Kong (2012–2019); 31.5 years of teaching experience."
-  },
-  {
-    "name": "Steven S.",
-    "subjects": [
-      "IB MYP / DP English"
-    ],
-    "grades": "MYP, DP",
-    "location": "",
-    "format": "Online — to be confirmed",
-    "rate": "Ask for price",
-    "bg": "High school English teacher at the International School of Beijing; 17 years in international schools (MYP English Language and Literature + DP); Head of Secondary School English and IBDP Paper 2 examiner; BA in English from Trent University, Canadian, BEd."
-  },
-  {
-    "name": "Richard B.",
-    "subjects": [
-      "English Language and Literature"
-    ],
-    "grades": "Not stated; MYP not confirmed",
-    "location": "",
-    "format": "Online — to be confirmed",
-    "rate": "Ask for price",
-    "bg": "Head of English and CPD Coordinator at International College Hong Kong; TeachFirst UK; teaches English Language and Literature."
-  },
-  {
-    "name": "Erin L.",
-    "subjects": [
-      "Grade 10-12 English",
-      "AP / IB English",
-      "History & Social Studies",
-      "essay writing",
-      "literary analysis"
-    ],
-    "grades": "Grades 10–12; Grade 8 / MYP not stated, please ask",
-    "location": "",
-    "format": "100% online via Google Meet or Discord; progress update for parents every 2 months",
-    "rate": "Ask for price",
-    "bg": "Vancouver-born native English speaker; currently a public secondary school teacher in Surrey with a BC teaching licence; UBC double degree in English Literature and History (with Distinction) + BEd; 8 years tutoring."
-  },
-  {
-    "name": "Leilani A.",
-    "subjects": [
-      "English",
-      "IELTS"
-    ],
-    "grades": "Not stated",
-    "location": "",
-    "format": "Online",
-    "rate": "Ask for price",
-    "bg": "Canadian English teacher and career counsellor, 15+ years; conversational and academic/professional English, IELTS, pronunciation and fluency, vocabulary, interviews, résumés and university application guidance."
-  },
-  {
-    "name": "Karen N.",
-    "subjects": [
-      "K-12 English",
-      "writing and humanities",
-      "ELL / ELA",
-      "reading comprehension",
-      "Math & Science Grades 1-10"
-    ],
-    "grades": "K-12",
-    "location": "",
-    "format": "Online via Zoom, or in person at her home (South Burnaby / Edmonds)",
-    "rate": "70",
-    "bg": "BC- and Hong Kong-certified teacher with 10–12 years of teaching and tutoring, currently on call with the Vancouver School Board; graduate of UBC and the University of Sunderland, TESOL; trilingual (English, Cantonese, Mandarin) and mainly teaches in English."
-  },
-  {
-    "name": "Ted C.",
-    "subjects": [
-      "critical thinking",
-      "reading comprehension",
-      "English writing"
-    ],
-    "grades": "Elementary school, secondary school, university",
-    "location": "",
-    "format": "In person only, at Fraserview Library",
-    "rate": "35",
-    "bg": "University tutor since 2017; bilingual in Chinese and English, also teaches Mandarin and Chinese literature; author of an English-language parenting guide."
-  },
-  {
-    "name": "Frank C.",
-    "subjects": [
-      "Math",
-      "Science",
-      "IB"
-    ],
-    "grades": "Grade 8-12",
-    "location": "",
-    "format": "Not stated",
-    "rate": "Ask for price",
-    "bg": "Certified Math / Science / IB teacher in BC. The same phone number also appears on a youth (ages 11–18) badminton lessons card (Frank, Nov 4/26, NCCP)."
-  },
-  {
-    "name": "25 数.",
-    "subjects": [
-      "Math",
-      "IB Math"
-    ],
-    "grades": "G5-G12",
-    "location": "",
-    "format": "Not stated",
-    "rate": "Ask for price",
-    "bg": "25 years as a math tutor; Grades 5–12, IB math; the card did not have 'Tutoring' ticked."
-  },
-  {
-    "name": "Kitty",
-    "subjects": [
-      "Spanish",
-      "ESL",
-      "French"
-    ],
-    "grades": "Not stated",
-    "location": "",
-    "format": "Not stated",
-    "rate": "25",
-    "bg": "TESOL diploma; has lived in Spain and Quebec; offers tutoring and language practice."
-  },
-  {
-    "name": "George",
-    "subjects": [
-      "Physics",
-      "Chemistry",
-      "Math"
-    ],
-    "grades": "Grades 5–12 (flyer reads 'GRADE 7 5–12', possibly 7–12 or 5–12)",
-    "location": "",
-    "format": "Not stated",
-    "rate": "Ask for price",
-    "bg": "Physics, Chemistry, Math. The flyer just says 'Call Me'."
-  },
-  {
-    "name": "Mangala R.",
-    "subjects": [
-      "Math",
-      "Science"
-    ],
-    "grades": "Grades 4-10",
-    "location": "",
-    "format": "Not stated",
-    "rate": "40",
-    "bg": "Makes learning easier and builds confidence; personalised tutoring."
-  },
-  {
-    "name": "Charanjit K.",
-    "subjects": [
-      "Maths",
-      "Science",
-      "IT Skills",
-      "Python",
-      "Java"
-    ],
-    "grades": "Grade 8-12",
-    "location": "",
-    "format": "One-to-One",
-    "rate": "30",
-    "bg": "One-to-one, conceptual, focused and student-friendly; assignment and project help; coaching in IT skills, Python and Java."
-  },
-  {
-    "name": "Rola",
-    "subjects": [
-      "Math",
-      "Science",
-      "Pre-cal",
-      "Chemistry"
-    ],
-    "grades": "Pre-cal 10-11, Chemistry 10-12, Math 9-11, Science 9-11",
-    "location": "",
-    "format": "Not stated",
-    "rate": "25",
-    "bg": "Looking for a math and science tutor with unparalleled experience."
-  },
-  {
-    "name": "Sam",
-    "subjects": [
-      "Mathematics",
-      "Applied Mathematics",
-      "Statistics"
-    ],
-    "grades": "Grade 5-12, Undergraduate, Master's",
-    "location": "",
-    "format": "Not stated",
-    "rate": "Ask for price",
-    "bg": "Retired professor tutoring mathematics, including applied mathematics for physics students and master's students in some branches of mathematics."
-  },
-  {
-    "name": "Emelia C.",
-    "subjects": [
-      "Math",
-      "Calculus",
-      "Physics",
-      "French",
-      "Art",
-      "AP Science & Math",
-      "DELF Exam Prep",
-      "Art Portfolio Prep"
-    ],
-    "grades": "Elementary, high school, undergraduate",
-    "location": "",
-    "format": "Not stated",
-    "rate": "Ask for price",
-    "bg": "McGill Engineering graduate, now pursuing a Master of Architecture at UBC; 2+ years of tutoring experience; gives clear step-by-step explanations and focuses on deep understanding rather than memorisation."
-  },
-  {
-    "name": "Carrot L.",
-    "subjects": [
-      "Math"
-    ],
-    "grades": "Grades 3-8 (Simple 3-4, Intermediate 5-6, Advanced 7-8)",
-    "location": "",
-    "format": "Not stated",
-    "rate": "Ask for price",
-    "bg": "Carrot Learning is a youth-led initiative offering free math tutoring for children; it is a youth-led community project, not an individual tutor."
-  },
-  {
-    "name": "Jeremy",
-    "subjects": [
-      "Pre-Calc Math 10/11/12",
-      "Science 10",
-      "Chemistry 11/12",
-      "Physics 11/12"
-    ],
-    "grades": "Grade 10-12",
-    "location": "",
-    "format": "Online, Tuesday and Thursday evenings; other evenings can be discussed",
-    "rate": "Ask for price",
-    "bg": "A BC teacher who introduces himself as Jeremy; the flyer only says 'Jeremy', and the surname Ratcliffe was inferred from his email address."
-  },
-  {
-    "name": "Fantasia M.",
-    "subjects": [
-      "Piano",
-      "Guitar",
-      "Voice",
-      "Violin",
-      "Flute"
-    ],
-    "grades": "Not stated",
-    "location": "",
-    "format": "In-home lessons across Greater Vancouver；Book a FREE trial lesson!",
-    "rate": "Ask for price",
-    "bg": "Fantasia Academy of Music: in-home lessons across Greater Vancouver with qualified, patient teachers. This is a music school, not an individual tutor."
-  },
-  {
-    "name": "数学老师",
-    "subjects": [
-      "Math",
-      "English",
-      "Essay Writing"
-    ],
-    "grades": "Elementary to high school, Grade 12",
-    "location": "",
-    "format": "Not stated",
-    "rate": "Ask for price",
-    "bg": "Honours Bachelor of Science graduate from the University of Toronto (Math major, Psychology minor); accepted to the University of Chicago for graduate school (September 2024 admission); 10–15 years of tutoring experience with students from elementary to high school; flexible about teaching other subjects; experienced in advising Grade 12 students on university applications."
-  },
-  {
-    "name": "Tony 老.",
-    "subjects": [
-      "High school math, physics and chemistry",
-      "AP",
-      "IB",
-      "Math competitions",
-      "SAT"
-    ],
-    "grades": "Mainly high school; please ask whether they teach Physics 11",
-    "location": "",
-    "format": "Not stated",
-    "rate": "Ask for price",
-    "bg": "Individual tutor; local high school graduate, SFU graduate, 10+ years of local tutoring experience; one-on-one and small-group lessons."
-  },
-  {
-    "name": "Kevin 老.",
-    "subjects": [
-      "Elementary and secondary school math",
-      "SSAT",
-      "AP",
-      "SAT",
-      "Math competitions"
-    ],
-    "grades": "Elementary and secondary school; please ask for exact grades",
-    "location": "",
-    "format": "Not stated",
-    "rate": "Ask for price",
-    "bg": "Private math tutor for elementary and secondary school math, analytical thinking, math olympiads, competition problem-solving, university course support and homework help."
-  },
-  {
-    "name": "UBC 数.",
-    "subjects": [
-      "Math Grade 8-12",
-      "Calculus 12",
-      "Science Grade 8-12"
-    ],
-    "grades": "Grade 8-12",
-    "location": "",
-    "format": "Online only (one-on-one or small groups of 2–4)",
-    "rate": "$40–50/hour (one-on-one: Grades 8–9 $40, Grade 10 $45, Grades 11–12 $50; group $30–40/person)",
-    "bg": "19 years old, second-year Neuroscience student at UBC, Dean's List in first year; graduate of Richmond McMath Secondary with a 95% high school average; 3 years of tutoring and online teaching experience, familiar with the BC curriculum; teaches in Cantonese and English."
-  },
-  {
-    "name": "James",
-    "subjects": [
-      "Java, Python, HTML/JavaScript for elementary and secondary students",
-      "AP Computer Science A",
-      "University computer science course tutoring",
-      "Waterloo CCC computing competition training"
-    ],
-    "grades": "Elementary and secondary school and university, please ask",
-    "location": "",
-    "format": "Not stated, please ask",
-    "rate": "Not stated, please ask",
-    "bg": "Waterloo CCC computing competition training and AP Computer Science A exam preparation."
-  },
-  {
-    "name": "数学老师",
-    "subjects": [
-      "Math",
-      "Calculus",
-      "English",
-      "Chemistry",
-      "Physics",
-      "Biology",
-      "French"
-    ],
-    "grades": "Most familiar with Grades 10–12; all students and levels welcome",
-    "location": "",
-    "format": "Individual or group; online or in person not stated, please ask",
-    "rate": "Ask for price",
-    "bg": "UBC Science undergraduate, born and raised in Vancouver, strong English; scored 5 on every AP exam taken: Biology, Calculus BC (and AB), Chemistry, Physics 2 and Physics 1, earning AP Scholar with Distinction; graduated Grade 12 with the highest average in the school; received offers from top universities including UBC, Toronto, McGill and Alberta; can advise on university applications."
-  },
-  {
-    "name": "数学老师",
-    "subjects": [
-      "Math",
-      "Physics",
-      "Chemistry",
-      "Calculus",
-      "Computer Programming",
-      "AP"
-    ],
-    "grades": "Not stated, please ask",
-    "location": "",
-    "format": "Online or in person not stated, please ask",
-    "rate": "Ask for price",
-    "bg": "A team of teachers, graduates in science and engineering from Tsinghua University, described as responsible, patient and dedicated; the flyer also mentions Shanghai Jiao Tong University."
-  },
-  {
-    "name": "法语老师",
-    "subjects": [
-      "French"
-    ],
-    "grades": "A1–C2, beginners to university students",
-    "location": "",
-    "format": "Online or in person not stated, please ask",
-    "rate": "Ask for price",
-    "bg": "French teacher from France with 15 years of teaching experience and tailored lessons; A1–C2, TEF, TCF, DELF and AP exam preparation, IB French."
-  },
-  {
-    "name": "Marco",
-    "subjects": [
-      "Spanish"
-    ],
-    "grades": "Not stated, please ask; can teach any level",
-    "location": "",
-    "format": "Online or in person not stated, please ask",
-    "rate": "$30/hour (private lessons); conversation practice $10/30 minutes; free consultation",
-    "bg": "Spanish teacher from Colombia; flexible, fun and informative. 'Learn Spanish the Fun Way.'"
-  },
-  {
-    "name": "Richard",
-    "subjects": [
-      "Math"
-    ],
-    "grades": "Mainly university math, UBC courses",
-    "location": "",
-    "format": "Online or in person not stated, please ask; flexible schedule",
-    "rate": "$60/hour, $70/1 hour 15 minutes; two students together $30/1 hour/person",
-    "bg": "16 years of experience, patient; BSc in Math (advanced degree); explains concepts and calculations step by step, uses diagrams to aid understanding, efficient problem-solving and faster learning, midterm and final exam preparation. UBC specialities: MATH 180, 184, 100, 101, 102, 103, 104, 105, 110, 200, 215, 221, 253, 255, 256, STAT 200, COMM 291, PSYCH 218."
-  },
-  {
-    "name": "Michael B.",
-    "subjects": [
-      "Calculus",
-      "Statistics",
-      "Physics",
-      "Pre-Calculus",
-      "Math"
-    ],
-    "grades": "Not stated, please ask",
-    "location": "",
-    "format": "Individual or group; online or in person not stated, please ask",
-    "rate": "Individual $50/hour; group $30/hour/person",
-    "bg": "BSc, BEd, BC-certified teacher; '100% Math Tutoring.'"
-  },
-  {
-    "name": "Rick",
-    "subjects": [
-      "Math",
-      "Physics",
-      "Statistics"
-    ],
-    "grades": "High school, university, UBC courses",
-    "location": "",
-    "format": "Online via Zoom",
-    "rate": "$40/hour; extra students free",
-    "bg": "15+ years teaching math and physics at UBC; now teaches high school and university math and physics; patient, with clear and detailed explanations. UBC courses: Math 100, 101, 110, 152, 180, 200, Physics 100, 102, 131, Stat 200."
-  },
-  {
-    "name": "Calculus老师",
-    "subjects": [
-      "Calculus",
-      "Advanced Calculus",
-      "Differential Equations",
-      "Linear Algebra",
-      "Math"
-    ],
-    "grades": "University math",
-    "location": "",
-    "format": "Online or in person not stated, please ask",
-    "rate": "Free trial lesson; regular rate not stated, please ask",
-    "bg": "25+ years of experience in top-level university math tutoring: calculus (100/101, 110, 120/121, 180, 190), advanced calculus (200, 226/227, 253, 254), differential equations (255/256, 257/258, 316, 400) and linear algebra (152, 221, 223, 307, 310). Breaks complex concepts into easy-to-understand steps; recent students have been admitted to UBC, Harvard, UC Berkeley, Stanford, Toronto and other top universities."
-  },
-  {
-    "name": "Marcel",
-    "subjects": [
-      "Math",
-      "Statistics",
-      "Python",
-      "Data Science",
-      "Machine Learning"
-    ],
-    "grades": "University, mainly UBC courses",
-    "location": "",
-    "format": "Online or in person not stated, please ask; available weekday evenings and daytime (bottom of flyer torn; this is the stated availability, to be verified)",
-    "rate": "$30/1 hour, $50/2 hours; group price negotiable; no charge if not 100% satisfied",
-    "bg": "Professional IT engineer with 15 years of industry and academic (PhD) experience; teaches most UBC math and statistics courses, plus Python, data science and machine learning; fluent in English."
-  },
-  {
-    "name": "化学老师",
-    "subjects": [
-      "Chemistry"
-    ],
-    "grades": "University, UBC chemistry courses",
-    "location": "",
-    "format": "One-on-one or group; online or in person not stated, please ask",
-    "rate": "One-on-one $75/hour; group $45/hour (bottom of flyer torn; read as group $45/hour, to be verified)",
-    "bg": "PhD in Organic Chemistry with 20 years of university teaching experience, having taught 300+ students at UBC; explains course concepts in depth and gives study plans based on each student's background; problem sets, practice, and midterm and final exam review."
-  },
-  {
-    "name": "Poojan",
-    "subjects": [
-      "IELTS",
-      "CELPIP"
-    ],
-    "grades": "Not stated, please ask",
-    "location": "",
-    "format": "Online or in person not stated, please ask",
-    "rate": "$15/hour",
-    "bg": "IELTS / CELPIP; scored CLB 9. Card dated May 18, 2024."
-  },
-  {
-    "name": "Alicia O.",
-    "subjects": [
-      "Spanish"
-    ],
-    "grades": "Not stated, please ask",
-    "location": "",
-    "format": "In person or online",
-    "rate": "$30 CAD",
-    "bg": "Mexican journalist and Spanish teacher. Card dated July 16, 2024."
-  },
-  {
-    "name": "Priya D.",
-    "subjects": [
-      "Math",
-      "Science",
-      "Chemistry",
-      "Biology"
-    ],
-    "grades": "KG–8 all subjects; Grades 8–9 and 9–10 Science; Grades 11–12 Chemistry / Biology",
-    "location": "",
-    "format": "Home visits",
-    "rate": "$28",
-    "bg": "16 years of teaching experience. Card dated June 9, 2024."
-  },
-  {
-    "name": "Jessica L.",
-    "subjects": [
-      "English",
-      "Language Arts"
-    ],
-    "grades": "Not stated, please ask",
-    "location": "",
-    "format": "Online or in person not stated, please ask",
-    "rate": "$25",
-    "bg": "Looking for students for English and Language Arts. Card dated June 17, 2024."
-  },
-  {
-    "name": "Nahid A.",
-    "subjects": [
-      "Math",
-      "Pre-Calculus",
-      "Calculus",
-      "Physics"
-    ],
-    "grades": "Grades 8–12",
-    "location": "",
-    "format": "Online or in person not stated, please ask",
-    "rate": "$60/hour",
-    "bg": "Math Grades 8–12, Pre-Calculus 11 and 12, Calculus / IB / AP / SAT / SSAT; Physics (Regular / IB / AP). Card dated June 11, 2024."
-  },
-  {
-    "name": "Kathy",
-    "subjects": [
-      "English as a Second Language",
-      "ESL"
-    ],
-    "grades": "Not stated, please ask",
-    "location": "",
-    "format": "Online or in person not stated, please ask",
-    "rate": "$18-25",
-    "bg": "Specialised ESL lessons covering grammar, spelling, speaking and writing; university student who also works as a teaching assistant. Card dated July 16, 2024."
-  },
-  {
-    "name": "Ritu S.",
-    "subjects": [
-      "General Tutoring"
-    ],
-    "grades": "Kindergarten to Grade 7",
-    "location": "",
-    "format": "Online or in person not stated, please ask; flexible schedule",
-    "rate": "$30/hour; first trial lesson free",
-    "bg": "Experienced teacher. Card dated June 17, 2024."
-  },
-  {
-    "name": "Karina T.",
-    "subjects": [
-      "Math",
-      "Science",
-      "French",
-      "Piano"
-    ],
-    "grades": "Below Grade 10",
-    "location": "",
-    "format": "Online or in person not stated, please ask",
-    "rate": "$20–25/hour",
-    "bg": "Senior student at Earl Marriott Secondary; tutors math, science and French, is fluent in French and has won recognition awards in all subjects; also teaches piano (RCM Level 10). Card dated September 17, 2024."
-  },
-  {
-    "name": "Charles W.",
-    "subjects": [
-      "Math",
-      "Calculus"
-    ],
-    "grades": "Grades 7–12, first-year university students",
-    "location": "",
-    "format": "Online or in person not stated, please ask",
-    "rate": "Ask for price (card says 'Ask me')",
-    "bg": "Korean math tutor with 22 years of experience in Vancouver; IB and AP math, calculus; Korean students welcome; English is not perfect but he teaches well. Card dated May 3, 2024."
-  },
-  {
-    "name": "Diyanna",
-    "subjects": [
-      "French",
-      "Math",
-      "Language Arts"
-    ],
-    "grades": "Grades K–7",
-    "location": "",
-    "format": "Online or in person not stated, please ask",
-    "rate": "$15-20",
-    "bg": "High school student; tutors French, math and language arts for Grades K–7 and also babysits; has won academic and citizenship awards and is a math honours student. Card dated July 2, 2024."
-  },
-  {
-    "name": "Tashi",
-    "subjects": [
-      "Science",
-      "Chemistry",
-      "Biology"
-    ],
-    "grades": "Grades 9–10 Science; Grades 11–12 Chemistry / Biology",
-    "location": "",
-    "format": "Online or in person not stated, please ask; summer classes also available",
-    "rate": "$30",
-    "bg": "16 years of teaching; Science for Grades 9 and 10, Chemistry and Biology for Grades 11 and 12. Card dated August 6, 2024."
-  },
-  {
-    "name": "Liang W.",
-    "subjects": [
-      "French"
-    ],
-    "grades": "Not stated, please ask",
-    "location": "",
-    "format": "Online or in person not stated, please ask; lessons 4–8 pm",
-    "rate": "$20–25/hour",
-    "bg": "French tutor from Montreal, Quebec; scored 92% in French. Card dated October 15, 2024."
-  },
-  {
-    "name": "Nasir K.",
-    "subjects": [
-      "Robotics"
-    ],
-    "grades": "Grades 5–10",
-    "location": "",
-    "format": "Online",
-    "rate": "$15/hour; free trial lesson",
-    "bg": "Online robotics classes for Grades 5–10; 30 hours in total, each lesson 1–5 hours, flexible schedule. Card dated July 8, 2024."
-  },
-  {
-    "name": "Pamela S.",
-    "subjects": [
-      "ESL",
-      "English"
-    ],
-    "grades": "All levels",
-    "location": "",
-    "format": "In person or on Zoom",
-    "rate": "$35",
-    "bg": "Patient ESL teacher with 10 years of experience; helps students build confidence in English. Card dated September 20, 2024."
-  },
-  {
-    "name": "Richard W.",
-    "subjects": [
-      "Math",
-      "Chemistry",
-      "Physics",
-      "Chinese"
-    ],
-    "grades": "Grade 11 math / science",
-    "location": "",
-    "format": "Online or in person not stated, please ask",
-    "rate": "20 CAD/hour",
-    "bg": "Grade 11 student at Semiahmoo Secondary who scored 97% in Pre-Calculus 11; came to Canada from China this January, having already completed Grade 11 in China, and has mastered the Canadian math and science curriculum; confident teaching math, chemistry, physics and Chinese. Card dated September 17, 2024."
-  },
-  {
-    "name": "Anthony",
-    "subjects": [
-      "Math",
-      "Physics",
-      "Chemistry",
-      "Science"
-    ],
-    "grades": "Grades 7–12",
-    "location": "",
-    "format": "Online or in person not stated, please ask",
-    "rate": "From $30/hour",
-    "bg": "Math, physics, chemistry and science. Card dated June 25, 2024."
-  },
-  {
-    "name": "Nicole W.",
-    "subjects": [
-      "Math",
-      "Science",
-      "Piano",
-      "Reading"
-    ],
-    "grades": "Below Grade 10; reading buddy for Grades 1–8",
-    "location": "",
-    "format": "Online or in person not stated, please ask",
-    "rate": "$20–25/hour",
-    "bg": "Grade 11 student at Semiahmoo Secondary; tutors math, science and piano for students below Grade 10, and is a reading buddy for children in Grades 1–8. Card dated September 17, 2024."
-  },
-  {
-    "name": "Jim",
-    "subjects": [
-      "English",
-      "Essay Writing",
-      "Admissions"
-    ],
-    "grades": "Not stated, please ask",
-    "location": "",
-    "format": "Online or in person not stated, please ask",
-    "rate": "$50/hour",
-    "bg": "College teacher and professional writer; excellent English, improving communication skills and grades; also teaches top-school admissions — both grades and application essays matter — and how to write the best application essay. Two cards for the same person, merged into one entry. Card dated September 5, 2024."
-  },
-  {
-    "name": "Wen",
-    "subjects": [
-      "IELTS",
-      "TOEFL",
-      "Academic English"
-    ],
-    "grades": "Elementary school to university",
-    "location": "",
-    "format": "Online or in person not stated, please ask",
-    "rate": "$30-40",
-    "bg": "IELTS, TOEFL and academic English teacher with 10+ years of experience; trial lesson free. Card dated June 25, 2024."
-  },
-  {
-    "name": "Amy X.",
-    "subjects": [
-      "Piano"
-    ],
-    "grades": "All ages and levels",
-    "location": "",
-    "format": "Online or in person not stated, please ask",
-    "rate": "$26–28/hour",
-    "bg": "Piano lessons with a classical and jazz pianist, 10+ years of performing experience, RCM Level 10 and Harmony & Counterpoint Level 10, 2–3 years of teaching experience; English and Mandarin. Card dated July 14, 2024."
-  },
-  {
-    "name": "Hannah B.",
-    "subjects": [
-      "Reading",
-      "Writing",
-      "Spelling",
-      "Math",
-      "Social Studies",
-      "Science"
-    ],
-    "grades": "Kindergarten to Grade 4",
-    "location": "",
-    "format": "In person",
-    "rate": "Ask for price",
-    "bg": "Homework help: reading, writing, spelling, math, social studies and science; self-regulation and exam strategies. Card dated June 26, 2024."
-  },
-  {
-    "name": "Fayhaa K.",
-    "subjects": [
-      "All Subjects"
-    ],
-    "grades": "Grade 10 and below",
-    "location": "",
-    "format": "Online or in person not stated, please ask",
-    "rate": "$25–35/hour; free trial lesson",
-    "bg": "IB student at Semiahmoo; 3+ years of tutoring experience, all subjects for Grade 10 and below; debate and science fair awards. Card dated August 13, 2024."
-  },
-  {
-    "name": "Keith V.",
-    "subjects": [
-      "Math"
-    ],
-    "grades": "Grades 3–9",
-    "location": "",
-    "format": "Online or in person not stated, please ask; small groups also available",
-    "rate": "$50/hour; small-group price separate",
-    "bg": "Extra math support; teaches children to think mathematically and become independent problem-solvers, not just how to get answers; quick assessment to understand each student's needs. Card dated September 5, 2024."
-  },
-  {
-    "name": "Kiana & Niki",
-    "subjects": [
-      "Math"
-    ],
-    "grades": "Grades 8–12",
-    "location": "",
-    "format": "Online or in person not stated, please ask",
-    "rate": "Not stated",
-    "bg": "WVSS students offering math tutoring; they teach together."
-  },
-  {
-    "name": "Maryam R.",
-    "subjects": [
-      "French"
-    ],
-    "grades": "Children and adults, beginner / intermediate / advanced",
-    "location": "",
-    "format": "Private lessons, noon to 6 pm",
-    "rate": "Affordable rates; exact amount not stated, please ask",
-    "bg": "BA in French; foreign language instructor at DEA College; French conversation."
-  },
-  {
-    "name": "Emtyazi E.",
-    "subjects": [
-      "Physics",
-      "Math",
-      "Calculus"
-    ],
-    "grades": "High school, IB, AP, university / college",
-    "location": "",
-    "format": "Online, one-on-one",
-    "rate": "Not stated, please ask",
-    "bg": "Director of E-TUTORPRO; physics, math and calculus; science, engineering, business and art courses at university and college level; standardised test preparation."
-  },
-  {
-    "name": "Cathy B.",
-    "subjects": [
-      "English",
-      "Reading",
-      "Writing",
-      "Art"
-    ],
-    "grades": "Elementary school",
-    "location": "",
-    "format": "In person, at the library",
-    "rate": "Reasonable rates; exact amount not stated, please ask; 2-hour minimum",
-    "bg": "Experienced, licensed early childhood educator with a background in university English, communications and four years of psychology; has given one-on-one literacy tutoring in an East Vancouver elementary school, teaching kindergarten ELL learners and children with learning difficulties or needing literacy support; also tutors art assignments; clear criminal record check, First Aid/CPR, references available."
-  },
-  {
-    "name": "ENTRE NOUS",
-    "subjects": [
-      "French"
-    ],
-    "grades": "All ages and levels",
-    "location": "",
-    "format": "Online; group lessons 90 minutes, up to 15 students; private lessons 60–90 minutes, one-on-one, tailored to your needs",
-    "rate": "Not stated, please ask",
-    "bg": "Online French programme ENTRE NOUS. 'Enjoy expressing yourself in French, again!'"
-  },
-  {
-    "name": "Eric",
-    "subjects": [
-      "English",
-      "LSAT",
-      "Music Theory"
-    ],
-    "grades": "K-12 English",
-    "location": "",
-    "format": "Online or in person not stated, please ask",
-    "rate": "Not stated, please ask",
-    "bg": "Lead tutor at Curriculate; bachelor's in Health Science, master's in Philosophy, Yale bioethics programme graduate; former children's day camp director for many years; part-time tutor for 10+ years, now full-time; all English subjects K–12, LSAT preparation, music theory."
-  },
-  {
-    "name": "Nico",
-    "subjects": [
-      "French"
-    ],
-    "grades": "Elementary and secondary school",
-    "location": "",
-    "format": "In person or online",
-    "rate": "Not stated, please ask",
-    "bg": "French tutor for elementary and secondary school students."
-  },
-  {
-    "name": "Jaimie B.",
-    "subjects": [
-      "English",
-      "IELTS",
-      "TOEIC",
-      "SSAT",
-      "SAT",
-      "Social Studies"
-    ],
-    "grades": "K-12 and adults",
-    "location": "",
-    "format": "Group or individual lessons; online or in person not stated, please ask",
-    "rate": "Not stated, please ask",
-    "bg": "English teacher with 15 years of experience, teaching private and public school students; adult IELTS and TOEIC; academic English, SSAT, SAT and social studies for young people; CELTA (Cambridge), BA in Biblical Studies (Trinity Western), graduate of St. George's School in Vancouver; private school references available."
-  },
-  {
-    "name": "数学老师",
-    "subjects": [
-      "Math",
-      "English",
-      "Social Studies"
-    ],
-    "grades": "Grades 1–7",
-    "location": "",
-    "format": "Online and in person, flexible schedule, personalised lessons, homework help",
-    "rate": "$50/hour",
-    "bg": "One-on-one tutoring service run by UBC students (Brainstorm Tutors)."
-  },
-  {
-    "name": "Gol Y.",
-    "subjects": [
-      "Math"
-    ],
-    "grades": "Elementary school",
-    "location": "",
-    "format": "Online or in person not stated, please ask",
-    "rate": "$35/hour - $50/session",
-    "bg": "Elementary school math tutor. A separate 'MATH TUTORING' note was stuck on the flyer; it belongs to another teacher (Mahya), so don't confuse the two."
-  },
-  {
-    "name": "Kathleen",
-    "subjects": [
-      "Reading"
-    ],
-    "grades": "Lower elementary",
-    "location": "",
-    "format": "Online or in person not stated, please ask",
-    "rate": "Not stated, please ask",
-    "bg": "Reading tutor specialising in children who are just starting to read; experienced with dyslexic students; interactive, age-appropriate reading plans tailored to each child's level."
-  },
-  {
-    "name": "Mahya S.",
-    "subjects": [
-      "Math"
-    ],
-    "grades": "Grades 1–8",
-    "location": "",
-    "format": "Online or in person not stated, please ask",
-    "rate": "Not stated, please ask",
-    "bg": "Personalised math tutoring: foundational math, problem-solving, arithmetic, pre-algebra, homework support and exam preparation."
-  },
-  {
-    "name": "MCAT老师",
-    "subjects": [
-      "MCAT"
-    ],
-    "grades": "University / medical school applications",
-    "location": "",
-    "format": "Online or in person not stated, please ask",
-    "rate": "Not stated, please ask",
-    "bg": "UBC medical student; MCAT 99th percentile; received four medical school offers; has led an MCAT preparation group and lectured in UBC biochemistry; top quartile in the Manitoba out-of-province CASPer; top 5% GPA in UBC Science; UBC Neuroscience award recipient; a UBC graduating leader award; has presented research at Harvard; WVSS alumnus."
-  },
-  {
-    "name": "Richard",
-    "subjects": [
-      "English"
-    ],
-    "grades": "Adults / all levels",
-    "location": "",
-    "format": "Online or in person not stated, please ask; also volunteers for English conversation at the West Vancouver Library",
-    "rate": "First lesson/session free; regular rate not stated, please ask",
-    "bg": "Qualified English as a second language teacher with TESL certification (International House, Vancouver) and an undergraduate arts degree. Note: this Richard is an English teacher, not the math tutor Richard listed earlier, and not Richard Wang."
-  },
-  {
-    "name": "法语老师",
-    "subjects": [
-      "French"
-    ],
-    "grades": "Not stated, please ask",
-    "location": "",
-    "format": "Online or in person not stated, please ask",
-    "rate": "Not stated, please ask",
-    "bg": "French tutor; the flyer only says 'French Tutor' and lists a phone number, with no name or rate."
-  },
-  {
-    "name": "数学老师",
-    "subjects": [
-      "Math",
-      "Statistics",
-      "Linear Algebra",
-      "Economics",
-      "Physics",
-      "Chemistry",
-      "MCAT",
-      "GMAT",
-      "GRE"
-    ],
-    "grades": "Grades 8–12, university years 1–4",
-    "location": "",
-    "format": "Online or in person not stated, please ask",
-    "rate": "Not stated, please ask",
-    "bg": "MSc with 10+ years of teaching experience: math, statistics, linear algebra, calculus, differential equations, discrete math and numerical analysis; economics (micro and macro); physics; chemistry (physical and organic); standardised tests (MCAT, GMAT, GRE); final and provincial exam preparation."
-  },
-  {
-    "name": "数学老师",
-    "subjects": [
-      "Math"
-    ],
-    "grades": "Not stated, please ask",
-    "location": "",
-    "format": "Online or in person not stated, please ask",
-    "rate": "Not stated, please ask",
-    "bg": "Professional math tutor with 6+ years of successful experience; helps with homework, preparing for major exams and meeting deadlines."
-  },
-  {
-    "name": "法语老师",
-    "subjects": [
-      "French"
-    ],
-    "grades": "IB Grades 10 and 11; elementary to high school",
-    "location": "",
-    "format": "Online",
-    "rate": "$45/hour for Grade 5 and below; $50/hour for Grade 6 and above; $55/hour for Delf/Dalf exam prep; free 45-minute trial lesson for assessment",
-    "bg": "French teacher from France with 17+ years of experience teaching French in France, Montreal and Vancouver; master's in French literature, linguistics and teaching methods, plus learning psychology (cognitive science); teaches IB Grades 10 and 11; most students come from Collingwood, Mulgrave and West Vancouver schools; patient, dedicated and encouraging."
-  },
-  {
-    "name": "Nikki A.",
-    "subjects": [
-      "Math",
-      "English",
-      "French",
-      "Calculus",
-      "ESL"
-    ],
-    "grades": "Grades 8–12",
-    "location": "",
-    "format": "Online or in person not stated, please ask",
-    "rate": "From about $42/hour; first session free",
-    "bg": "Retired BC-certified high school teacher, BEd from McGill; many years of classroom and private tutoring experience; four daughters, all successful professionals, including a pathologist. Teaches Math 8, English 8, Math 9, Math 10, French 9, French 10, Math 11, Math 12, Calculus and ESL; served two years as a school principal; taught at Windermere Secondary (Vancouver, 1975–1979), Maillard Junior Secondary (Coquitlam, 1992–1997), Terry Fox Secondary (Port Coquitlam, 1997–2007) and BC Offshore School #25 (Beijing, China, 2007–2012)."
-  }
+ {
+  "name": "James L.",
+  "subjects": [
+   "English",
+   "Math",
+   "Science",
+   "Chemistry",
+   "Physics",
+   "Mandarin"
+  ],
+  "grades": "Elementary school, secondary school",
+  "location": "",
+  "format": "Online (Zoom); one post says so, the other does not say whether home visits are offered",
+  "rate": null,
+  "bg": "Graduate of Richmond Palmer Secondary; St. Paul's College in Hong Kong for Forms 1–2, then Forms 3–6 in Canada. Grade 12 average 96%: Chemistry 12 100%, Math 12 97%, Physics 12 97%, English 12 85%, Mandarin 12 100%."
+ },
+ {
+  "name": "Nusrat P.",
+  "subjects": [
+   "Math",
+   "Physics",
+   "Chemistry",
+   "Science",
+   "Statistics",
+   "Economics"
+  ],
+  "grades": "Math Grades 1–12, first-year university, Physics / Chemistry 11–12, Science up to Grade 10",
+  "location": "",
+  "format": "At the student's home or the teacher's home; home visits available, with a travel-time fee",
+  "rate": null,
+  "bg": ""
+ },
+ {
+  "name": "Justin",
+  "subjects": [
+   "Chemistry",
+   "Biology",
+   "Physics",
+   "Math",
+   "Calculus",
+   "Computer Science",
+   "Accounting",
+   "IB",
+   "AP"
+  ],
+  "grades": "Grade 9-12",
+  "location": "",
+  "format": "In person at the student's home, or online via Zoom",
+  "rate": null,
+  "bg": "BC-certified teacher with 6+ years of experience; Honours Computer Science and Math from Waterloo; has taught 200+ students."
+ },
+ {
+  "name": "Eira",
+  "subjects": [
+   "Physics"
+  ],
+  "grades": "Not stated",
+  "location": "",
+  "format": "Not clear whether home visits are offered; please ask first whether lessons are online or in person",
+  "rate": null,
+  "bg": "Mechanics, waves, energy, electricity and magnetism, with a focus on logic and problem-solving."
+ },
+ {
+  "name": "Kijiji T.",
+  "subjects": [
+   "Math",
+   "Biology",
+   "Chemistry",
+   "Physics"
+  ],
+  "grades": "Not stated",
+  "location": "",
+  "format": "Not confirmed",
+  "rate": null,
+  "bg": ""
+ },
+ {
+  "name": "Kijiji V.",
+  "subjects": [
+   "Physics"
+  ],
+  "grades": "High school, university",
+  "location": "",
+  "format": "Online",
+  "rate": null,
+  "bg": "PhD, bachelor's in physics, 20+ years of experience."
+ },
+ {
+  "name": "Ms T.",
+  "subjects": [
+   "Physics"
+  ],
+  "grades": "Science 8 to Physics 12",
+  "location": "",
+  "format": "One-on-one, 60 minutes online, or in person near a library / café",
+  "rate": null,
+  "bg": "Public school teacher; has taught Physics 11 and 12 and taken students to the UBC Physics Olympics."
+ },
+ {
+  "name": "PhD P.",
+  "subjects": [
+   "Physics",
+   "Calculus",
+   "Math",
+   "Chemistry"
+  ],
+  "grades": "High school Grades 9–12, AP Physics",
+  "location": "",
+  "format": "Online or in person; Richmond and home visits not stated",
+  "rate": null,
+  "bg": ""
+ },
+ {
+  "name": "In person Math, Stats & Physics Tutor",
+  "subjects": [
+   "Physics",
+   "Math",
+   "Stats"
+  ],
+  "grades": "High school Physics 11/12",
+  "location": "",
+  "format": "In person only in public places: South Hill Public Library, Killarney Community Centre, Langara College; does not come to students' homes; not in Richmond",
+  "rate": null,
+  "bg": ""
+ },
+ {
+  "name": "Rama T.",
+  "subjects": [
+   "Math",
+   "Physics",
+   "Computer Science",
+   "Calculus",
+   "SAT/ACT/GRE"
+  ],
+  "grades": "High school, Physics grade not stated",
+  "location": "",
+  "format": "Both in person and online; exact place and home visits not stated",
+  "rate": null,
+  "bg": ""
+ },
+ {
+  "name": "25+ S.",
+  "subjects": [
+   "Physics",
+   "Math",
+   "Statistics"
+  ],
+  "grades": "Physics 11 & 12, AP/IB Physics, K-12",
+  "location": "",
+  "format": "In person preferred; online also possible",
+  "rate": null,
+  "bg": ""
+ },
+ {
+  "name": "Wayne S.",
+  "subjects": [
+   "Math",
+   "Physics"
+  ],
+  "grades": "High school, IB/AP",
+  "location": "",
+  "format": "As stated: 'in the privacy of your own home or online', and at the library",
+  "rate": null,
+  "bg": ""
+ },
+ {
+  "name": "Ivan A.",
+  "subjects": [
+   "Math",
+   "Chemistry",
+   "Physics",
+   "Biology"
+  ],
+  "grades": "Elementary school to first-year university",
+  "location": "",
+  "format": "1-on-1 online lessons only",
+  "rate": null,
+  "bg": ""
+ },
+ {
+  "name": "Lucy T.",
+  "subjects": [
+   "Math",
+   "Science",
+   "Biology",
+   "Physics",
+   "Chemistry",
+   "English",
+   "Pre-calculus"
+  ],
+  "grades": "Math 10/11/12, Biology 11/12, Physics 11/12, Chemistry 11/12",
+  "location": "",
+  "format": "Zoom only",
+  "rate": null,
+  "bg": ""
+ },
+ {
+  "name": "SAURAV T.",
+  "subjects": [
+   "Physics",
+   "Chemistry",
+   "Biology"
+  ],
+  "grades": "Not stated",
+  "location": "",
+  "format": "Online only: Zoom / Teams / Google Meet / Discord",
+  "rate": null,
+  "bg": "21+ years of experience."
+ },
+ {
+  "name": "Louise",
+  "subjects": [
+   "English",
+   "IB English Language and Literature",
+   "IGCSE"
+  ],
+  "grades": "Elementary, middle school, high school; suitable for Grade 8",
+  "location": "",
+  "format": "Online only; calm, focused, speaking-based",
+  "rate": null,
+  "bg": "English teacher at an IB school in Hong Kong, 18+ years; MA Linguistics (York), UK-qualified teacher, TEFL (OISE, Toronto); examiner for IB English Language and Literature Paper 1; colleagues note 10+ years working in IB international schools."
+ },
+ {
+  "name": "Willy W.",
+  "subjects": [
+   "IB English MYP/DP",
+   "IELTS",
+   "TOEFL",
+   "TOEIC",
+   "Cambridge",
+   "Academic English"
+  ],
+  "grades": "MYP (ages 11–16, including Grade 8), DP, adults",
+  "location": "",
+  "format": "Online, via Preply",
+  "rate": null,
+  "bg": "OCT-certified Canadian teacher with 10+ years teaching in Canadian public schools, international schools and IB programmes; former Head of Department for 6 years; native English speaker who also speaks Mandarin and Cantonese."
+ },
+ {
+  "name": "Aparna",
+  "subjects": [
+   "English",
+   "Reading",
+   "Literacy",
+   "Grammar",
+   "Creative writing",
+   "IG",
+   "IB"
+  ],
+  "grades": "Grades 4–12, suitable for Grade 8",
+  "location": "",
+  "format": "Online only",
+  "rate": null,
+  "bg": "BEd + MA (English Literature), 10+ years teaching; specialises in IG and IB students and has taught English Language and Literature to Grades 7–10 in international schools."
+ },
+ {
+  "name": "Kate B.",
+  "subjects": [
+   "English Language & Literature",
+   "English Literature",
+   "IB DP",
+   "IB MYP",
+   "IGCSE",
+   "GCSE"
+  ],
+  "grades": "MYP, DP, IGCSE, GCSE",
+  "location": "",
+  "format": "Online 1-on-1, free 60-min trial",
+  "rate": null,
+  "bg": "IB Examiner for English Language and Literature and Head of English at an international school, 20 years; Head of English at TEMS Madrid 2025–2026; IBO examiner 2023–2026; 25 years teaching; 4.7/5 from 7 reviews."
+ },
+ {
+  "name": "Dr M.",
+  "subjects": [
+   "IB English A",
+   "MYP English Language Acquisition",
+   "MYP Language and Literature",
+   "DP English A/B"
+  ],
+  "grades": "MYP, DP, Elementary",
+  "location": "",
+  "format": "Online 1-on-1",
+  "rate": null,
+  "bg": "PhD in Educational Psychology; international school teacher and IB-certified English A examiner, 17 years."
+ },
+ {
+  "name": "Mike M.",
+  "subjects": [
+   "IB English Language and Literature",
+   "MYP",
+   "DP",
+   "English B",
+   "TOK"
+  ],
+  "grades": "MYP 10 years, DP 4 years",
+  "location": "",
+  "format": "Online, confirm on profile",
+  "rate": null,
+  "bg": "10 years teaching IB English Language and Literature, 4 years as Head of English, 3 years as an IBDP English examiner, 10+ years in IB schools."
+ },
+ {
+  "name": "Martyn",
+  "subjects": [
+   "IB Diploma English A Language and Literature",
+   "MYP Language and Literature",
+   "Cambridge"
+  ],
+  "grades": "MYP, IB Diploma",
+  "location": "",
+  "format": "Online",
+  "rate": null,
+  "bg": "London teacher living in Barcelona; IB English A Paper 2 and HL Essay examiner; 5 years in IB/MYP and 3 years teaching secondary English in London."
+ },
+ {
+  "name": "Michael A.",
+  "subjects": [
+   "English",
+   "IB MYP/DP",
+   "Global Politics",
+   "History"
+  ],
+  "grades": "Grades 5-13, IB DP and MYP",
+  "location": "",
+  "format": "Online 1-on-1 video",
+  "rate": null,
+  "bg": "Currently living in Germany, teaching English and Global Politics; English teacher at Leibniz Privatschule Elmshorn since 2021 (Grades 5–10 English, Grade 11 English, IB DP Global Politics); previously IB MYP History and IB DP Language B English (2020–2021)."
+ },
+ {
+  "name": "Simon",
+  "subjects": [
+   "IB MYP DP English",
+   "AP English"
+  ],
+  "grades": "MYP, DP, High School",
+  "location": "",
+  "format": "Online",
+  "rate": null,
+  "bg": "Canadian living in Japan; 25+ years at leading private and international schools in Tokyo; high school English teacher (IB, AP, IELTS)."
+ },
+ {
+  "name": "Maria A.",
+  "subjects": [
+   "IB",
+   "IGCSE",
+   "MYP English"
+  ],
+  "grades": "MYP, all levels",
+  "location": "",
+  "format": "Online",
+  "rate": null,
+  "bg": "IB-certified educator (MYP, IB DP, CAS) with 20 years teaching English in American schools and international schools in the Middle East."
+ },
+ {
+  "name": "Ms T.",
+  "subjects": [
+   "IB English B",
+   "IGCSE English",
+   "MYP Language Acquisition",
+   "MYP Language and Literature"
+  ],
+  "grades": "MYP, Elementary",
+  "location": "",
+  "format": "Online via Zoom",
+  "rate": null,
+  "bg": "16 years teaching; bilingual international school teacher (IBDP English B, MYP)."
+ },
+ {
+  "name": "Antony W.",
+  "subjects": [
+   "IB MYP English Language and Literature"
+  ],
+  "grades": "MYP, Mulgrave Middle School Grades 7–9, suitable for Grade 8",
+  "location": "",
+  "format": "Online — to be confirmed; local, same time zone as Vancouver",
+  "rate": null,
+  "bg": "IB MYP English teacher and Head of Global Citizenship Experiential Education (GEx) at Mulgrave School; BC-certified teacher with 25+ years teaching English and humanities, 15+ years in IB, MYP Level 3 Language A; BEd (OISE / University of Toronto)."
+ },
+ {
+  "name": "Kenneth C.",
+  "subjects": [
+   "IB MYP / DP English",
+   "TOK"
+  ],
+  "grades": "IB MYP, IGCSE, IBDP",
+  "location": "",
+  "format": "Online — to be confirmed",
+  "rate": null,
+  "bg": "Previously led IB English and TOK at PLK Ngan Po Ling College as Deputy IB Coordinator; later taught English (IB MYP, IGCSE, IBDP) and TOK at South Island School (ESF)."
+ },
+ {
+  "name": "Henry L.",
+  "subjects": [
+   "MYP English",
+   "IB English"
+  ],
+  "grades": "MYP, IGCSE, IB Diploma, from age 10",
+  "location": "",
+  "format": "Online — to be confirmed",
+  "rate": null,
+  "bg": "BA (Oxon) in English, MA from York, 10+ years; has taught 250+ students at Hong Kong international schools, from age 10 through MYP / IGCSE / IB Diploma; full-time tutor, not currently in a school post."
+ },
+ {
+  "name": "Paul Y.",
+  "subjects": [
+   "IB MYP / DP English Language and Literature"
+  ],
+  "grades": "MYP, DP",
+  "location": "",
+  "format": "Online — to be confirmed",
+  "rate": null,
+  "bg": "Full-time IB English Language and Literature teacher at Malvern College Hong Kong (Nov 2025–Mar 2026); IGCSE/IB English in 2025; IB MYP/DP at Chinese International School, Hong Kong (2012–2019); 31.5 years of teaching experience."
+ },
+ {
+  "name": "Steven S.",
+  "subjects": [
+   "IB MYP / DP English"
+  ],
+  "grades": "MYP, DP",
+  "location": "",
+  "format": "Online — to be confirmed",
+  "rate": null,
+  "bg": "High school English teacher at the International School of Beijing; 17 years in international schools (MYP English Language and Literature + DP); Head of Secondary School English and IBDP Paper 2 examiner; BA in English from Trent University, Canadian, BEd."
+ },
+ {
+  "name": "Richard B.",
+  "subjects": [
+   "English Language and Literature"
+  ],
+  "grades": "Not stated; MYP not confirmed",
+  "location": "",
+  "format": "Online — to be confirmed",
+  "rate": null,
+  "bg": "Head of English and CPD Coordinator at International College Hong Kong; TeachFirst UK; teaches English Language and Literature."
+ },
+ {
+  "name": "Erin L.",
+  "subjects": [
+   "Grade 10-12 English",
+   "AP / IB English",
+   "History & Social Studies",
+   "essay writing",
+   "literary analysis"
+  ],
+  "grades": "Grades 10–12; Grade 8 / MYP not stated, please ask",
+  "location": "",
+  "format": "100% online via Google Meet or Discord; progress update for parents every 2 months",
+  "rate": null,
+  "bg": "Vancouver-born native English speaker; currently a public secondary school teacher in Surrey with a BC teaching licence; UBC double degree in English Literature and History (with Distinction) + BEd; 8 years tutoring."
+ },
+ {
+  "name": "Leilani A.",
+  "subjects": [
+   "English",
+   "IELTS"
+  ],
+  "grades": "Not stated",
+  "location": "",
+  "format": "Online",
+  "rate": null,
+  "bg": "Canadian English teacher and career counsellor, 15+ years; conversational and academic/professional English, IELTS, pronunciation and fluency, vocabulary, interviews, résumés and university application guidance."
+ },
+ {
+  "name": "Karen N.",
+  "subjects": [
+   "K-12 English",
+   "writing and humanities",
+   "ELL / ELA",
+   "reading comprehension",
+   "Math & Science Grades 1-10"
+  ],
+  "grades": "K-12",
+  "location": "",
+  "format": "Online via Zoom, or in person at her home (South Burnaby / Edmonds)",
+  "rate": null,
+  "bg": "BC- and Hong Kong-certified teacher with 10–12 years of teaching and tutoring, currently on call with the Vancouver School Board; graduate of UBC and the University of Sunderland, TESOL; trilingual (English, Cantonese, Mandarin) and mainly teaches in English."
+ },
+ {
+  "name": "Ted C.",
+  "subjects": [
+   "critical thinking",
+   "reading comprehension",
+   "English writing"
+  ],
+  "grades": "Elementary school, secondary school, university",
+  "location": "",
+  "format": "In person only, at Fraserview Library",
+  "rate": null,
+  "bg": "University tutor since 2017; bilingual in Chinese and English, also teaches Mandarin and Chinese literature; author of an English-language parenting guide."
+ },
+ {
+  "name": "Frank C.",
+  "subjects": [
+   "Math",
+   "Science",
+   "IB"
+  ],
+  "grades": "Grade 8-12",
+  "location": "",
+  "format": "Not stated",
+  "rate": null,
+  "bg": "Certified Math / Science / IB teacher in BC. The same phone number also appears on a youth (ages 11–18) badminton lessons card (Frank, Nov 4/26, NCCP)."
+ },
+ {
+  "name": "25 数.",
+  "subjects": [
+   "Math",
+   "IB Math"
+  ],
+  "grades": "G5-G12",
+  "location": "",
+  "format": "Not stated",
+  "rate": null,
+  "bg": "25 years as a math tutor; Grades 5–12, IB math; the card did not have 'Tutoring' ticked."
+ },
+ {
+  "name": "Kitty",
+  "subjects": [
+   "Spanish",
+   "ESL",
+   "French"
+  ],
+  "grades": "Not stated",
+  "location": "",
+  "format": "Not stated",
+  "rate": null,
+  "bg": "TESOL diploma; has lived in Spain and Quebec; offers tutoring and language practice."
+ },
+ {
+  "name": "George",
+  "subjects": [
+   "Physics",
+   "Chemistry",
+   "Math"
+  ],
+  "grades": "Grades 5–12 (flyer reads 'GRADE 7 5–12', possibly 7–12 or 5–12)",
+  "location": "",
+  "format": "Not stated",
+  "rate": null,
+  "bg": "Physics, Chemistry, Math. The flyer just says 'Call Me'."
+ },
+ {
+  "name": "Mangala R.",
+  "subjects": [
+   "Math",
+   "Science"
+  ],
+  "grades": "Grades 4-10",
+  "location": "",
+  "format": "Not stated",
+  "rate": null,
+  "bg": "Makes learning easier and builds confidence; personalised tutoring."
+ },
+ {
+  "name": "Charanjit K.",
+  "subjects": [
+   "Maths",
+   "Science",
+   "IT Skills",
+   "Python",
+   "Java"
+  ],
+  "grades": "Grade 8-12",
+  "location": "",
+  "format": "One-to-One",
+  "rate": null,
+  "bg": "One-to-one, conceptual, focused and student-friendly; assignment and project help; coaching in IT skills, Python and Java."
+ },
+ {
+  "name": "Rola",
+  "subjects": [
+   "Math",
+   "Science",
+   "Pre-cal",
+   "Chemistry"
+  ],
+  "grades": "Pre-cal 10-11, Chemistry 10-12, Math 9-11, Science 9-11",
+  "location": "",
+  "format": "Not stated",
+  "rate": null,
+  "bg": "Looking for a math and science tutor with unparalleled experience."
+ },
+ {
+  "name": "Sam",
+  "subjects": [
+   "Mathematics",
+   "Applied Mathematics",
+   "Statistics"
+  ],
+  "grades": "Grade 5-12, Undergraduate, Master's",
+  "location": "",
+  "format": "Not stated",
+  "rate": null,
+  "bg": "Retired professor tutoring mathematics, including applied mathematics for physics students and master's students in some branches of mathematics."
+ },
+ {
+  "name": "Emelia C.",
+  "subjects": [
+   "Math",
+   "Calculus",
+   "Physics",
+   "French",
+   "Art",
+   "AP Science & Math",
+   "DELF Exam Prep",
+   "Art Portfolio Prep"
+  ],
+  "grades": "Elementary, high school, undergraduate",
+  "location": "",
+  "format": "Not stated",
+  "rate": null,
+  "bg": "McGill Engineering graduate, now pursuing a Master of Architecture at UBC; 2+ years of tutoring experience; gives clear step-by-step explanations and focuses on deep understanding rather than memorisation."
+ },
+ {
+  "name": "Carrot L.",
+  "subjects": [
+   "Math"
+  ],
+  "grades": "Grades 3-8 (Simple 3-4, Intermediate 5-6, Advanced 7-8)",
+  "location": "",
+  "format": "Not stated",
+  "rate": null,
+  "bg": "Carrot Learning is a youth-led initiative offering free math tutoring for children; it is a youth-led community project, not an individual tutor."
+ },
+ {
+  "name": "Jeremy",
+  "subjects": [
+   "Pre-Calc Math 10/11/12",
+   "Science 10",
+   "Chemistry 11/12",
+   "Physics 11/12"
+  ],
+  "grades": "Grade 10-12",
+  "location": "",
+  "format": "Online, Tuesday and Thursday evenings; other evenings can be discussed",
+  "rate": null,
+  "bg": "A BC teacher who introduces himself as Jeremy; the flyer only says 'Jeremy', and the surname Ratcliffe was inferred from his email address."
+ },
+ {
+  "name": "Fantasia M.",
+  "subjects": [
+   "Piano",
+   "Guitar",
+   "Voice",
+   "Violin",
+   "Flute"
+  ],
+  "grades": "Not stated",
+  "location": "",
+  "format": "In-home lessons across Greater Vancouver；Book a FREE trial lesson!",
+  "rate": null,
+  "bg": "Fantasia Academy of Music: in-home lessons across Greater Vancouver with qualified, patient teachers. This is a music school, not an individual tutor."
+ },
+ {
+  "name": "数学老师",
+  "subjects": [
+   "Math",
+   "English",
+   "Essay Writing"
+  ],
+  "grades": "Elementary to high school, Grade 12",
+  "location": "",
+  "format": "Not stated",
+  "rate": null,
+  "bg": "Honours Bachelor of Science graduate from the University of Toronto (Math major, Psychology minor); accepted to the University of Chicago for graduate school (September 2024 admission); 10–15 years of tutoring experience with students from elementary to high school; flexible about teaching other subjects; experienced in advising Grade 12 students on university applications."
+ },
+ {
+  "name": "Tony 老.",
+  "subjects": [
+   "High school math, physics and chemistry",
+   "AP",
+   "IB",
+   "Math competitions",
+   "SAT"
+  ],
+  "grades": "Mainly high school; please ask whether they teach Physics 11",
+  "location": "",
+  "format": "Not stated",
+  "rate": null,
+  "bg": "Individual tutor; local high school graduate, SFU graduate, 10+ years of local tutoring experience; one-on-one and small-group lessons."
+ },
+ {
+  "name": "Kevin 老.",
+  "subjects": [
+   "Elementary and secondary school math",
+   "SSAT",
+   "AP",
+   "SAT",
+   "Math competitions"
+  ],
+  "grades": "Elementary and secondary school; please ask for exact grades",
+  "location": "",
+  "format": "Not stated",
+  "rate": null,
+  "bg": "Private math tutor for elementary and secondary school math, analytical thinking, math olympiads, competition problem-solving, university course support and homework help."
+ },
+ {
+  "name": "UBC 数.",
+  "subjects": [
+   "Math Grade 8-12",
+   "Calculus 12",
+   "Science Grade 8-12"
+  ],
+  "grades": "Grade 8-12",
+  "location": "",
+  "format": "Online only (one-on-one or small groups of 2–4)",
+  "rate": null,
+  "bg": "19 years old, second-year Neuroscience student at UBC, Dean's List in first year; graduate of Richmond McMath Secondary with a 95% high school average; 3 years of tutoring and online teaching experience, familiar with the BC curriculum; teaches in Cantonese and English."
+ },
+ {
+  "name": "James",
+  "subjects": [
+   "Java, Python, HTML/JavaScript for elementary and secondary students",
+   "AP Computer Science A",
+   "University computer science course tutoring",
+   "Waterloo CCC computing competition training"
+  ],
+  "grades": "Elementary and secondary school and university, please ask",
+  "location": "",
+  "format": "Not stated, please ask",
+  "rate": null,
+  "bg": "Waterloo CCC computing competition training and AP Computer Science A exam preparation."
+ },
+ {
+  "name": "数学老师",
+  "subjects": [
+   "Math",
+   "Calculus",
+   "English",
+   "Chemistry",
+   "Physics",
+   "Biology",
+   "French"
+  ],
+  "grades": "Most familiar with Grades 10–12; all students and levels welcome",
+  "location": "",
+  "format": "Individual or group; online or in person not stated, please ask",
+  "rate": null,
+  "bg": "UBC Science undergraduate, born and raised in Vancouver, strong English; scored 5 on every AP exam taken: Biology, Calculus BC (and AB), Chemistry, Physics 2 and Physics 1, earning AP Scholar with Distinction; graduated Grade 12 with the highest average in the school; received offers from top universities including UBC, Toronto, McGill and Alberta; can advise on university applications."
+ },
+ {
+  "name": "数学老师",
+  "subjects": [
+   "Math",
+   "Physics",
+   "Chemistry",
+   "Calculus",
+   "Computer Programming",
+   "AP"
+  ],
+  "grades": "Not stated, please ask",
+  "location": "",
+  "format": "Online or in person not stated, please ask",
+  "rate": null,
+  "bg": "A team of teachers, graduates in science and engineering from Tsinghua University, described as responsible, patient and dedicated; the flyer also mentions Shanghai Jiao Tong University."
+ },
+ {
+  "name": "法语老师",
+  "subjects": [
+   "French"
+  ],
+  "grades": "A1–C2, beginners to university students",
+  "location": "",
+  "format": "Online or in person not stated, please ask",
+  "rate": null,
+  "bg": "French teacher from France with 15 years of teaching experience and tailored lessons; A1–C2, TEF, TCF, DELF and AP exam preparation, IB French."
+ },
+ {
+  "name": "Marco",
+  "subjects": [
+   "Spanish"
+  ],
+  "grades": "Not stated, please ask; can teach any level",
+  "location": "",
+  "format": "Online or in person not stated, please ask",
+  "rate": null,
+  "bg": "Spanish teacher from Colombia; flexible, fun and informative. 'Learn Spanish the Fun Way.'"
+ },
+ {
+  "name": "Richard",
+  "subjects": [
+   "Math"
+  ],
+  "grades": "Mainly university math, UBC courses",
+  "location": "",
+  "format": "Online or in person not stated, please ask; flexible schedule",
+  "rate": null,
+  "bg": "16 years of experience, patient; BSc in Math (advanced degree); explains concepts and calculations step by step, uses diagrams to aid understanding, efficient problem-solving and faster learning, midterm and final exam preparation. UBC specialities: MATH 180, 184, 100, 101, 102, 103, 104, 105, 110, 200, 215, 221, 253, 255, 256, STAT 200, COMM 291, PSYCH 218."
+ },
+ {
+  "name": "Michael B.",
+  "subjects": [
+   "Calculus",
+   "Statistics",
+   "Physics",
+   "Pre-Calculus",
+   "Math"
+  ],
+  "grades": "Not stated, please ask",
+  "location": "",
+  "format": "Individual or group; online or in person not stated, please ask",
+  "rate": null,
+  "bg": "BSc, BEd, BC-certified teacher; '100% Math Tutoring.'"
+ },
+ {
+  "name": "Rick",
+  "subjects": [
+   "Math",
+   "Physics",
+   "Statistics"
+  ],
+  "grades": "High school, university, UBC courses",
+  "location": "",
+  "format": "Online via Zoom",
+  "rate": null,
+  "bg": "15+ years teaching math and physics at UBC; now teaches high school and university math and physics; patient, with clear and detailed explanations. UBC courses: Math 100, 101, 110, 152, 180, 200, Physics 100, 102, 131, Stat 200."
+ },
+ {
+  "name": "Calculus老师",
+  "subjects": [
+   "Calculus",
+   "Advanced Calculus",
+   "Differential Equations",
+   "Linear Algebra",
+   "Math"
+  ],
+  "grades": "University math",
+  "location": "",
+  "format": "Online or in person not stated, please ask",
+  "rate": null,
+  "bg": "25+ years of experience in top-level university math tutoring: calculus (100/101, 110, 120/121, 180, 190), advanced calculus (200, 226/227, 253, 254), differential equations (255/256, 257/258, 316, 400) and linear algebra (152, 221, 223, 307, 310). Breaks complex concepts into easy-to-understand steps; recent students have been admitted to UBC, Harvard, UC Berkeley, Stanford, Toronto and other top universities."
+ },
+ {
+  "name": "Marcel",
+  "subjects": [
+   "Math",
+   "Statistics",
+   "Python",
+   "Data Science",
+   "Machine Learning"
+  ],
+  "grades": "University, mainly UBC courses",
+  "location": "",
+  "format": "Online or in person not stated, please ask; available weekday evenings and daytime (bottom of flyer torn; this is the stated availability, to be verified)",
+  "rate": null,
+  "bg": "Professional IT engineer with 15 years of industry and academic (PhD) experience; teaches most UBC math and statistics courses, plus Python, data science and machine learning; fluent in English."
+ },
+ {
+  "name": "化学老师",
+  "subjects": [
+   "Chemistry"
+  ],
+  "grades": "University, UBC chemistry courses",
+  "location": "",
+  "format": "One-on-one or group; online or in person not stated, please ask",
+  "rate": null,
+  "bg": "PhD in Organic Chemistry with 20 years of university teaching experience, having taught 300+ students at UBC; explains course concepts in depth and gives study plans based on each student's background; problem sets, practice, and midterm and final exam review."
+ },
+ {
+  "name": "Poojan",
+  "subjects": [
+   "IELTS",
+   "CELPIP"
+  ],
+  "grades": "Not stated, please ask",
+  "location": "",
+  "format": "Online or in person not stated, please ask",
+  "rate": null,
+  "bg": "IELTS / CELPIP; scored CLB 9. Card dated May 18, 2024."
+ },
+ {
+  "name": "Alicia O.",
+  "subjects": [
+   "Spanish"
+  ],
+  "grades": "Not stated, please ask",
+  "location": "",
+  "format": "In person or online",
+  "rate": null,
+  "bg": "Mexican journalist and Spanish teacher. Card dated July 16, 2024."
+ },
+ {
+  "name": "Priya D.",
+  "subjects": [
+   "Math",
+   "Science",
+   "Chemistry",
+   "Biology"
+  ],
+  "grades": "KG–8 all subjects; Grades 8–9 and 9–10 Science; Grades 11–12 Chemistry / Biology",
+  "location": "",
+  "format": "Home visits",
+  "rate": null,
+  "bg": "16 years of teaching experience. Card dated June 9, 2024."
+ },
+ {
+  "name": "Jessica L.",
+  "subjects": [
+   "English",
+   "Language Arts"
+  ],
+  "grades": "Not stated, please ask",
+  "location": "",
+  "format": "Online or in person not stated, please ask",
+  "rate": null,
+  "bg": "Looking for students for English and Language Arts. Card dated June 17, 2024."
+ },
+ {
+  "name": "Nahid A.",
+  "subjects": [
+   "Math",
+   "Pre-Calculus",
+   "Calculus",
+   "Physics"
+  ],
+  "grades": "Grades 8–12",
+  "location": "",
+  "format": "Online or in person not stated, please ask",
+  "rate": null,
+  "bg": "Math Grades 8–12, Pre-Calculus 11 and 12, Calculus / IB / AP / SAT / SSAT; Physics (Regular / IB / AP). Card dated June 11, 2024."
+ },
+ {
+  "name": "Kathy",
+  "subjects": [
+   "English as a Second Language",
+   "ESL"
+  ],
+  "grades": "Not stated, please ask",
+  "location": "",
+  "format": "Online or in person not stated, please ask",
+  "rate": null,
+  "bg": "Specialised ESL lessons covering grammar, spelling, speaking and writing; university student who also works as a teaching assistant. Card dated July 16, 2024."
+ },
+ {
+  "name": "Ritu S.",
+  "subjects": [
+   "General Tutoring"
+  ],
+  "grades": "Kindergarten to Grade 7",
+  "location": "",
+  "format": "Online or in person not stated, please ask; flexible schedule",
+  "rate": null,
+  "bg": "Experienced teacher. Card dated June 17, 2024."
+ },
+ {
+  "name": "Karina T.",
+  "subjects": [
+   "Math",
+   "Science",
+   "French",
+   "Piano"
+  ],
+  "grades": "Below Grade 10",
+  "location": "",
+  "format": "Online or in person not stated, please ask",
+  "rate": null,
+  "bg": "Senior student at Earl Marriott Secondary; tutors math, science and French, is fluent in French and has won recognition awards in all subjects; also teaches piano (RCM Level 10). Card dated September 17, 2024."
+ },
+ {
+  "name": "Charles W.",
+  "subjects": [
+   "Math",
+   "Calculus"
+  ],
+  "grades": "Grades 7–12, first-year university students",
+  "location": "",
+  "format": "Online or in person not stated, please ask",
+  "rate": null,
+  "bg": "Korean math tutor with 22 years of experience in Vancouver; IB and AP math, calculus; Korean students welcome; English is not perfect but he teaches well. Card dated May 3, 2024."
+ },
+ {
+  "name": "Diyanna",
+  "subjects": [
+   "French",
+   "Math",
+   "Language Arts"
+  ],
+  "grades": "Grades K–7",
+  "location": "",
+  "format": "Online or in person not stated, please ask",
+  "rate": null,
+  "bg": "High school student; tutors French, math and language arts for Grades K–7 and also babysits; has won academic and citizenship awards and is a math honours student. Card dated July 2, 2024."
+ },
+ {
+  "name": "Tashi",
+  "subjects": [
+   "Science",
+   "Chemistry",
+   "Biology"
+  ],
+  "grades": "Grades 9–10 Science; Grades 11–12 Chemistry / Biology",
+  "location": "",
+  "format": "Online or in person not stated, please ask; summer classes also available",
+  "rate": null,
+  "bg": "16 years of teaching; Science for Grades 9 and 10, Chemistry and Biology for Grades 11 and 12. Card dated August 6, 2024."
+ },
+ {
+  "name": "Liang W.",
+  "subjects": [
+   "French"
+  ],
+  "grades": "Not stated, please ask",
+  "location": "",
+  "format": "Online or in person not stated, please ask; lessons 4–8 pm",
+  "rate": null,
+  "bg": "French tutor from Montreal, Quebec; scored 92% in French. Card dated October 15, 2024."
+ },
+ {
+  "name": "Nasir K.",
+  "subjects": [
+   "Robotics"
+  ],
+  "grades": "Grades 5–10",
+  "location": "",
+  "format": "Online",
+  "rate": null,
+  "bg": "Online robotics classes for Grades 5–10; 30 hours in total, each lesson 1–5 hours, flexible schedule. Card dated July 8, 2024."
+ },
+ {
+  "name": "Pamela S.",
+  "subjects": [
+   "ESL",
+   "English"
+  ],
+  "grades": "All levels",
+  "location": "",
+  "format": "In person or on Zoom",
+  "rate": null,
+  "bg": "Patient ESL teacher with 10 years of experience; helps students build confidence in English. Card dated September 20, 2024."
+ },
+ {
+  "name": "Richard W.",
+  "subjects": [
+   "Math",
+   "Chemistry",
+   "Physics",
+   "Chinese"
+  ],
+  "grades": "Grade 11 math / science",
+  "location": "",
+  "format": "Online or in person not stated, please ask",
+  "rate": null,
+  "bg": "Grade 11 student at Semiahmoo Secondary who scored 97% in Pre-Calculus 11; came to Canada from China this January, having already completed Grade 11 in China, and has mastered the Canadian math and science curriculum; confident teaching math, chemistry, physics and Chinese. Card dated September 17, 2024."
+ },
+ {
+  "name": "Anthony",
+  "subjects": [
+   "Math",
+   "Physics",
+   "Chemistry",
+   "Science"
+  ],
+  "grades": "Grades 7–12",
+  "location": "",
+  "format": "Online or in person not stated, please ask",
+  "rate": null,
+  "bg": "Math, physics, chemistry and science. Card dated June 25, 2024."
+ },
+ {
+  "name": "Nicole W.",
+  "subjects": [
+   "Math",
+   "Science",
+   "Piano",
+   "Reading"
+  ],
+  "grades": "Below Grade 10; reading buddy for Grades 1–8",
+  "location": "",
+  "format": "Online or in person not stated, please ask",
+  "rate": null,
+  "bg": "Grade 11 student at Semiahmoo Secondary; tutors math, science and piano for students below Grade 10, and is a reading buddy for children in Grades 1–8. Card dated September 17, 2024."
+ },
+ {
+  "name": "Jim",
+  "subjects": [
+   "English",
+   "Essay Writing",
+   "Admissions"
+  ],
+  "grades": "Not stated, please ask",
+  "location": "",
+  "format": "Online or in person not stated, please ask",
+  "rate": null,
+  "bg": "College teacher and professional writer; excellent English, improving communication skills and grades; also teaches top-school admissions — both grades and application essays matter — and how to write the best application essay. Two cards for the same person, merged into one entry. Card dated September 5, 2024."
+ },
+ {
+  "name": "Wen",
+  "subjects": [
+   "IELTS",
+   "TOEFL",
+   "Academic English"
+  ],
+  "grades": "Elementary school to university",
+  "location": "",
+  "format": "Online or in person not stated, please ask",
+  "rate": null,
+  "bg": "IELTS, TOEFL and academic English teacher with 10+ years of experience; trial lesson free. Card dated June 25, 2024."
+ },
+ {
+  "name": "Amy X.",
+  "subjects": [
+   "Piano"
+  ],
+  "grades": "All ages and levels",
+  "location": "",
+  "format": "Online or in person not stated, please ask",
+  "rate": null,
+  "bg": "Piano lessons with a classical and jazz pianist, 10+ years of performing experience, RCM Level 10 and Harmony & Counterpoint Level 10, 2–3 years of teaching experience; English and Mandarin. Card dated July 14, 2024."
+ },
+ {
+  "name": "Hannah B.",
+  "subjects": [
+   "Reading",
+   "Writing",
+   "Spelling",
+   "Math",
+   "Social Studies",
+   "Science"
+  ],
+  "grades": "Kindergarten to Grade 4",
+  "location": "",
+  "format": "In person",
+  "rate": null,
+  "bg": "Homework help: reading, writing, spelling, math, social studies and science; self-regulation and exam strategies. Card dated June 26, 2024."
+ },
+ {
+  "name": "Fayhaa K.",
+  "subjects": [
+   "All Subjects"
+  ],
+  "grades": "Grade 10 and below",
+  "location": "",
+  "format": "Online or in person not stated, please ask",
+  "rate": null,
+  "bg": "IB student at Semiahmoo; 3+ years of tutoring experience, all subjects for Grade 10 and below; debate and science fair awards. Card dated August 13, 2024."
+ },
+ {
+  "name": "Keith V.",
+  "subjects": [
+   "Math"
+  ],
+  "grades": "Grades 3–9",
+  "location": "",
+  "format": "Online or in person not stated, please ask; small groups also available",
+  "rate": null,
+  "bg": "Extra math support; teaches children to think mathematically and become independent problem-solvers, not just how to get answers; quick assessment to understand each student's needs. Card dated September 5, 2024."
+ },
+ {
+  "name": "Kiana & Niki",
+  "subjects": [
+   "Math"
+  ],
+  "grades": "Grades 8–12",
+  "location": "",
+  "format": "Online or in person not stated, please ask",
+  "rate": null,
+  "bg": "WVSS students offering math tutoring; they teach together."
+ },
+ {
+  "name": "Maryam R.",
+  "subjects": [
+   "French"
+  ],
+  "grades": "Children and adults, beginner / intermediate / advanced",
+  "location": "",
+  "format": "Private lessons, noon to 6 pm",
+  "rate": null,
+  "bg": "BA in French; foreign language instructor at DEA College; French conversation."
+ },
+ {
+  "name": "Emtyazi E.",
+  "subjects": [
+   "Physics",
+   "Math",
+   "Calculus"
+  ],
+  "grades": "High school, IB, AP, university / college",
+  "location": "",
+  "format": "Online, one-on-one",
+  "rate": null,
+  "bg": "Director of E-TUTORPRO; physics, math and calculus; science, engineering, business and art courses at university and college level; standardised test preparation."
+ },
+ {
+  "name": "Cathy B.",
+  "subjects": [
+   "English",
+   "Reading",
+   "Writing",
+   "Art"
+  ],
+  "grades": "Elementary school",
+  "location": "",
+  "format": "In person, at the library",
+  "rate": null,
+  "bg": "Experienced, licensed early childhood educator with a background in university English, communications and four years of psychology; has given one-on-one literacy tutoring in an East Vancouver elementary school, teaching kindergarten ELL learners and children with learning difficulties or needing literacy support; also tutors art assignments; clear criminal record check, First Aid/CPR, references available."
+ },
+ {
+  "name": "ENTRE NOUS",
+  "subjects": [
+   "French"
+  ],
+  "grades": "All ages and levels",
+  "location": "",
+  "format": "Online; group lessons 90 minutes, up to 15 students; private lessons 60–90 minutes, one-on-one, tailored to your needs",
+  "rate": null,
+  "bg": "Online French programme ENTRE NOUS. 'Enjoy expressing yourself in French, again!'"
+ },
+ {
+  "name": "Eric",
+  "subjects": [
+   "English",
+   "LSAT",
+   "Music Theory"
+  ],
+  "grades": "K-12 English",
+  "location": "",
+  "format": "Online or in person not stated, please ask",
+  "rate": null,
+  "bg": "Lead tutor at Curriculate; bachelor's in Health Science, master's in Philosophy, Yale bioethics programme graduate; former children's day camp director for many years; part-time tutor for 10+ years, now full-time; all English subjects K–12, LSAT preparation, music theory."
+ },
+ {
+  "name": "Nico",
+  "subjects": [
+   "French"
+  ],
+  "grades": "Elementary and secondary school",
+  "location": "",
+  "format": "In person or online",
+  "rate": null,
+  "bg": "French tutor for elementary and secondary school students."
+ },
+ {
+  "name": "Jaimie B.",
+  "subjects": [
+   "English",
+   "IELTS",
+   "TOEIC",
+   "SSAT",
+   "SAT",
+   "Social Studies"
+  ],
+  "grades": "K-12 and adults",
+  "location": "",
+  "format": "Group or individual lessons; online or in person not stated, please ask",
+  "rate": null,
+  "bg": "English teacher with 15 years of experience, teaching private and public school students; adult IELTS and TOEIC; academic English, SSAT, SAT and social studies for young people; CELTA (Cambridge), BA in Biblical Studies (Trinity Western), graduate of St. George's School in Vancouver; private school references available."
+ },
+ {
+  "name": "数学老师",
+  "subjects": [
+   "Math",
+   "English",
+   "Social Studies"
+  ],
+  "grades": "Grades 1–7",
+  "location": "",
+  "format": "Online and in person, flexible schedule, personalised lessons, homework help",
+  "rate": null,
+  "bg": "One-on-one tutoring service run by UBC students (Brainstorm Tutors)."
+ },
+ {
+  "name": "Gol Y.",
+  "subjects": [
+   "Math"
+  ],
+  "grades": "Elementary school",
+  "location": "",
+  "format": "Online or in person not stated, please ask",
+  "rate": null,
+  "bg": "Elementary school math tutor. A separate 'MATH TUTORING' note was stuck on the flyer; it belongs to another teacher (Mahya), so don't confuse the two."
+ },
+ {
+  "name": "Kathleen",
+  "subjects": [
+   "Reading"
+  ],
+  "grades": "Lower elementary",
+  "location": "",
+  "format": "Online or in person not stated, please ask",
+  "rate": null,
+  "bg": "Reading tutor specialising in children who are just starting to read; experienced with dyslexic students; interactive, age-appropriate reading plans tailored to each child's level."
+ },
+ {
+  "name": "Mahya S.",
+  "subjects": [
+   "Math"
+  ],
+  "grades": "Grades 1–8",
+  "location": "",
+  "format": "Online or in person not stated, please ask",
+  "rate": null,
+  "bg": "Personalised math tutoring: foundational math, problem-solving, arithmetic, pre-algebra, homework support and exam preparation."
+ },
+ {
+  "name": "MCAT老师",
+  "subjects": [
+   "MCAT"
+  ],
+  "grades": "University / medical school applications",
+  "location": "",
+  "format": "Online or in person not stated, please ask",
+  "rate": null,
+  "bg": "UBC medical student; MCAT 99th percentile; received four medical school offers; has led an MCAT preparation group and lectured in UBC biochemistry; top quartile in the Manitoba out-of-province CASPer; top 5% GPA in UBC Science; UBC Neuroscience award recipient; a UBC graduating leader award; has presented research at Harvard; WVSS alumnus."
+ },
+ {
+  "name": "Richard",
+  "subjects": [
+   "English"
+  ],
+  "grades": "Adults / all levels",
+  "location": "",
+  "format": "Online or in person not stated, please ask; also volunteers for English conversation at the West Vancouver Library",
+  "rate": null,
+  "bg": "Qualified English as a second language teacher with TESL certification (International House, Vancouver) and an undergraduate arts degree. Note: this Richard is an English teacher, not the math tutor Richard listed earlier, and not Richard Wang."
+ },
+ {
+  "name": "法语老师",
+  "subjects": [
+   "French"
+  ],
+  "grades": "Not stated, please ask",
+  "location": "",
+  "format": "Online or in person not stated, please ask",
+  "rate": null,
+  "bg": "French tutor; the flyer only says 'French Tutor' and lists a phone number, with no name or rate."
+ },
+ {
+  "name": "数学老师",
+  "subjects": [
+   "Math",
+   "Statistics",
+   "Linear Algebra",
+   "Economics",
+   "Physics",
+   "Chemistry",
+   "MCAT",
+   "GMAT",
+   "GRE"
+  ],
+  "grades": "Grades 8–12, university years 1–4",
+  "location": "",
+  "format": "Online or in person not stated, please ask",
+  "rate": null,
+  "bg": "MSc with 10+ years of teaching experience: math, statistics, linear algebra, calculus, differential equations, discrete math and numerical analysis; economics (micro and macro); physics; chemistry (physical and organic); standardised tests (MCAT, GMAT, GRE); final and provincial exam preparation."
+ },
+ {
+  "name": "数学老师",
+  "subjects": [
+   "Math"
+  ],
+  "grades": "Not stated, please ask",
+  "location": "",
+  "format": "Online or in person not stated, please ask",
+  "rate": null,
+  "bg": "Professional math tutor with 6+ years of successful experience; helps with homework, preparing for major exams and meeting deadlines."
+ },
+ {
+  "name": "法语老师",
+  "subjects": [
+   "French"
+  ],
+  "grades": "IB Grades 10 and 11; elementary to high school",
+  "location": "",
+  "format": "Online",
+  "rate": null,
+  "bg": "French teacher from France with 17+ years of experience teaching French in France, Montreal and Vancouver; master's in French literature, linguistics and teaching methods, plus learning psychology (cognitive science); teaches IB Grades 10 and 11; most students come from Collingwood, Mulgrave and West Vancouver schools; patient, dedicated and encouraging."
+ },
+ {
+  "name": "Nikki A.",
+  "subjects": [
+   "Math",
+   "English",
+   "French",
+   "Calculus",
+   "ESL"
+  ],
+  "grades": "Grades 8–12",
+  "location": "",
+  "format": "Online or in person not stated, please ask",
+  "rate": null,
+  "bg": "Retired BC-certified high school teacher, BEd from McGill; many years of classroom and private tutoring experience; four daughters, all successful professionals, including a pathologist. Teaches Math 8, English 8, Math 9, Math 10, French 9, French 10, Math 11, Math 12, Calculus and ESL; served two years as a school principal; taught at Windermere Secondary (Vancouver, 1975–1979), Maillard Junior Secondary (Coquitlam, 1992–1997), Terry Fox Secondary (Port Coquitlam, 1997–2007) and BC Offshore School #25 (Beijing, China, 2007–2012)."
+ }
 ]
