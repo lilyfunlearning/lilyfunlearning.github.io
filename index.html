@@ -79,14 +79,25 @@ footer{margin-top:24px;color:#666;font-size:14px}
 <h2 style="margin-top:0">Join Student-Led Reading Club</h2>
 <p style="color:#555;font-size:14px">Fill this in and send it to us by email. Nothing is stored on this website. Questions? Contact Mia: <a href="tel:+16049011618">604-901-1618</a> or <a href="mailto:mia.lilyfunlearning@gmail.com">mia.lilyfunlearning@gmail.com</a>.</p>
 <label>Which group?<br><select id="j-group" style="width:92%"><option>Tuesday Read-Aloud</option><option>Story Creation</option><option>Magazine Team</option><option>Monthly Offline Gathering</option><option>Not sure yet — please advise</option><option>New program (coming soon) — keep me posted</option></select></label><br>
-<fieldset style="border:1px solid #ccc;border-radius:8px;padding:10px;margin:6px 0"><legend>Preferred times — pick all that work</legend>
+<fieldset style="border:1px solid #ccc;border-radius:8px;padding:10px;margin:6px 0"><legend>When are you free? — pick all that work</legend>
+<p style="color:#555;font-size:14px;margin:4px 0">Families join us from many time zones — tell us yours, and we will work out the times together. All times below are your local time.</p>
 <p style="color:#555;font-size:14px;margin:4px 0">For the new program. iReading Club is fixed on Tuesdays, 6:15-7:00 PM.</p>
-<label style="display:block"><input type="checkbox" class="j-time" value="Weekday evening"> Weekday evening</label>
-<label style="display:block"><input type="checkbox" class="j-time" value="Saturday morning"> Saturday morning</label>
-<label style="display:block"><input type="checkbox" class="j-time" value="Saturday afternoon"> Saturday afternoon</label>
-<label style="display:block"><input type="checkbox" class="j-time" value="Sunday morning"> Sunday morning</label>
-<label style="display:block"><input type="checkbox" class="j-time" value="Sunday afternoon"> Sunday afternoon</label>
-<label>Other times<br><input id="j-time-other" type="text" placeholder="e.g. Friday 4 PM" style="width:90%"></label>
+<label>Your time zone<br><select id="j-tz" style="width:92%"><option>Vancouver (Pacific Time)</option><option>Toronto / Ottawa / Montreal (Eastern Time)</option><option>Calgary / Edmonton (Mountain Time)</option><option>Winnipeg (Central Time)</option><option>Halifax (Atlantic Time)</option><option>Beijing / Shanghai (China Time)</option><option>Hong Kong</option><option>Singapore</option><option>London (UK)</option><option>Sydney (Australia)</option><option>Other (please write it below)</option></select></label><br>
+<label style="display:block;margin-top:6px">Days — pick all that work</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="j-day" value="Monday"> Monday</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="j-day" value="Tuesday"> Tuesday</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="j-day" value="Wednesday"> Wednesday</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="j-day" value="Thursday"> Thursday</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="j-day" value="Friday"> Friday</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="j-day" value="Saturday"> Saturday</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="j-day" value="Sunday"> Sunday</label>
+<label style="display:block;margin-top:6px">Times of day — pick all that work</label>
+<label style="display:block"><input type="checkbox" class="j-slot" value="Morning (8-11 AM)"> Morning (8-11 AM)</label>
+<label style="display:block"><input type="checkbox" class="j-slot" value="Midday (11 AM-2 PM)"> Midday (11 AM-2 PM)</label>
+<label style="display:block"><input type="checkbox" class="j-slot" value="Afternoon (2-5 PM)"> Afternoon (2-5 PM)</label>
+<label style="display:block"><input type="checkbox" class="j-slot" value="Evening (5-8 PM)"> Evening (5-8 PM)</label>
+<label style="display:block"><input type="checkbox" class="j-slot" value="Night (8-10 PM)"> Night (8-10 PM)</label>
+<label>Exact times (optional)<br><input id="j-time-other" type="text" placeholder="e.g. Tuesday and Thursday 4-5 PM" style="width:90%"></label>
 </fieldset>
 <label>Child's grade<br><input id="j-grade" type="text" placeholder="e.g. Grade 3" style="width:90%"></label><br>
 <label>Parent's name<br><input id="j-name" type="text" placeholder="e.g. Mrs. Wang" style="width:90%"></label><br>
@@ -114,13 +125,24 @@ footer{margin-top:24px;color:#666;font-size:14px}
 <label>Your group idea<br><input id="g-idea" type="text" placeholder="e.g. A chess club, a drawing club, a science club" style="width:90%"></label><br>
 <label>What will you do together?<br><textarea id="g-do" rows="3" placeholder="e.g. Play chess every week, teach each other new moves, hold a small tournament" style="width:90%"></textarea></label><br>
 <label>Who should join?<br><input id="g-who" type="text" placeholder="e.g. Grades 3-5, anyone who likes chess" style="width:90%"></label><br>
-<fieldset style="border:1px solid #ccc;border-radius:8px;padding:10px;margin:6px 0"><legend>Preferred times — pick all that work</legend>
-<label style="display:block"><input type="checkbox" class="g-time" value="Weekday evening"> Weekday evening</label>
-<label style="display:block"><input type="checkbox" class="g-time" value="Saturday morning"> Saturday morning</label>
-<label style="display:block"><input type="checkbox" class="g-time" value="Saturday afternoon"> Saturday afternoon</label>
-<label style="display:block"><input type="checkbox" class="g-time" value="Sunday morning"> Sunday morning</label>
-<label style="display:block"><input type="checkbox" class="g-time" value="Sunday afternoon"> Sunday afternoon</label>
-<label>Other times<br><input id="g-time-other" type="text" placeholder="e.g. Friday 4 PM" style="width:90%"></label>
+<fieldset style="border:1px solid #ccc;border-radius:8px;padding:10px;margin:6px 0"><legend>When are you free? — pick all that work</legend>
+<p style="color:#555;font-size:14px;margin:4px 0">Families join us from many time zones — tell us yours, and we will work out the times together. All times below are your local time.</p>
+<label>Your time zone<br><select id="g-tz" style="width:92%"><option>Vancouver (Pacific Time)</option><option>Toronto / Ottawa / Montreal (Eastern Time)</option><option>Calgary / Edmonton (Mountain Time)</option><option>Winnipeg (Central Time)</option><option>Halifax (Atlantic Time)</option><option>Beijing / Shanghai (China Time)</option><option>Hong Kong</option><option>Singapore</option><option>London (UK)</option><option>Sydney (Australia)</option><option>Other (please write it below)</option></select></label><br>
+<label style="display:block;margin-top:6px">Days — pick all that work</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="g-day" value="Monday"> Monday</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="g-day" value="Tuesday"> Tuesday</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="g-day" value="Wednesday"> Wednesday</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="g-day" value="Thursday"> Thursday</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="g-day" value="Friday"> Friday</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="g-day" value="Saturday"> Saturday</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="g-day" value="Sunday"> Sunday</label>
+<label style="display:block;margin-top:6px">Times of day — pick all that work</label>
+<label style="display:block"><input type="checkbox" class="g-slot" value="Morning (8-11 AM)"> Morning (8-11 AM)</label>
+<label style="display:block"><input type="checkbox" class="g-slot" value="Midday (11 AM-2 PM)"> Midday (11 AM-2 PM)</label>
+<label style="display:block"><input type="checkbox" class="g-slot" value="Afternoon (2-5 PM)"> Afternoon (2-5 PM)</label>
+<label style="display:block"><input type="checkbox" class="g-slot" value="Evening (5-8 PM)"> Evening (5-8 PM)</label>
+<label style="display:block"><input type="checkbox" class="g-slot" value="Night (8-10 PM)"> Night (8-10 PM)</label>
+<label>Exact times (optional)<br><input id="g-time-other" type="text" placeholder="e.g. Tuesday and Thursday 4-5 PM" style="width:90%"></label>
 </fieldset>
 <label>Your name and grade<br><input id="g-name" type="text" placeholder="e.g. Amy, Grade 5" style="width:90%"></label><br>
 <label>Parent's contact (phone or email)<br><input id="g-contact" type="text" placeholder="e.g. 604-xxx-xxxx or email" style="width:90%"></label><br>
@@ -131,13 +153,24 @@ footer{margin-top:24px;color:#666;font-size:14px}
 <p style="color:#555;font-size:14px">Fill this in and send it to us by email. Nothing is stored on this website.</p>
 <label>Child's grade<br><input id="l-grade" type="text" placeholder="e.g. Grade 4" style="width:90%"></label><br>
 <label>What would your child like to lead?<br><input id="l-lead" type="text" placeholder="e.g. Read-aloud, presenting, organising games" style="width:90%"></label><br>
-<fieldset style="border:1px solid #ccc;border-radius:8px;padding:10px;margin:6px 0"><legend>Preferred times — pick all that work</legend>
-<label style="display:block"><input type="checkbox" class="l-time" value="Weekday evening"> Weekday evening</label>
-<label style="display:block"><input type="checkbox" class="l-time" value="Saturday morning"> Saturday morning</label>
-<label style="display:block"><input type="checkbox" class="l-time" value="Saturday afternoon"> Saturday afternoon</label>
-<label style="display:block"><input type="checkbox" class="l-time" value="Sunday morning"> Sunday morning</label>
-<label style="display:block"><input type="checkbox" class="l-time" value="Sunday afternoon"> Sunday afternoon</label>
-<label>Other times<br><input id="l-time-other" type="text" placeholder="e.g. Friday 4 PM" style="width:90%"></label>
+<fieldset style="border:1px solid #ccc;border-radius:8px;padding:10px;margin:6px 0"><legend>When are you free? — pick all that work</legend>
+<p style="color:#555;font-size:14px;margin:4px 0">Families join us from many time zones — tell us yours, and we will work out the times together. All times below are your local time.</p>
+<label>Your time zone<br><select id="l-tz" style="width:92%"><option>Vancouver (Pacific Time)</option><option>Toronto / Ottawa / Montreal (Eastern Time)</option><option>Calgary / Edmonton (Mountain Time)</option><option>Winnipeg (Central Time)</option><option>Halifax (Atlantic Time)</option><option>Beijing / Shanghai (China Time)</option><option>Hong Kong</option><option>Singapore</option><option>London (UK)</option><option>Sydney (Australia)</option><option>Other (please write it below)</option></select></label><br>
+<label style="display:block;margin-top:6px">Days — pick all that work</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="l-day" value="Monday"> Monday</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="l-day" value="Tuesday"> Tuesday</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="l-day" value="Wednesday"> Wednesday</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="l-day" value="Thursday"> Thursday</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="l-day" value="Friday"> Friday</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="l-day" value="Saturday"> Saturday</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="l-day" value="Sunday"> Sunday</label>
+<label style="display:block;margin-top:6px">Times of day — pick all that work</label>
+<label style="display:block"><input type="checkbox" class="l-slot" value="Morning (8-11 AM)"> Morning (8-11 AM)</label>
+<label style="display:block"><input type="checkbox" class="l-slot" value="Midday (11 AM-2 PM)"> Midday (11 AM-2 PM)</label>
+<label style="display:block"><input type="checkbox" class="l-slot" value="Afternoon (2-5 PM)"> Afternoon (2-5 PM)</label>
+<label style="display:block"><input type="checkbox" class="l-slot" value="Evening (5-8 PM)"> Evening (5-8 PM)</label>
+<label style="display:block"><input type="checkbox" class="l-slot" value="Night (8-10 PM)"> Night (8-10 PM)</label>
+<label>Exact times (optional)<br><input id="l-time-other" type="text" placeholder="e.g. Tuesday and Thursday 4-5 PM" style="width:90%"></label>
 </fieldset>
 <label>Parent's name<br><input id="l-name" type="text" placeholder="e.g. Mrs. Wang" style="width:90%"></label><br>
 <label>Parent's contact (phone or email)<br><input id="l-contact" type="text" placeholder="e.g. 604-xxx-xxxx or email" style="width:90%"></label><br>
@@ -156,13 +189,24 @@ footer{margin-top:24px;color:#666;font-size:14px}
 <p style="color:#555;font-size:14px">Fill this in and send it to us by email. Nothing is stored on this website.</p>
 <label>Language<br><select id="r-lang" style="width:92%"><option>English</option><option>French</option><option>Chinese</option><option>Not sure yet — please advise</option></select></label><br>
 <label>Your grade or level<br><input id="r-grade" type="text" placeholder="e.g. Grade 3, or adult beginner" style="width:90%"></label><br>
-<fieldset style="border:1px solid #ccc;border-radius:8px;padding:10px;margin:6px 0"><legend>Preferred times — pick all that work</legend>
-<label style="display:block"><input type="checkbox" class="r-time" value="Weekday evening"> Weekday evening</label>
-<label style="display:block"><input type="checkbox" class="r-time" value="Saturday morning"> Saturday morning</label>
-<label style="display:block"><input type="checkbox" class="r-time" value="Saturday afternoon"> Saturday afternoon</label>
-<label style="display:block"><input type="checkbox" class="r-time" value="Sunday morning"> Sunday morning</label>
-<label style="display:block"><input type="checkbox" class="r-time" value="Sunday afternoon"> Sunday afternoon</label>
-<label>Other times<br><input id="r-time-other" type="text" placeholder="e.g. Friday 4 PM" style="width:90%"></label>
+<fieldset style="border:1px solid #ccc;border-radius:8px;padding:10px;margin:6px 0"><legend>When are you free? — pick all that work</legend>
+<p style="color:#555;font-size:14px;margin:4px 0">Families join us from many time zones — tell us yours, and we will work out the times together. All times below are your local time.</p>
+<label>Your time zone<br><select id="r-tz" style="width:92%"><option>Vancouver (Pacific Time)</option><option>Toronto / Ottawa / Montreal (Eastern Time)</option><option>Calgary / Edmonton (Mountain Time)</option><option>Winnipeg (Central Time)</option><option>Halifax (Atlantic Time)</option><option>Beijing / Shanghai (China Time)</option><option>Hong Kong</option><option>Singapore</option><option>London (UK)</option><option>Sydney (Australia)</option><option>Other (please write it below)</option></select></label><br>
+<label style="display:block;margin-top:6px">Days — pick all that work</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="r-day" value="Monday"> Monday</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="r-day" value="Tuesday"> Tuesday</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="r-day" value="Wednesday"> Wednesday</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="r-day" value="Thursday"> Thursday</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="r-day" value="Friday"> Friday</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="r-day" value="Saturday"> Saturday</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="r-day" value="Sunday"> Sunday</label>
+<label style="display:block;margin-top:6px">Times of day — pick all that work</label>
+<label style="display:block"><input type="checkbox" class="r-slot" value="Morning (8-11 AM)"> Morning (8-11 AM)</label>
+<label style="display:block"><input type="checkbox" class="r-slot" value="Midday (11 AM-2 PM)"> Midday (11 AM-2 PM)</label>
+<label style="display:block"><input type="checkbox" class="r-slot" value="Afternoon (2-5 PM)"> Afternoon (2-5 PM)</label>
+<label style="display:block"><input type="checkbox" class="r-slot" value="Evening (5-8 PM)"> Evening (5-8 PM)</label>
+<label style="display:block"><input type="checkbox" class="r-slot" value="Night (8-10 PM)"> Night (8-10 PM)</label>
+<label>Exact times (optional)<br><input id="r-time-other" type="text" placeholder="e.g. Tuesday and Thursday 4-5 PM" style="width:90%"></label>
 </fieldset>
 <label>Your name<br><input id="r-name" type="text" placeholder="e.g. Mrs. Wang" style="width:90%"></label><br>
 <label>Your contact (phone or email)<br><input id="r-contact" type="text" placeholder="e.g. 604-xxx-xxxx or email" style="width:90%"></label><br>
@@ -928,6 +972,25 @@ footer{margin-top:24px;color:#666;font-size:14px}
 <label>Online or in person<br><select id="f-mode" style="width:92%"><option>Online</option><option>In person</option><option>Either</option></select></label><br>
 <label>Parent's name<br><input id="f-name" type="text" placeholder="e.g. Mrs. Wang" style="width:90%"></label><br>
 <label>Parent's contact (phone or email)<br><input id="f-contact" type="text" placeholder="e.g. 604-xxx-xxxx or email" style="width:90%"></label><br>
+<fieldset style="border:1px solid #ccc;border-radius:8px;padding:10px;margin:6px 0"><legend>When are you free? — pick all that work</legend>
+<p style="color:#555;font-size:14px;margin:4px 0">Families join us from many time zones — tell us yours, and we will work out the times together. All times below are your local time.</p>
+<label>Your time zone<br><select id="f-tz" style="width:92%"><option>Vancouver (Pacific Time)</option><option>Toronto / Ottawa / Montreal (Eastern Time)</option><option>Calgary / Edmonton (Mountain Time)</option><option>Winnipeg (Central Time)</option><option>Halifax (Atlantic Time)</option><option>Beijing / Shanghai (China Time)</option><option>Hong Kong</option><option>Singapore</option><option>London (UK)</option><option>Sydney (Australia)</option><option>Other (please write it below)</option></select></label><br>
+<label style="display:block;margin-top:6px">Days — pick all that work</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="f-day" value="Monday"> Monday</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="f-day" value="Tuesday"> Tuesday</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="f-day" value="Wednesday"> Wednesday</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="f-day" value="Thursday"> Thursday</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="f-day" value="Friday"> Friday</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="f-day" value="Saturday"> Saturday</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="f-day" value="Sunday"> Sunday</label>
+<label style="display:block;margin-top:6px">Times of day — pick all that work</label>
+<label style="display:block"><input type="checkbox" class="f-slot" value="Morning (8-11 AM)"> Morning (8-11 AM)</label>
+<label style="display:block"><input type="checkbox" class="f-slot" value="Midday (11 AM-2 PM)"> Midday (11 AM-2 PM)</label>
+<label style="display:block"><input type="checkbox" class="f-slot" value="Afternoon (2-5 PM)"> Afternoon (2-5 PM)</label>
+<label style="display:block"><input type="checkbox" class="f-slot" value="Evening (5-8 PM)"> Evening (5-8 PM)</label>
+<label style="display:block"><input type="checkbox" class="f-slot" value="Night (8-10 PM)"> Night (8-10 PM)</label>
+<label>Exact times (optional)<br><input id="f-time-other" type="text" placeholder="e.g. Tuesday and Thursday 4-5 PM" style="width:90%"></label>
+</fieldset>
 <label>Anything else?<br><textarea id="f-note" rows="3" placeholder="e.g. My child struggles most with speaking, twice a week" style="width:90%"></textarea></label><br>
 <p><button class="bigbtn" type="button" id="send">Send to Lily Fun Learning</button></p>
 </div>
@@ -960,7 +1023,26 @@ footer{margin-top:24px;color:#666;font-size:14px}
 <label>Subjects and grades you can teach<br><input id="st-subj" type="text" placeholder="e.g. Math up to Grade 6, reading" style="width:90%"></label><br>
 <label>Languages<br><input id="st-lang" type="text" placeholder="e.g. English, French" style="width:90%"></label><br>
 <label>Online or in person<br><select id="st-mode" style="width:92%"><option>Online</option><option>In person</option><option>Either</option></select></label><br>
-<label>Times you are free<br><input id="st-time" type="text" placeholder="e.g. Weekday evenings, Saturday morning" style="width:90%"></label><br>
+<fieldset style="border:1px solid #ccc;border-radius:8px;padding:10px;margin:6px 0"><legend>When are you free? — pick all that work</legend>
+<p style="color:#555;font-size:14px;margin:4px 0">Families join us from many time zones — tell us yours, and we will work out the times together. All times below are your local time.</p>
+<label>Your time zone<br><select id="st-tz" style="width:92%"><option>Vancouver (Pacific Time)</option><option>Toronto / Ottawa / Montreal (Eastern Time)</option><option>Calgary / Edmonton (Mountain Time)</option><option>Winnipeg (Central Time)</option><option>Halifax (Atlantic Time)</option><option>Beijing / Shanghai (China Time)</option><option>Hong Kong</option><option>Singapore</option><option>London (UK)</option><option>Sydney (Australia)</option><option>Other (please write it below)</option></select></label><br>
+<label style="display:block;margin-top:6px">Days — pick all that work</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="st-day" value="Monday"> Monday</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="st-day" value="Tuesday"> Tuesday</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="st-day" value="Wednesday"> Wednesday</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="st-day" value="Thursday"> Thursday</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="st-day" value="Friday"> Friday</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="st-day" value="Saturday"> Saturday</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="st-day" value="Sunday"> Sunday</label>
+<label style="display:block;margin-top:6px">Times of day — pick all that work</label>
+<label style="display:block"><input type="checkbox" class="st-slot" value="Morning (8-11 AM)"> Morning (8-11 AM)</label>
+<label style="display:block"><input type="checkbox" class="st-slot" value="Midday (11 AM-2 PM)"> Midday (11 AM-2 PM)</label>
+<label style="display:block"><input type="checkbox" class="st-slot" value="Afternoon (2-5 PM)"> Afternoon (2-5 PM)</label>
+<label style="display:block"><input type="checkbox" class="st-slot" value="Evening (5-8 PM)"> Evening (5-8 PM)</label>
+<label style="display:block"><input type="checkbox" class="st-slot" value="Night (8-10 PM)"> Night (8-10 PM)</label>
+<label>Exact times (optional)<br><input id="st-time-other" type="text" placeholder="e.g. Tuesday and Thursday 4-5 PM" style="width:90%"></label>
+</fieldset>
+
 <label>Hours per week<br><input id="st-hours" type="text" placeholder="e.g. 2 hours" style="width:90%"></label><br>
 <label>Expected pay<br><input id="st-pay" type="text" placeholder="e.g. $20/hour" style="width:90%"></label><br>
 <label>About yourself<br><textarea id="st-about" rows="3" placeholder="e.g. I love reading and I help my little brother with his homework" style="width:90%"></textarea></label><br>
@@ -974,7 +1056,26 @@ footer{margin-top:24px;color:#666;font-size:14px}
 <label>Your child's grade<br><input id="sp-grade" type="text" placeholder="e.g. Grade 3" style="width:90%"></label><br>
 <label>Subject<br><input id="sp-subj" type="text" placeholder="e.g. Math, reading" style="width:90%"></label><br>
 <label>Online or in person<br><select id="sp-mode" style="width:92%"><option>Online</option><option>In person</option><option>Either</option></select></label><br>
-<label>Preferred times<br><input id="sp-time" type="text" placeholder="e.g. Weekday evenings" style="width:90%"></label><br>
+<fieldset style="border:1px solid #ccc;border-radius:8px;padding:10px;margin:6px 0"><legend>When are you free? — pick all that work</legend>
+<p style="color:#555;font-size:14px;margin:4px 0">Families join us from many time zones — tell us yours, and we will work out the times together. All times below are your local time.</p>
+<label>Your time zone<br><select id="sp-tz" style="width:92%"><option>Vancouver (Pacific Time)</option><option>Toronto / Ottawa / Montreal (Eastern Time)</option><option>Calgary / Edmonton (Mountain Time)</option><option>Winnipeg (Central Time)</option><option>Halifax (Atlantic Time)</option><option>Beijing / Shanghai (China Time)</option><option>Hong Kong</option><option>Singapore</option><option>London (UK)</option><option>Sydney (Australia)</option><option>Other (please write it below)</option></select></label><br>
+<label style="display:block;margin-top:6px">Days — pick all that work</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="sp-day" value="Monday"> Monday</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="sp-day" value="Tuesday"> Tuesday</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="sp-day" value="Wednesday"> Wednesday</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="sp-day" value="Thursday"> Thursday</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="sp-day" value="Friday"> Friday</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="sp-day" value="Saturday"> Saturday</label>
+<label style="display:inline-block;margin-right:12px"><input type="checkbox" class="sp-day" value="Sunday"> Sunday</label>
+<label style="display:block;margin-top:6px">Times of day — pick all that work</label>
+<label style="display:block"><input type="checkbox" class="sp-slot" value="Morning (8-11 AM)"> Morning (8-11 AM)</label>
+<label style="display:block"><input type="checkbox" class="sp-slot" value="Midday (11 AM-2 PM)"> Midday (11 AM-2 PM)</label>
+<label style="display:block"><input type="checkbox" class="sp-slot" value="Afternoon (2-5 PM)"> Afternoon (2-5 PM)</label>
+<label style="display:block"><input type="checkbox" class="sp-slot" value="Evening (5-8 PM)"> Evening (5-8 PM)</label>
+<label style="display:block"><input type="checkbox" class="sp-slot" value="Night (8-10 PM)"> Night (8-10 PM)</label>
+<label>Exact times (optional)<br><input id="sp-time-other" type="text" placeholder="e.g. Tuesday and Thursday 4-5 PM" style="width:90%"></label>
+</fieldset>
+
 <label>Parent's name<br><input id="sp-name" type="text" placeholder="e.g. Mary" style="width:90%"></label><br>
 <label>Parent's contact (phone or email)<br><input id="sp-contact" type="text" placeholder="e.g. 604-xxx-xxxx or email" style="width:90%"></label><br>
 <p><button class="bigbtn" type="button" id="sp-send">Send to Lily Fun Learning</button></p>
@@ -1016,6 +1117,7 @@ function showMsg(title,subj,body){document.getElementById('md-title').textConten
 function askPrice(name){showMsg('Ask about price','Price enquiry: '+name,'Hi Mia,\n\nCould you tell me the price for lessons with '+name+'?\n\nThank you!');}
 function closeMsg(){document.getElementById('msgDlg').style.display='none';}
 function copyMsg(){var t=document.getElementById('md-msg');t.focus();t.select();var done=function(){alert('Message copied. Paste it into your email app and send it to mia.lilyfunlearning@gmail.com.');};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,function(){try{document.execCommand('copy');}catch(e){}done();});}else{try{document.execCommand('copy');}catch(e){}done();}}
+function timeBlock(p){var tz=document.getElementById(p+'-tz').value;var d=[];document.querySelectorAll('.'+p+'-day:checked').forEach(function(c){d.push(c.value);});var t=[];document.querySelectorAll('.'+p+'-slot:checked').forEach(function(c){t.push(c.value);});var o=document.getElementById(p+'-time-other').value;var parts=['Time zone: '+tz];if(d.length)parts.push('Days: '+d.join(', '));if(t.length)parts.push('Times: '+t.join(', '));if(o)parts.push('Exact times: '+o);return parts.join('; ');}
 function show(id){for(const x of ['home','reading','leadership','teacherled','tutors','studenttutors','forteachers']){document.getElementById(x).style.display=(x===id)?'':'none';}window.scrollTo(0,0);}
 const q=document.getElementById('q'),s=document.getElementById('s'),grid=document.getElementById('grid'),count=document.getElementById('count');
 let shown=12;function f(){let total=0,vis=0;for(const c of grid.children){const okQ=!q.value||c.dataset.text.includes(q.value.toLowerCase());const okS=!s.value||c.dataset.subj.includes(s.value);if(okQ&&okS){total++;if(vis<shown){c.style.display='';vis++;}else{c.style.display='none';}}else{c.style.display='none';}}count.textContent=vis+' of '+total+' shown';document.getElementById('more').style.display=(vis<total)?'':'none';}function setChip(v){document.querySelectorAll('#chips .chip').forEach(function(b){b.classList.toggle('on',b.dataset.v===v);});}
@@ -1027,7 +1129,7 @@ document.getElementById('cta').addEventListener('click',openForm);
 document.getElementById('send').addEventListener('click',function(){
 var g=document.getElementById('f-grade').value,su=document.getElementById('f-subj').value,mo=document.getElementById('f-mode').value,na=document.getElementById('f-name').value,co=document.getElementById('f-contact').value,no=document.getElementById('f-note').value;
 if(!su||!co){alert('Please fill in at least the subject and your contact, so we can reply.');return;}
-var body="Child's grade: "+g+"\nSubject needed: "+su+"\nOnline / in person: "+mo+"\nParent's name: "+na+"\nContact: "+co+"\nNote: "+no;
+var body="Child's grade: "+g+"\nSubject needed: "+su+"\nOnline / in person: "+mo+"\nParent's name: "+na+"\nContact: "+co+"\nWhen: "+timeBlock('f')+"\nNote: "+no;
 showMsg('Your message is ready','Find a tutor: '+su+' '+g,body);
 });
 document.getElementById('t-send').addEventListener('click',function(){
@@ -1039,40 +1141,40 @@ showMsg('Your message is ready','Teacher application: '+na+' — '+su,body);
 document.getElementById('r-send').addEventListener('click',function(){
 var la=document.getElementById('r-lang').value,g=document.getElementById('r-grade').value,na=document.getElementById('r-name').value,co=document.getElementById('r-contact').value,no=document.getElementById('r-note').value;
 if(!co){alert('Please fill in your contact, so we can reply.');return;}
-var tm=[];document.querySelectorAll('.r-time:checked').forEach(function(c){tm.push(c.value);});var to=document.getElementById('r-time-other').value;if(to)tm.push('Other: '+to);
-var body="Language: "+la+"\nGrade or level: "+g+"\nPreferred times: "+(tm.join(", ")||"Not stated")+"\nName: "+na+"\nContact: "+co+"\nNote: "+no;
+var tm=timeBlock('r');
+var body="Language: "+la+"\nGrade or level: "+g+"\nPreferred times: "+tm+"\nName: "+na+"\nContact: "+co+"\nNote: "+no;
 showMsg('Your message is ready','Join Teacher-Led Reading: '+la,body);
 });
 document.getElementById('l-send').addEventListener('click',function(){
 var g=document.getElementById('l-grade').value,le=document.getElementById('l-lead').value,na=document.getElementById('l-name').value,co=document.getElementById('l-contact').value,no=document.getElementById('l-note').value;
 if(!co){alert('Please fill in your contact, so we can reply.');return;}
-var tm=[];document.querySelectorAll('.l-time:checked').forEach(function(c){tm.push(c.value);});var to=document.getElementById('l-time-other').value;if(to)tm.push('Other: '+to);
-var body="Child's grade: "+g+"\nWould like to lead: "+le+"\nPreferred times: "+(tm.join(", ")||"Not stated")+"\nParent's name: "+na+"\nContact: "+co+"\nNote: "+no;
+var tm=timeBlock('l');
+var body="Child's grade: "+g+"\nWould like to lead: "+le+"\nPreferred times: "+tm+"\nParent's name: "+na+"\nContact: "+co+"\nNote: "+no;
 showMsg('Your message is ready','Join Leadership Academy',body);
 });
 document.getElementById('g-send').addEventListener('click',function(){
 var id=document.getElementById('g-idea').value,dd=document.getElementById('g-do').value,wh=document.getElementById('g-who').value,na=document.getElementById('g-name').value,co=document.getElementById('g-contact').value;
 if(!id||!co){alert('Please fill in at least your group idea and your parent contact, so we can reply.');return;}
-var tm=[];document.querySelectorAll('.g-time:checked').forEach(function(c){tm.push(c.value);});var to=document.getElementById('g-time-other').value;if(to)tm.push('Other: '+to);
-var body="Group idea: "+id+"\nWhat we will do together: "+dd+"\nWho should join: "+wh+"\nPreferred times: "+(tm.join(", ")||"Not stated")+"\nName and grade: "+na+"\nParent contact: "+co;
+var tm=timeBlock('g');
+var body="Group idea: "+id+"\nWhat we will do together: "+dd+"\nWho should join: "+wh+"\nPreferred times: "+tm+"\nName and grade: "+na+"\nParent contact: "+co;
 showMsg('Your message is ready','Start a group: '+id,body);
 });
 document.getElementById('j-send').addEventListener('click',function(){
-var gr=document.getElementById('j-group').value,g=document.getElementById('j-grade').value,na=document.getElementById('j-name').value,co=document.getElementById('j-contact').value,no=document.getElementById('j-note').value;var tm=[];document.querySelectorAll('.j-time:checked').forEach(function(c){tm.push(c.value);});var to=document.getElementById('j-time-other').value;if(to)tm.push('Other: '+to);
+var gr=document.getElementById('j-group').value,g=document.getElementById('j-grade').value,na=document.getElementById('j-name').value,co=document.getElementById('j-contact').value,no=document.getElementById('j-note').value;var tm=timeBlock('j');
 if(!co){alert('Please fill in your contact, so we can reply.');return;}
-var body="Group: "+gr+"\nPreferred times: "+(tm.join(", ")||"Not stated")+"\nChild's grade: "+g+"\nParent's name: "+na+"\nContact: "+co+"\nNote: "+no;
+var body="Group: "+gr+"\nPreferred times: "+tm+"\nChild's grade: "+g+"\nParent's name: "+na+"\nContact: "+co+"\nNote: "+no;
 showMsg('Your message is ready','Join Student-Led Reading Club: '+gr,body);
 });
 document.getElementById('st-send').addEventListener('click',function(){
-var na=document.getElementById('st-name').value,gr=document.getElementById('st-grade').value,sc=document.getElementById('st-school').value,su=document.getElementById('st-subj').value,la=document.getElementById('st-lang').value,mo=document.getElementById('st-mode').value,ti=document.getElementById('st-time').value,ho=document.getElementById('st-hours').value,pa=document.getElementById('st-pay').value,ab=document.getElementById('st-about').value,pn=document.getElementById('st-parent').value,pc=document.getElementById('st-pcontact').value;
+var na=document.getElementById('st-name').value,gr=document.getElementById('st-grade').value,sc=document.getElementById('st-school').value,su=document.getElementById('st-subj').value,la=document.getElementById('st-lang').value,mo=document.getElementById('st-mode').value,ho=document.getElementById('st-hours').value,pa=document.getElementById('st-pay').value,ab=document.getElementById('st-about').value,pn=document.getElementById('st-parent').value,pc=document.getElementById('st-pcontact').value;
 if(!na||!gr||!pc){alert('Please fill in at least your name, your grade and your parent contact, so we can reply.');return;}
-var body="Name: "+na+"\nGrade: "+gr+"\nSchool: "+sc+"\nSubjects and grades I can teach: "+su+"\nLanguages: "+la+"\nOnline / in person: "+mo+"\nTimes: "+ti+"\nHours per week: "+ho+"\nExpected pay: "+pa+"\nAbout me: "+ab+"\nParent's name: "+pn+"\nParent contact: "+pc;
+var body="Name: "+na+"\nGrade: "+gr+"\nSchool: "+sc+"\nSubjects and grades I can teach: "+su+"\nLanguages: "+la+"\nOnline / in person: "+mo+"\nWhen: "+timeBlock('st')+"\nHours per week: "+ho+"\nExpected pay: "+pa+"\nAbout me: "+ab+"\nParent's name: "+pn+"\nParent contact: "+pc;
 showMsg('Your message is ready','Become a Student Tutor: '+na,body);
 });
 document.getElementById('sp-send').addEventListener('click',function(){
-var g=document.getElementById('sp-grade').value,su=document.getElementById('sp-subj').value,mo=document.getElementById('sp-mode').value,ti=document.getElementById('sp-time').value,na=document.getElementById('sp-name').value,co=document.getElementById('sp-contact').value;
+var g=document.getElementById('sp-grade').value,su=document.getElementById('sp-subj').value,mo=document.getElementById('sp-mode').value,na=document.getElementById('sp-name').value,co=document.getElementById('sp-contact').value;
 if(!co){alert('Please fill in your contact, so we can reply.');return;}
-var body="Child's grade: "+g+"\nSubject: "+su+"\nOnline / in person: "+mo+"\nTimes: "+ti+"\nParent's name: "+na+"\nContact: "+co;
+var body="Child's grade: "+g+"\nSubject: "+su+"\nOnline / in person: "+mo+"\nWhen: "+timeBlock('sp')+"\nParent's name: "+na+"\nContact: "+co;
 showMsg('Your message is ready','Find a Student Tutor: '+su+' '+g,body);
 });
 </script></body></html>
