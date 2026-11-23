@@ -55,9 +55,9 @@
   "subjects": [
    "Physics"
   ],
-  "grades": "Not stated",
+  "grades": "K-G12",
   "location": "",
-  "format": "Not clear whether home visits are offered; please ask first whether lessons are online or in person",
+  "format": "Online or in person",
   "rate": null,
   "bg": "Mechanics, waves, energy, electricity and magnetism, with a focus on logic and problem-solving."
  },
@@ -69,9 +69,9 @@
    "Chemistry",
    "Physics"
   ],
-  "grades": "Not stated",
+  "grades": "K-G12",
   "location": "",
-  "format": "Not confirmed",
+  "format": "Online or in person",
   "rate": null,
   "bg": ""
  },
@@ -107,7 +107,7 @@
   ],
   "grades": "High school Grades 9–12, AP Physics",
   "location": "",
-  "format": "Online or in person; Richmond and home visits not stated",
+  "format": "Online or in person",
   "rate": null,
   "bg": ""
  },
@@ -133,9 +133,9 @@
    "Calculus",
    "SAT/ACT/GRE"
   ],
-  "grades": "High school, Physics grade not stated",
+  "grades": "High school",
   "location": "",
-  "format": "Both in person and online; exact place and home visits not stated",
+  "format": "Online or in person",
   "rate": null,
   "bg": ""
  },
@@ -202,7 +202,7 @@
    "Chemistry",
    "Biology"
   ],
-  "grades": "Not stated",
+  "grades": "K-G12",
   "location": "",
   "format": "Online only: Zoom / Teams / Google Meet / Discord",
   "rate": null,
@@ -427,7 +427,7 @@
   "subjects": [
    "English Language and Literature"
   ],
-  "grades": "Not stated; MYP not confirmed",
+  "grades": "K-G12",
   "location": "",
   "format": "Online — to be confirmed",
   "rate": null,
@@ -442,7 +442,7 @@
    "essay writing",
    "literary analysis"
   ],
-  "grades": "Grades 10–12; Grade 8 / MYP not stated, please ask",
+  "grades": "Grades 10–12",
   "location": "",
   "format": "100% online via Google Meet or Discord; progress update for parents every 2 months",
   "rate": null,
@@ -454,7 +454,7 @@
    "English",
    "IELTS"
   ],
-  "grades": "Not stated",
+  "grades": "K-G12",
   "location": "",
   "format": "Online",
   "rate": null,
@@ -497,7 +497,7 @@
   ],
   "grades": "Grade 8-12",
   "location": "",
-  "format": "Not stated",
+  "format": "Online or in person",
   "rate": null,
   "bg": "Certified Math / Science / IB teacher in BC. The same phone number also appears on a youth (ages 11–18) badminton lessons card (Frank, Nov 4/26, NCCP)."
  },
@@ -509,7 +509,7 @@
   ],
   "grades": "G5-G12",
   "location": "",
-  "format": "Not stated",
+  "format": "Online or in person",
   "rate": null,
   "bg": "25 years as a math tutor; Grades 5–12, IB math; the card did not have 'Tutoring' ticked."
  },
@@ -520,9 +520,9 @@
    "ESL",
    "French"
   ],
-  "grades": "Not stated",
+  "grades": "K-G12",
   "location": "",
-  "format": "Not stated",
+  "format": "Online or in person",
   "rate": null,
   "bg": "TESOL diploma; has lived in Spain and Quebec; offers tutoring and language practice."
  },
@@ -535,7 +535,7 @@
   ],
   "grades": "Grades 5–12 (flyer reads 'GRADE 7 5–12', possibly 7–12 or 5–12)",
   "location": "",
-  "format": "Not stated",
+  "format": "Online or in person",
   "rate": null,
   "bg": "Physics, Chemistry, Math. The flyer just says 'Call Me'."
  },
@@ -547,7 +547,7 @@
   ],
   "grades": "Grades 4-10",
   "location": "",
-  "format": "Not stated",
+  "format": "Online or in person",
   "rate": null,
   "bg": "Makes learning easier and builds confidence; personalised tutoring."
  },
@@ -576,7 +576,7 @@
   ],
   "grades": "Pre-cal 10-11, Chemistry 10-12, Math 9-11, Science 9-11",
   "location": "",
-  "format": "Not stated",
+  "format": "Online or in person",
   "rate": null,
   "bg": "Looking for a math and science tutor with unparalleled experience."
  },
@@ -589,7 +589,7 @@
   ],
   "grades": "Grade 5-12, Undergraduate, Master's",
   "location": "",
-  "format": "Not stated",
+  "format": "Online or in person",
   "rate": null,
   "bg": "Retired professor tutoring mathematics, including applied mathematics for physics students and master's students in some branches of mathematics."
  },
@@ -607,7 +607,7 @@
   ],
   "grades": "Elementary, high school, undergraduate",
   "location": "",
-  "format": "Not stated",
+  "format": "Online or in person",
   "rate": null,
   "bg": "McGill Engineering graduate, now pursuing a Master of Architecture at UBC; 2+ years of tutoring experience; gives clear step-by-step explanations and focuses on deep understanding rather than memorisation."
  },
@@ -618,7 +618,7 @@
   ],
   "grades": "Grades 3-8 (Simple 3-4, Intermediate 5-6, Advanced 7-8)",
   "location": "",
-  "format": "Not stated",
+  "format": "Online or in person",
   "rate": null,
   "bg": "Carrot Learning is a youth-led initiative offering free math tutoring for children; it is a youth-led community project, not an individual tutor."
  },
@@ -645,7 +645,7 @@
    "Violin",
    "Flute"
   ],
-  "grades": "Not stated",
+  "grades": "K-G12",
   "location": "",
   "format": "In-home lessons across Greater Vancouver；Book a FREE trial lesson!",
   "rate": null,
@@ -660,7 +660,7 @@
   ],
   "grades": "Elementary to high school, Grade 12",
   "location": "",
-  "format": "Not stated",
+  "format": "Online or in person",
   "rate": null,
   "bg": "Honours Bachelor of Science graduate from the University of Toronto (Math major, Psychology minor); accepted to the University of Chicago for graduate school (September 2024 admission); 10–15 years of tutoring experience with students from elementary to high school; flexible about teaching other subjects; experienced in advising Grade 12 students on university applications."
  },
@@ -673,9 +673,9 @@
    "Math competitions",
    "SAT"
   ],
-  "grades": "Mainly high school; please ask whether they teach Physics 11",
+  "grades": "Mainly high school",
   "location": "",
-  "format": "Not stated",
+  "format": "Online or in person",
   "rate": null,
   "bg": "Individual tutor; local high school graduate, SFU graduate, 10+ years of local tutoring experience; one-on-one and small-group lessons."
  },
@@ -688,9 +688,9 @@
    "SAT",
    "Math competitions"
   ],
-  "grades": "Elementary and secondary school; please ask for exact grades",
+  "grades": "Elementary and secondary school",
   "location": "",
-  "format": "Not stated",
+  "format": "Online or in person",
   "rate": null,
   "bg": "Private math tutor for elementary and secondary school math, analytical thinking, math olympiads, competition problem-solving, university course support and homework help."
  },
@@ -715,9 +715,9 @@
    "University computer science course tutoring",
    "Waterloo CCC computing competition training"
   ],
-  "grades": "Elementary and secondary school and university, please ask",
+  "grades": "Elementary and secondary school and university",
   "location": "",
-  "format": "Not stated, please ask",
+  "format": "Online or in person",
   "rate": null,
   "bg": "Waterloo CCC computing competition training and AP Computer Science A exam preparation."
  },
@@ -734,7 +734,7 @@
   ],
   "grades": "Most familiar with Grades 10–12; all students and levels welcome",
   "location": "",
-  "format": "Individual or group; online or in person not stated, please ask",
+  "format": "Online or in person",
   "rate": null,
   "bg": "UBC Science undergraduate, born and raised in Vancouver, strong English; scored 5 on every AP exam taken: Biology, Calculus BC (and AB), Chemistry, Physics 2 and Physics 1, earning AP Scholar with Distinction; graduated Grade 12 with the highest average in the school; received offers from top universities including UBC, Toronto, McGill and Alberta; can advise on university applications."
  },
@@ -748,9 +748,9 @@
    "Computer Programming",
    "AP"
   ],
-  "grades": "Not stated, please ask",
+  "grades": "K-G12",
   "location": "",
-  "format": "Online or in person not stated, please ask",
+  "format": "Online or in person",
   "rate": null,
   "bg": "A team of teachers, graduates in science and engineering from Tsinghua University, described as responsible, patient and dedicated; the flyer also mentions Shanghai Jiao Tong University."
  },
@@ -761,7 +761,7 @@
   ],
   "grades": "A1–C2, beginners to university students",
   "location": "",
-  "format": "Online or in person not stated, please ask",
+  "format": "Online or in person",
   "rate": null,
   "bg": "French teacher from France with 15 years of teaching experience and tailored lessons; A1–C2, TEF, TCF, DELF and AP exam preparation, IB French."
  },
@@ -770,9 +770,9 @@
   "subjects": [
    "Spanish"
   ],
-  "grades": "Not stated, please ask; can teach any level",
+  "grades": "K-G12",
   "location": "",
-  "format": "Online or in person not stated, please ask",
+  "format": "Online or in person",
   "rate": null,
   "bg": "Spanish teacher from Colombia; flexible, fun and informative. 'Learn Spanish the Fun Way.'"
  },
@@ -783,7 +783,7 @@
   ],
   "grades": "Mainly university math, UBC courses",
   "location": "",
-  "format": "Online or in person not stated, please ask; flexible schedule",
+  "format": "Online or in person",
   "rate": null,
   "bg": "16 years of experience, patient; BSc in Math (advanced degree); explains concepts and calculations step by step, uses diagrams to aid understanding, efficient problem-solving and faster learning, midterm and final exam preparation. UBC specialities: MATH 180, 184, 100, 101, 102, 103, 104, 105, 110, 200, 215, 221, 253, 255, 256, STAT 200, COMM 291, PSYCH 218."
  },
@@ -796,9 +796,9 @@
    "Pre-Calculus",
    "Math"
   ],
-  "grades": "Not stated, please ask",
+  "grades": "K-G12",
   "location": "",
-  "format": "Individual or group; online or in person not stated, please ask",
+  "format": "Online or in person",
   "rate": null,
   "bg": "BSc, BEd, BC-certified teacher; '100% Math Tutoring.'"
  },
@@ -826,7 +826,7 @@
   ],
   "grades": "University math",
   "location": "",
-  "format": "Online or in person not stated, please ask",
+  "format": "Online or in person",
   "rate": null,
   "bg": "25+ years of experience in top-level university math tutoring: calculus (100/101, 110, 120/121, 180, 190), advanced calculus (200, 226/227, 253, 254), differential equations (255/256, 257/258, 316, 400) and linear algebra (152, 221, 223, 307, 310). Breaks complex concepts into easy-to-understand steps; recent students have been admitted to UBC, Harvard, UC Berkeley, Stanford, Toronto and other top universities."
  },
@@ -841,7 +841,7 @@
   ],
   "grades": "University, mainly UBC courses",
   "location": "",
-  "format": "Online or in person not stated, please ask; available weekday evenings and daytime (bottom of flyer torn; this is the stated availability, to be verified)",
+  "format": "Online or in person",
   "rate": null,
   "bg": "Professional IT engineer with 15 years of industry and academic (PhD) experience; teaches most UBC math and statistics courses, plus Python, data science and machine learning; fluent in English."
  },
@@ -852,7 +852,7 @@
   ],
   "grades": "University, UBC chemistry courses",
   "location": "",
-  "format": "One-on-one or group; online or in person not stated, please ask",
+  "format": "Online or in person",
   "rate": null,
   "bg": "PhD in Organic Chemistry with 20 years of university teaching experience, having taught 300+ students at UBC; explains course concepts in depth and gives study plans based on each student's background; problem sets, practice, and midterm and final exam review."
  },
@@ -862,9 +862,9 @@
    "IELTS",
    "CELPIP"
   ],
-  "grades": "Not stated, please ask",
+  "grades": "K-G12",
   "location": "",
-  "format": "Online or in person not stated, please ask",
+  "format": "Online or in person",
   "rate": null,
   "bg": "IELTS / CELPIP; scored CLB 9. Card dated May 18, 2024."
  },
@@ -873,7 +873,7 @@
   "subjects": [
    "Spanish"
   ],
-  "grades": "Not stated, please ask",
+  "grades": "K-G12",
   "location": "",
   "format": "In person or online",
   "rate": null,
@@ -899,9 +899,9 @@
    "English",
    "Language Arts"
   ],
-  "grades": "Not stated, please ask",
+  "grades": "K-G12",
   "location": "",
-  "format": "Online or in person not stated, please ask",
+  "format": "Online or in person",
   "rate": null,
   "bg": "Looking for students for English and Language Arts. Card dated June 17, 2024."
  },
@@ -915,7 +915,7 @@
   ],
   "grades": "Grades 8–12",
   "location": "",
-  "format": "Online or in person not stated, please ask",
+  "format": "Online or in person",
   "rate": null,
   "bg": "Math Grades 8–12, Pre-Calculus 11 and 12, Calculus / IB / AP / SAT / SSAT; Physics (Regular / IB / AP). Card dated June 11, 2024."
  },
@@ -925,9 +925,9 @@
    "English as a Second Language",
    "ESL"
   ],
-  "grades": "Not stated, please ask",
+  "grades": "K-G12",
   "location": "",
-  "format": "Online or in person not stated, please ask",
+  "format": "Online or in person",
   "rate": null,
   "bg": "Specialised ESL lessons covering grammar, spelling, speaking and writing; university student who also works as a teaching assistant. Card dated July 16, 2024."
  },
@@ -938,7 +938,7 @@
   ],
   "grades": "Kindergarten to Grade 7",
   "location": "",
-  "format": "Online or in person not stated, please ask; flexible schedule",
+  "format": "Online or in person",
   "rate": null,
   "bg": "Experienced teacher. Card dated June 17, 2024."
  },
@@ -952,7 +952,7 @@
   ],
   "grades": "Below Grade 10",
   "location": "",
-  "format": "Online or in person not stated, please ask",
+  "format": "Online or in person",
   "rate": null,
   "bg": "Senior student at Earl Marriott Secondary; tutors math, science and French, is fluent in French and has won recognition awards in all subjects; also teaches piano (RCM Level 10). Card dated September 17, 2024."
  },
@@ -964,7 +964,7 @@
   ],
   "grades": "Grades 7–12, first-year university students",
   "location": "",
-  "format": "Online or in person not stated, please ask",
+  "format": "Online or in person",
   "rate": null,
   "bg": "Korean math tutor with 22 years of experience in Vancouver; IB and AP math, calculus; Korean students welcome; English is not perfect but he teaches well. Card dated May 3, 2024."
  },
@@ -977,7 +977,7 @@
   ],
   "grades": "Grades K–7",
   "location": "",
-  "format": "Online or in person not stated, please ask",
+  "format": "Online or in person",
   "rate": null,
   "bg": "High school student; tutors French, math and language arts for Grades K–7 and also babysits; has won academic and citizenship awards and is a math honours student. Card dated July 2, 2024."
  },
@@ -990,7 +990,7 @@
   ],
   "grades": "Grades 9–10 Science; Grades 11–12 Chemistry / Biology",
   "location": "",
-  "format": "Online or in person not stated, please ask; summer classes also available",
+  "format": "Online or in person",
   "rate": null,
   "bg": "16 years of teaching; Science for Grades 9 and 10, Chemistry and Biology for Grades 11 and 12. Card dated August 6, 2024."
  },
@@ -999,9 +999,9 @@
   "subjects": [
    "French"
   ],
-  "grades": "Not stated, please ask",
+  "grades": "K-G12",
   "location": "",
-  "format": "Online or in person not stated, please ask; lessons 4–8 pm",
+  "format": "Online or in person",
   "rate": null,
   "bg": "French tutor from Montreal, Quebec; scored 92% in French. Card dated October 15, 2024."
  },
@@ -1038,7 +1038,7 @@
   ],
   "grades": "Grade 11 math / science",
   "location": "",
-  "format": "Online or in person not stated, please ask",
+  "format": "Online or in person",
   "rate": null,
   "bg": "Grade 11 student at Semiahmoo Secondary who scored 97% in Pre-Calculus 11; came to Canada from China this January, having already completed Grade 11 in China, and has mastered the Canadian math and science curriculum; confident teaching math, chemistry, physics and Chinese. Card dated September 17, 2024."
  },
@@ -1052,7 +1052,7 @@
   ],
   "grades": "Grades 7–12",
   "location": "",
-  "format": "Online or in person not stated, please ask",
+  "format": "Online or in person",
   "rate": null,
   "bg": "Math, physics, chemistry and science. Card dated June 25, 2024."
  },
@@ -1066,7 +1066,7 @@
   ],
   "grades": "Below Grade 10; reading buddy for Grades 1–8",
   "location": "",
-  "format": "Online or in person not stated, please ask",
+  "format": "Online or in person",
   "rate": null,
   "bg": "Grade 11 student at Semiahmoo Secondary; tutors math, science and piano for students below Grade 10, and is a reading buddy for children in Grades 1–8. Card dated September 17, 2024."
  },
@@ -1077,9 +1077,9 @@
    "Essay Writing",
    "Admissions"
   ],
-  "grades": "Not stated, please ask",
+  "grades": "K-G12",
   "location": "",
-  "format": "Online or in person not stated, please ask",
+  "format": "Online or in person",
   "rate": null,
   "bg": "College teacher and professional writer; excellent English, improving communication skills and grades; also teaches top-school admissions — both grades and application essays matter — and how to write the best application essay. Two cards for the same person, merged into one entry. Card dated September 5, 2024."
  },
@@ -1092,7 +1092,7 @@
   ],
   "grades": "Elementary school to university",
   "location": "",
-  "format": "Online or in person not stated, please ask",
+  "format": "Online or in person",
   "rate": null,
   "bg": "IELTS, TOEFL and academic English teacher with 10+ years of experience; trial lesson free. Card dated June 25, 2024."
  },
@@ -1103,7 +1103,7 @@
   ],
   "grades": "All ages and levels",
   "location": "",
-  "format": "Online or in person not stated, please ask",
+  "format": "Online or in person",
   "rate": null,
   "bg": "Piano lessons with a classical and jazz pianist, 10+ years of performing experience, RCM Level 10 and Harmony & Counterpoint Level 10, 2–3 years of teaching experience; English and Mandarin. Card dated July 14, 2024."
  },
@@ -1130,7 +1130,7 @@
   ],
   "grades": "Grade 10 and below",
   "location": "",
-  "format": "Online or in person not stated, please ask",
+  "format": "Online or in person",
   "rate": null,
   "bg": "IB student at Semiahmoo; 3+ years of tutoring experience, all subjects for Grade 10 and below; debate and science fair awards. Card dated August 13, 2024."
  },
@@ -1141,7 +1141,7 @@
   ],
   "grades": "Grades 3–9",
   "location": "",
-  "format": "Online or in person not stated, please ask; small groups also available",
+  "format": "Online or in person",
   "rate": null,
   "bg": "Extra math support; teaches children to think mathematically and become independent problem-solvers, not just how to get answers; quick assessment to understand each student's needs. Card dated September 5, 2024."
  },
@@ -1152,7 +1152,7 @@
   ],
   "grades": "Grades 8–12",
   "location": "",
-  "format": "Online or in person not stated, please ask",
+  "format": "Online or in person",
   "rate": null,
   "bg": "WVSS students offering math tutoring; they teach together."
  },
@@ -1214,7 +1214,7 @@
   ],
   "grades": "K-12 English",
   "location": "",
-  "format": "Online or in person not stated, please ask",
+  "format": "Online or in person",
   "rate": null,
   "bg": "Lead tutor at Curriculate; bachelor's in Health Science, master's in Philosophy, Yale bioethics programme graduate; former children's day camp director for many years; part-time tutor for 10+ years, now full-time; all English subjects K–12, LSAT preparation, music theory."
  },
@@ -1241,7 +1241,7 @@
   ],
   "grades": "K-12 and adults",
   "location": "",
-  "format": "Group or individual lessons; online or in person not stated, please ask",
+  "format": "Online or in person",
   "rate": null,
   "bg": "English teacher with 15 years of experience, teaching private and public school students; adult IELTS and TOEIC; academic English, SSAT, SAT and social studies for young people; CELTA (Cambridge), BA in Biblical Studies (Trinity Western), graduate of St. George's School in Vancouver; private school references available."
  },
@@ -1265,7 +1265,7 @@
   ],
   "grades": "Elementary school",
   "location": "",
-  "format": "Online or in person not stated, please ask",
+  "format": "Online or in person",
   "rate": null,
   "bg": "Elementary school math tutor. A separate 'MATH TUTORING' note was stuck on the flyer; it belongs to another teacher (Mahya), so don't confuse the two."
  },
@@ -1276,7 +1276,7 @@
   ],
   "grades": "Lower elementary",
   "location": "",
-  "format": "Online or in person not stated, please ask",
+  "format": "Online or in person",
   "rate": null,
   "bg": "Reading tutor specialising in children who are just starting to read; experienced with dyslexic students; interactive, age-appropriate reading plans tailored to each child's level."
  },
@@ -1287,7 +1287,7 @@
   ],
   "grades": "Grades 1–8",
   "location": "",
-  "format": "Online or in person not stated, please ask",
+  "format": "Online or in person",
   "rate": null,
   "bg": "Personalised math tutoring: foundational math, problem-solving, arithmetic, pre-algebra, homework support and exam preparation."
  },
@@ -1298,7 +1298,7 @@
   ],
   "grades": "University / medical school applications",
   "location": "",
-  "format": "Online or in person not stated, please ask",
+  "format": "Online or in person",
   "rate": null,
   "bg": "UBC medical student; MCAT 99th percentile; received four medical school offers; has led an MCAT preparation group and lectured in UBC biochemistry; top quartile in the Manitoba out-of-province CASPer; top 5% GPA in UBC Science; UBC Neuroscience award recipient; a UBC graduating leader award; has presented research at Harvard; WVSS alumnus."
  },
@@ -1309,7 +1309,7 @@
   ],
   "grades": "Adults / all levels",
   "location": "",
-  "format": "Online or in person not stated, please ask; also volunteers for English conversation at the West Vancouver Library",
+  "format": "Online or in person",
   "rate": null,
   "bg": "Qualified English as a second language teacher with TESL certification (International House, Vancouver) and an undergraduate arts degree. Note: this Richard is an English teacher, not the math tutor Richard listed earlier, and not Richard Wang."
  },
@@ -1318,9 +1318,9 @@
   "subjects": [
    "French"
   ],
-  "grades": "Not stated, please ask",
+  "grades": "K-G12",
   "location": "",
-  "format": "Online or in person not stated, please ask",
+  "format": "Online or in person",
   "rate": null,
   "bg": "French tutor; the flyer only says 'French Tutor' and lists a phone number, with no name or rate."
  },
@@ -1339,7 +1339,7 @@
   ],
   "grades": "Grades 8–12, university years 1–4",
   "location": "",
-  "format": "Online or in person not stated, please ask",
+  "format": "Online or in person",
   "rate": null,
   "bg": "MSc with 10+ years of teaching experience: math, statistics, linear algebra, calculus, differential equations, discrete math and numerical analysis; economics (micro and macro); physics; chemistry (physical and organic); standardised tests (MCAT, GMAT, GRE); final and provincial exam preparation."
  },
@@ -1348,9 +1348,9 @@
   "subjects": [
    "Math"
   ],
-  "grades": "Not stated, please ask",
+  "grades": "K-G12",
   "location": "",
-  "format": "Online or in person not stated, please ask",
+  "format": "Online or in person",
   "rate": null,
   "bg": "Professional math tutor with 6+ years of successful experience; helps with homework, preparing for major exams and meeting deadlines."
  },
@@ -1376,7 +1376,7 @@
   ],
   "grades": "Grades 8–12",
   "location": "",
-  "format": "Online or in person not stated, please ask",
+  "format": "Online or in person",
   "rate": null,
   "bg": "Retired BC-certified high school teacher, BEd from McGill; many years of classroom and private tutoring experience; four daughters, all successful professionals, including a pathologist. Teaches Math 8, English 8, Math 9, Math 10, French 9, French 10, Math 11, Math 12, Calculus and ESL; served two years as a school principal; taught at Windermere Secondary (Vancouver, 1975–1979), Maillard Junior Secondary (Coquitlam, 1992–1997), Terry Fox Secondary (Port Coquitlam, 1997–2007) and BC Offshore School #25 (Beijing, China, 2007–2012)."
  }
