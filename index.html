@@ -28,7 +28,8 @@ input,select,textarea{padding:10px;font-size:16px;margin:6px 6px 6px 0;border-ra
 .group h3{margin:0 0 6px}.group p{margin:4px 0}
 details{margin-top:8px}summary{cursor:pointer;color:#b3541e;font-weight:600}
 .bigbtn{background:#b3541e;color:#fff;border:none;padding:12px 22px;font-size:17px;border-radius:10px;cursor:pointer}
-.pricebtn{display:inline-block;background:#b3541e;color:#fff;padding:8px 18px;border-radius:10px;text-decoration:none;font-weight:700;font-size:15px}
+.chip{background:#fff;border:1px solid #b3541e;color:#b3541e;padding:6px 14px;border-radius:20px;font-size:15px;cursor:pointer;margin:2px}.chip.on{background:#b3541e;color:#fff}
+.pricebtn{display:inline-block;background:#b3541e;color:#fff;padding:8px 18px;border-radius:10px;border:0;cursor:pointer;font-family:inherit;text-decoration:none;font-weight:700;font-size:15px}
 .back{background:none;border:none;color:#b3541e;font-size:16px;cursor:pointer;padding:0;margin-top:20px}
 footer{margin-top:24px;color:#666;font-size:14px}
 </style></head><body>
@@ -173,63 +174,64 @@ footer{margin-top:24px;color:#666;font-size:14px}
 <h2>Find a tutor</h2>
 <p>When your child needs a teacher, tell us — we match you with a tutor.</p>
 <p><input id="q" type="search" placeholder="Search subject, grade..." style="width:60%">
-<select id="s"><option value="">All subjects</option><option value="AP">AP</option><option value="AP / IB English">AP / IB English</option><option value="AP Computer Science A">AP Computer Science A</option><option value="AP English">AP English</option><option value="AP Science &amp; Math">AP Science &amp; Math</option><option value="Academic English">Academic English</option><option value="Accounting">Accounting</option><option value="Admissions">Admissions</option><option value="Advanced Calculus">Advanced Calculus</option><option value="All Subjects">All Subjects</option><option value="Applied Mathematics">Applied Mathematics</option><option value="Art">Art</option><option value="Art Portfolio Prep">Art Portfolio Prep</option><option value="Biology">Biology</option><option value="CELPIP">CELPIP</option><option value="Calculus">Calculus</option><option value="Calculus 12">Calculus 12</option><option value="Cambridge">Cambridge</option><option value="Chemistry">Chemistry</option><option value="Chemistry 11/12">Chemistry 11/12</option><option value="Chinese">Chinese</option><option value="Computer Programming">Computer Programming</option><option value="Computer Science">Computer Science</option><option value="Creative writing">Creative writing</option><option value="DELF Exam Prep">DELF Exam Prep</option><option value="DP">DP</option><option value="DP English A/B">DP English A/B</option><option value="Data Science">Data Science</option><option value="Differential Equations">Differential Equations</option><option value="ELL / ELA">ELL / ELA</option><option value="ESL">ESL</option><option value="Economics">Economics</option><option value="Elementary and secondary school math">Elementary and secondary school math</option><option value="English">English</option><option value="English B">English B</option><option value="English Language &amp; Literature">English Language &amp; Literature</option><option value="English Language and Literature">English Language and Literature</option><option value="English Literature">English Literature</option><option value="English as a Second Language">English as a Second Language</option><option value="English writing">English writing</option><option value="Essay Writing">Essay Writing</option><option value="Flute">Flute</option><option value="French">French</option><option value="GCSE">GCSE</option><option value="GMAT">GMAT</option><option value="GRE">GRE</option><option value="General Tutoring">General Tutoring</option><option value="Global Politics">Global Politics</option><option value="Grade 10-12 English">Grade 10-12 English</option><option value="Grammar">Grammar</option><option value="Guitar">Guitar</option><option value="High school math, physics and chemistry">High school math, physics and chemistry</option><option value="History">History</option><option value="History &amp; Social Studies">History &amp; Social Studies</option><option value="IB">IB</option><option value="IB DP">IB DP</option><option value="IB Diploma English A Language and Literature">IB Diploma English A Language and Literature</option><option value="IB English">IB English</option><option value="IB English A">IB English A</option><option value="IB English B">IB English B</option><option value="IB English Language and Literature">IB English Language and Literature</option><option value="IB English MYP/DP">IB English MYP/DP</option><option value="IB MYP">IB MYP</option><option value="IB MYP / DP English">IB MYP / DP English</option><option value="IB MYP / DP English Language and Literature">IB MYP / DP English Language and Literature</option><option value="IB MYP DP English">IB MYP DP English</option><option value="IB MYP English Language and Literature">IB MYP English Language and Literature</option><option value="IB MYP/DP">IB MYP/DP</option><option value="IB Math">IB Math</option><option value="IELTS">IELTS</option><option value="IG">IG</option><option value="IGCSE">IGCSE</option><option value="IGCSE English">IGCSE English</option><option value="IT Skills">IT Skills</option><option value="Java">Java</option><option value="Java, Python, HTML/JavaScript for elementary and secondary students">Java, Python, HTML/JavaScript for elementary and secondary students</option><option value="K-12 English">K-12 English</option><option value="LSAT">LSAT</option><option value="Language Arts">Language Arts</option><option value="Linear Algebra">Linear Algebra</option><option value="Literacy">Literacy</option><option value="MCAT">MCAT</option><option value="MYP">MYP</option><option value="MYP English">MYP English</option><option value="MYP English Language Acquisition">MYP English Language Acquisition</option><option value="MYP Language Acquisition">MYP Language Acquisition</option><option value="MYP Language and Literature">MYP Language and Literature</option><option value="Machine Learning">Machine Learning</option><option value="Mandarin">Mandarin</option><option value="Math">Math</option><option value="Math &amp; Science Grades 1-10">Math &amp; Science Grades 1-10</option><option value="Math Grade 8-12">Math Grade 8-12</option><option value="Math competitions">Math competitions</option><option value="Mathematics">Mathematics</option><option value="Maths">Maths</option><option value="Music Theory">Music Theory</option><option value="Physics">Physics</option><option value="Physics 11/12">Physics 11/12</option><option value="Piano">Piano</option><option value="Pre-Calc Math 10/11/12">Pre-Calc Math 10/11/12</option><option value="Pre-Calculus">Pre-Calculus</option><option value="Pre-cal">Pre-cal</option><option value="Pre-calculus">Pre-calculus</option><option value="Python">Python</option><option value="Reading">Reading</option><option value="Robotics">Robotics</option><option value="SAT">SAT</option><option value="SAT/ACT/GRE">SAT/ACT/GRE</option><option value="SSAT">SSAT</option><option value="Science">Science</option><option value="Science 10">Science 10</option><option value="Science Grade 8-12">Science Grade 8-12</option><option value="Social Studies">Social Studies</option><option value="Spanish">Spanish</option><option value="Spelling">Spelling</option><option value="Statistics">Statistics</option><option value="Stats">Stats</option><option value="TOEFL">TOEFL</option><option value="TOEIC">TOEIC</option><option value="TOK">TOK</option><option value="University computer science course tutoring">University computer science course tutoring</option><option value="Violin">Violin</option><option value="Voice">Voice</option><option value="Waterloo CCC computing competition training">Waterloo CCC computing competition training</option><option value="Writing">Writing</option><option value="critical thinking">critical thinking</option><option value="essay writing">essay writing</option><option value="literary analysis">literary analysis</option><option value="reading comprehension">reading comprehension</option><option value="writing and humanities">writing and humanities</option></select>
+<select id="s"><option value="">All subjects</option><option value="AP">AP</option><option value="AP / IB English">AP / IB English</option><option value="AP Computer Science A">AP Computer Science A</option><option value="AP English">AP English</option><option value="AP Science &amp; Math">AP Science &amp; Math</option><option value="Academic English">Academic English</option><option value="Accounting">Accounting</option><option value="Admissions">Admissions</option><option value="Advanced Calculus">Advanced Calculus</option><option value="All Subjects">All Subjects</option><option value="Applied Mathematics">Applied Mathematics</option><option value="Art">Art</option><option value="Art Portfolio Prep">Art Portfolio Prep</option><option value="Biology">Biology</option><option value="CELPIP">CELPIP</option><option value="Calculus">Calculus</option><option value="Calculus 12">Calculus 12</option><option value="Cambridge">Cambridge</option><option value="Chemistry">Chemistry</option><option value="Chemistry 11/12">Chemistry 11/12</option><option value="Chinese">Chinese</option><option value="Computer Programming">Computer Programming</option><option value="Computer Science">Computer Science</option><option value="Creative writing">Creative writing</option><option value="DELF Exam Prep">DELF Exam Prep</option><option value="DP">DP</option><option value="DP English A/B">DP English A/B</option><option value="Data Science">Data Science</option><option value="Differential Equations">Differential Equations</option><option value="ELL / ELA">ELL / ELA</option><option value="ESL">ESL</option><option value="Economics">Economics</option><option value="Elementary and secondary school math">Elementary and secondary school math</option><option value="English">English</option><option value="English B">English B</option><option value="English Language &amp; Literature">English Language &amp; Literature</option><option value="English Language and Literature">English Language and Literature</option><option value="English Literature">English Literature</option><option value="English as a Second Language">English as a Second Language</option><option value="English writing">English writing</option><option value="Essay Writing">Essay Writing</option><option value="Flute">Flute</option><option value="French">French</option><option value="GCSE">GCSE</option><option value="GMAT">GMAT</option><option value="GRE">GRE</option><option value="General Tutoring">General Tutoring</option><option value="Global Politics">Global Politics</option><option value="Grade 10-12 English">Grade 10-12 English</option><option value="Grammar">Grammar</option><option value="Guitar">Guitar</option><option value="High school math, physics and chemistry">High school math, physics and chemistry</option><option value="History">History</option><option value="History &amp; Social Studies">History &amp; Social Studies</option><option value="IB">IB</option><option value="IB DP">IB DP</option><option value="IB Diploma English A Language and Literature">IB Diploma English A Language and Literature</option><option value="IB English">IB English</option><option value="IB English A">IB English A</option><option value="IB English B">IB English B</option><option value="IB English Language and Literature">IB English Language and Literature</option><option value="IB English MYP/DP">IB English MYP/DP</option><option value="IB MYP">IB MYP</option><option value="IB MYP / DP English">IB MYP / DP English</option><option value="IB MYP / DP English Language and Literature">IB MYP / DP English Language and Literature</option><option value="IB MYP DP English">IB MYP DP English</option><option value="IB MYP English Language and Literature">IB MYP English Language and Literature</option><option value="IB MYP/DP">IB MYP/DP</option><option value="IB Math">IB Math</option><option value="IELTS">IELTS</option><option value="IG">IG</option><option value="IGCSE">IGCSE</option><option value="IGCSE English">IGCSE English</option><option value="IT Skills">IT Skills</option><option value="Java">Java</option><option value="Java, Python, HTML/JavaScript for elementary and secondary students">Java, Python, HTML/JavaScript for elementary and secondary students</option><option value="K-12 English">K-12 English</option><option value="LSAT">LSAT</option><option value="Language Arts">Language Arts</option><option value="Linear Algebra">Linear Algebra</option><option value="Literacy">Literacy</option><option value="MCAT">MCAT</option><option value="MYP">MYP</option><option value="MYP English">MYP English</option><option value="MYP English Language Acquisition">MYP English Language Acquisition</option><option value="MYP Language Acquisition">MYP Language Acquisition</option><option value="MYP Language and Literature">MYP Language and Literature</option><option value="Machine Learning">Machine Learning</option><option value="Mandarin">Mandarin</option><option value="Math">Math</option><option value="Math &amp; Science Grades 1-10">Math &amp; Science Grades 1-10</option><option value="Math Grade 8-12">Math Grade 8-12</option><option value="Math competitions">Math competitions</option><option value="Mathematics">Mathematics</option><option value="Maths">Maths</option><option value="Music Theory">Music Theory</option><option value="Physics">Physics</option><option value="Physics 11/12">Physics 11/12</option><option value="Piano">Piano</option><option value="Pre-Calc Math 10/11/12">Pre-Calc Math 10/11/12</option><option value="Pre-Calculus">Pre-Calculus</option><option value="Pre-cal">Pre-cal</option><option value="Python">Python</option><option value="Reading">Reading</option><option value="Robotics">Robotics</option><option value="SAT">SAT</option><option value="SAT/ACT/GRE">SAT/ACT/GRE</option><option value="SSAT">SSAT</option><option value="Science">Science</option><option value="Science 10">Science 10</option><option value="Science Grade 8-12">Science Grade 8-12</option><option value="Social Studies">Social Studies</option><option value="Spanish">Spanish</option><option value="Spelling">Spelling</option><option value="Statistics">Statistics</option><option value="Stats">Stats</option><option value="TOEFL">TOEFL</option><option value="TOEIC">TOEIC</option><option value="TOK">TOK</option><option value="University computer science course tutoring">University computer science course tutoring</option><option value="Violin">Violin</option><option value="Voice">Voice</option><option value="Waterloo CCC computing competition training">Waterloo CCC computing competition training</option><option value="Writing">Writing</option><option value="critical thinking">critical thinking</option><option value="literary analysis">literary analysis</option><option value="reading comprehension">reading comprehension</option><option value="writing and humanities">writing and humanities</option></select>
 <span id="count"></span></p>
+<p id="chips" style="margin:8px 0"><button type="button" class="chip on" data-v="">All</button> <button type="button" class="chip" data-v="Math">Math</button> <button type="button" class="chip" data-v="English">English</button> <button type="button" class="chip" data-v="French">French</button> <button type="button" class="chip" data-v="Spanish">Spanish</button> <button type="button" class="chip" data-v="Science">Science</button> <button type="button" class="chip" data-v="Physics">Physics</button> <button type="button" class="chip" data-v="Chemistry">Chemistry</button> <button type="button" class="chip" data-v="Biology">Biology</button> <button type="button" class="chip" data-v="Computer Science">Computer Science</button></p>
 <div class="grid" id="grid"><div class="card tutor-card" data-subj="English, Math, Science, Chemistry, Physics, Mandarin" data-text="james l. english, math, science, chemistry, physics, mandarin elementary school, secondary school">
       <h3>James L.</h3>
       <p><b>Subjects:</b> English, Math, Science, Chemistry, Physics, Mandarin</p>
       <p><b>Grades:</b> Elementary school, secondary school</p>
       <p><b>Format:</b> Online (Zoom)</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20James%20L.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20James%20L.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('James L.')">Ask about price</button></p>
       <p class="bg">Graduate of Richmond Palmer Secondary; St. Paul&#x27;s College in Hong Kong for Forms 1–2, then Forms 3–6 in Canada. Grade 12 average 96%: Chemistry 12 100%, Math 12 97%, Physics 12 97%, English 12 85%, Mandarin 12 100%</p>
     </div><div class="card tutor-card" data-subj="Math, Physics, Chemistry, Science, Statistics, Economics" data-text="nusrat p. math, physics, chemistry, science, statistics, economics math grades 1–12, first-year university, physics / chemistry 11–12, science up to grade 10 70">
       <h3>Nusrat P.</h3>
       <p><b>Subjects:</b> Math, Physics, Chemistry, Science, Statistics, Economics</p>
       <p><b>Grades:</b> Math Grades 1–12, first-year university, Physics / Chemistry 11–12, Science up to Grade 10</p>
       <p><b>Format:</b> At the student&#x27;s home or the teacher&#x27;s home; home visits available, with a travel-time fee</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Nusrat%20P.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Nusrat%20P.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Nusrat P.')">Ask about price</button></p>
       <p class="bg"></p>
     </div><div class="card tutor-card" data-subj="Chemistry, Biology, Physics, Math, Calculus, Computer Science, Accounting, IB, AP" data-text="justin chemistry, biology, physics, math, calculus, computer science, accounting, ib, ap grade 9-12 55">
       <h3>Justin</h3>
       <p><b>Subjects:</b> Chemistry, Biology, Physics, Math, Calculus, Computer Science, Accounting, IB, AP</p>
       <p><b>Grades:</b> Grade 9-12</p>
       <p><b>Format:</b> In person at the student&#x27;s home, or online via Zoom</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Justin&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Justin%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Justin')">Ask about price</button></p>
       <p class="bg">BC-certified teacher with 6+ years of experience; Honours Computer Science and Math from Waterloo; has taught 200+ students</p>
     </div><div class="card tutor-card" data-subj="Physics" data-text="eira physics 50">
       <h3>Eira</h3>
       <p><b>Subjects:</b> Physics</p>
       <p><b>Grades:</b> K-G12</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Eira&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Eira%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Eira')">Ask about price</button></p>
       <p class="bg">Mechanics, waves, energy, electricity and magnetism, with a focus on logic and problem-solving</p>
     </div><div class="card tutor-card" data-subj="Math, Biology, Chemistry, Physics" data-text="kijiji t. math, biology, chemistry, physics 60">
       <h3>Kijiji T.</h3>
       <p><b>Subjects:</b> Math, Biology, Chemistry, Physics</p>
       <p><b>Grades:</b> K-G12</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Kijiji%20T.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Kijiji%20T.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Kijiji T.')">Ask about price</button></p>
       <p class="bg"></p>
     </div><div class="card tutor-card" data-subj="Physics" data-text="kijiji v. physics high school, university 79">
       <h3>Kijiji V.</h3>
       <p><b>Subjects:</b> Physics</p>
       <p><b>Grades:</b> High school, university</p>
       <p><b>Format:</b> Online</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Kijiji%20V.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Kijiji%20V.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Kijiji V.')">Ask about price</button></p>
       <p class="bg">PhD, bachelor&#x27;s in physics, 20+ years of experience</p>
     </div><div class="card tutor-card" data-subj="Physics" data-text="ms t. physics science 8 to physics 12">
       <h3>Ms T.</h3>
       <p><b>Subjects:</b> Physics</p>
       <p><b>Grades:</b> Science 8 to Physics 12</p>
       <p><b>Format:</b> One-on-one, 60 minutes online, or in person near a library / café</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Ms%20T.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Ms%20T.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Ms T.')">Ask about price</button></p>
       <p class="bg">Public school teacher; has taught Physics 11 and 12 and taken students to the UBC Physics Olympics</p>
     </div><div class="card tutor-card" data-subj="Physics, Calculus, Math, Chemistry" data-text="phd p. physics, calculus, math, chemistry high school grades 9–12, ap physics">
       <h3>PhD P.</h3>
       <p><b>Subjects:</b> Physics, Calculus, Math, Chemistry</p>
       <p><b>Grades:</b> High school Grades 9–12, AP Physics</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20PhD%20P.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20PhD%20P.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('PhD P.')">Ask about price</button></p>
       <p class="bg"></p>
     </div><div class="card tutor-card" data-subj="Physics, Math, Stats" data-text="in person math, stats &amp; physics tutor physics, math, stats high school physics 11/12 60">
       <h3>In person Math, Stats &amp; Physics Tutor</h3>
@@ -237,679 +239,679 @@ footer{margin-top:24px;color:#666;font-size:14px}
       <p><b>Subjects:</b> Physics, Math, Stats</p>
       <p><b>Grades:</b> High school Physics 11/12</p>
       <p><b>Format:</b> In person only in public places: South Hill Public Library, Killarney Community Centre, Langara College</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20In%20person%20Math%2C%20Stats%20%26amp%3B%20Physics%20Tutor&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20In%20person%20Math%2C%20Stats%20%26amp%3B%20Physics%20Tutor%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('In person Math, Stats &amp; Physics Tutor')">Ask about price</button></p>
       <p class="bg"></p>
     </div><div class="card tutor-card" data-subj="Math, Physics, Computer Science, Calculus, SAT/ACT/GRE" data-text="rama t. math, physics, computer science, calculus, sat/act/gre high school, physics grade 60">
       <h3>Rama T.</h3>
       <p><b>Subjects:</b> Math, Physics, Computer Science, Calculus, SAT/ACT/GRE</p>
       <p><b>Grades:</b> High school</p>
       <p><b>Format:</b> In person and online</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Rama%20T.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Rama%20T.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Rama T.')">Ask about price</button></p>
       <p class="bg"></p>
     </div><div class="card tutor-card" data-subj="Physics, Math, Statistics" data-text="25+ s. physics, math, statistics physics 11 &amp; 12, ap/ib physics, k-12 80">
       <h3>25+ S.</h3>
       <p><b>Subjects:</b> Physics, Math, Statistics</p>
       <p><b>Grades:</b> Physics 11 &amp; 12, AP/IB Physics, K-12</p>
       <p><b>Format:</b> In person preferred; online also possible</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%2025%2B%20S.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%2025%2B%20S.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('25+ S.')">Ask about price</button></p>
       <p class="bg"></p>
     </div><div class="card tutor-card" data-subj="Math, Physics" data-text="wayne s. math, physics high school, ib/ap 60">
       <h3>Wayne S.</h3>
       <p><b>Subjects:</b> Math, Physics</p>
       <p><b>Grades:</b> High school, IB/AP</p>
       <p><b>Format:</b> As stated: &#x27;in the privacy of your own home or online&#x27;, and at the library</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Wayne%20S.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Wayne%20S.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Wayne S.')">Ask about price</button></p>
       <p class="bg"></p>
     </div><div class="card tutor-card" style="display:none" data-subj="Math, Chemistry, Physics, Biology" data-text="ivan a. math, chemistry, physics, biology elementary school to first-year university 45">
       <h3>Ivan A.</h3>
       <p><b>Subjects:</b> Math, Chemistry, Physics, Biology</p>
       <p><b>Grades:</b> Elementary school to first-year university</p>
       <p><b>Format:</b> 1-on-1 online lessons only</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Ivan%20A.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Ivan%20A.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Ivan A.')">Ask about price</button></p>
       <p class="bg"></p>
     </div><div class="card tutor-card" style="display:none" data-subj="Math, Science, Biology, Physics, Chemistry, English, Pre-calculus" data-text="lucy t. math, science, biology, physics, chemistry, english, pre-calculus math 10/11/12, biology 11/12, physics 11/12, chemistry 11/12 50">
       <h3>Lucy T.</h3>
       <p><b>Subjects:</b> Math, Science, Biology, Physics, Chemistry, English, Pre-calculus</p>
       <p><b>Grades:</b> Math 10/11/12, Biology 11/12, Physics 11/12, Chemistry 11/12</p>
       <p><b>Format:</b> Zoom only</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Lucy%20T.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Lucy%20T.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Lucy T.')">Ask about price</button></p>
       <p class="bg"></p>
     </div><div class="card tutor-card" style="display:none" data-subj="Physics, Chemistry, Biology" data-text="saurav t. physics, chemistry, biology 30">
       <h3>SAURAV T.</h3>
       <p><b>Subjects:</b> Physics, Chemistry, Biology</p>
       <p><b>Grades:</b> K-G12</p>
       <p><b>Format:</b> Online only: Zoom / Teams / Google Meet / Discord</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20SAURAV%20T.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20SAURAV%20T.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('SAURAV T.')">Ask about price</button></p>
       <p class="bg">21+ years of experience</p>
     </div><div class="card tutor-card" style="display:none" data-subj="English, IB English Language and Literature, IGCSE" data-text="louise english, ib english language and literature, igcse elementary, middle school, high school; suitable for grade 8 78">
       <h3>Louise</h3>
       <p><b>Subjects:</b> English, IB English Language and Literature, IGCSE</p>
       <p><b>Grades:</b> Elementary, middle school, high school; suitable for Grade 8</p>
       <p><b>Format:</b> Online only; calm, focused, speaking-based</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Louise&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Louise%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Louise')">Ask about price</button></p>
       <p class="bg">English teacher at an IB school in Hong Kong, 18+ years; MA Linguistics (York), UK-qualified teacher, TEFL (OISE, Toronto); examiner for IB English Language and Literature Paper 1; colleagues note 10+ years working in IB international schools</p>
     </div><div class="card tutor-card" style="display:none" data-subj="IB English MYP/DP, IELTS, TOEFL, TOEIC, Cambridge, Academic English" data-text="willy w. ib english myp/dp, ielts, toefl, toeic, cambridge, academic english myp (ages 11–16, including grade 8), dp, adults 40">
       <h3>Willy W.</h3>
       <p><b>Subjects:</b> IB English MYP/DP, IELTS, TOEFL, TOEIC, Cambridge, Academic English</p>
       <p><b>Grades:</b> MYP (ages 11–16, including Grade 8), DP, adults</p>
       <p><b>Format:</b> Online, via Preply</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Willy%20W.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Willy%20W.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Willy W.')">Ask about price</button></p>
       <p class="bg">OCT-certified Canadian teacher with 10+ years teaching in Canadian public schools, international schools and IB programmes; former Head of Department for 6 years; native English speaker who also speaks Mandarin and Cantonese</p>
     </div><div class="card tutor-card" style="display:none" data-subj="English, Reading, Literacy, Grammar, Creative writing, IG, IB" data-text="aparna english, reading, literacy, grammar, creative writing, ig, ib grades 4–12, suitable for grade 8 20">
       <h3>Aparna</h3>
       <p><b>Subjects:</b> English, Reading, Literacy, Grammar, Creative writing, IG, IB</p>
       <p><b>Grades:</b> Grades 4–12, suitable for Grade 8</p>
       <p><b>Format:</b> Online only</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Aparna&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Aparna%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Aparna')">Ask about price</button></p>
       <p class="bg">BEd + MA (English Literature), 10+ years teaching; specialises in IG and IB students and has taught English Language and Literature to Grades 7–10 in international schools</p>
     </div><div class="card tutor-card" style="display:none" data-subj="English Language &amp; Literature, English Literature, IB DP, IB MYP, IGCSE, GCSE" data-text="kate b. english language &amp; literature, english literature, ib dp, ib myp, igcse, gcse myp, dp, igcse, gcse">
       <h3>Kate B.</h3>
       <p><b>Subjects:</b> English Language &amp; Literature, English Literature, IB DP, IB MYP, IGCSE, GCSE</p>
       <p><b>Grades:</b> MYP, DP, IGCSE, GCSE</p>
       <p><b>Format:</b> Online 1-on-1, free 60-min trial</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Kate%20B.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Kate%20B.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Kate B.')">Ask about price</button></p>
       <p class="bg">IB Examiner for English Language and Literature and Head of English at an international school, 20 years; Head of English at TEMS Madrid 2025–2026; IBO examiner 2023–2026; 25 years teaching; 4.7/5 from 7 reviews</p>
     </div><div class="card tutor-card" style="display:none" data-subj="IB English A, MYP English Language Acquisition, MYP Language and Literature, DP English A/B" data-text="dr m. ib english a, myp english language acquisition, myp language and literature, dp english a/b myp, dp, elementary">
       <h3>Dr M.</h3>
       <p><b>Subjects:</b> IB English A, MYP English Language Acquisition, MYP Language and Literature, DP English A/B</p>
       <p><b>Grades:</b> MYP, DP, Elementary</p>
       <p><b>Format:</b> Online 1-on-1</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Dr%20M.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Dr%20M.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Dr M.')">Ask about price</button></p>
       <p class="bg">PhD in Educational Psychology; international school teacher and IB-certified English A examiner, 17 years</p>
     </div><div class="card tutor-card" style="display:none" data-subj="IB English Language and Literature, MYP, DP, English B, TOK" data-text="mike m. ib english language and literature, myp, dp, english b, tok myp 10 years, dp 4 years 65">
       <h3>Mike M.</h3>
       <p><b>Subjects:</b> IB English Language and Literature, MYP, DP, English B, TOK</p>
       <p><b>Grades:</b> MYP 10 years, DP 4 years</p>
       <p><b>Format:</b> Online, confirm on profile</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Mike%20M.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Mike%20M.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Mike M.')">Ask about price</button></p>
       <p class="bg">10 years teaching IB English Language and Literature, 4 years as Head of English, 3 years as an IBDP English examiner, 10+ years in IB schools</p>
     </div><div class="card tutor-card" style="display:none" data-subj="IB Diploma English A Language and Literature, MYP Language and Literature, Cambridge" data-text="martyn ib diploma english a language and literature, myp language and literature, cambridge myp, ib diploma 40">
       <h3>Martyn</h3>
       <p><b>Subjects:</b> IB Diploma English A Language and Literature, MYP Language and Literature, Cambridge</p>
       <p><b>Grades:</b> MYP, IB Diploma</p>
       <p><b>Format:</b> Online</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Martyn&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Martyn%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Martyn')">Ask about price</button></p>
       <p class="bg">London teacher living in Barcelona; IB English A Paper 2 and HL Essay examiner; 5 years in IB/MYP and 3 years teaching secondary English in London</p>
     </div><div class="card tutor-card" style="display:none" data-subj="English, IB MYP/DP, Global Politics, History" data-text="michael a. english, ib myp/dp, global politics, history grades 5-13, ib dp and myp 10">
       <h3>Michael A.</h3>
       <p><b>Subjects:</b> English, IB MYP/DP, Global Politics, History</p>
       <p><b>Grades:</b> Grades 5-13, IB DP and MYP</p>
       <p><b>Format:</b> Online 1-on-1 video</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Michael%20A.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Michael%20A.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Michael A.')">Ask about price</button></p>
       <p class="bg">Currently living in Germany, teaching English and Global Politics; English teacher at Leibniz Privatschule Elmshorn since 2021 (Grades 5–10 English, Grade 11 English, IB DP Global Politics); previously IB MYP History and IB DP Language B English (2020–2021)</p>
     </div><div class="card tutor-card" style="display:none" data-subj="IB MYP DP English, AP English" data-text="simon ib myp dp english, ap english myp, dp, high school 45">
       <h3>Simon</h3>
       <p><b>Subjects:</b> IB MYP DP English, AP English</p>
       <p><b>Grades:</b> MYP, DP, High School</p>
       <p><b>Format:</b> Online</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Simon&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Simon%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Simon')">Ask about price</button></p>
       <p class="bg">Canadian living in Japan; 25+ years at leading private and international schools in Tokyo; high school English teacher (IB, AP, IELTS)</p>
     </div><div class="card tutor-card" style="display:none" data-subj="IB, IGCSE, MYP English" data-text="maria a. ib, igcse, myp english myp, all levels 42">
       <h3>Maria A.</h3>
       <p><b>Subjects:</b> IB, IGCSE, MYP English</p>
       <p><b>Grades:</b> MYP, all levels</p>
       <p><b>Format:</b> Online</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Maria%20A.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Maria%20A.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Maria A.')">Ask about price</button></p>
       <p class="bg">IB-certified educator (MYP, IB DP, CAS) with 20 years teaching English in American schools and international schools in the Middle East</p>
     </div><div class="card tutor-card" style="display:none" data-subj="IB English B, IGCSE English, MYP Language Acquisition, MYP Language and Literature" data-text="ms t. ib english b, igcse english, myp language acquisition, myp language and literature myp, elementary">
       <h3>Ms T.</h3>
       <p><b>Subjects:</b> IB English B, IGCSE English, MYP Language Acquisition, MYP Language and Literature</p>
       <p><b>Grades:</b> MYP, Elementary</p>
       <p><b>Format:</b> Online via Zoom</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Ms%20T.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Ms%20T.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Ms T.')">Ask about price</button></p>
       <p class="bg">16 years teaching; bilingual international school teacher (IBDP English B, MYP)</p>
     </div><div class="card tutor-card" style="display:none" data-subj="IB MYP English Language and Literature" data-text="antony w. ib myp english language and literature myp, mulgrave middle school grades 7–9, suitable for grade 8">
       <h3>Antony W.</h3>
       <p><b>Subjects:</b> IB MYP English Language and Literature</p>
       <p><b>Grades:</b> MYP, Mulgrave Middle School Grades 7–9, suitable for Grade 8</p>
       <p><b>Format:</b> Online — to be confirmed; local, same time zone as Vancouver</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Antony%20W.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Antony%20W.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Antony W.')">Ask about price</button></p>
       <p class="bg">IB MYP English teacher and Head of Global Citizenship Experiential Education (GEx) at Mulgrave School; BC-certified teacher with 25+ years teaching English and humanities, 15+ years in IB, MYP Level 3 Language A; BEd (OISE / University of Toronto)</p>
     </div><div class="card tutor-card" style="display:none" data-subj="IB MYP / DP English, TOK" data-text="kenneth c. ib myp / dp english, tok ib myp, igcse, ibdp">
       <h3>Kenneth C.</h3>
       <p><b>Subjects:</b> IB MYP / DP English, TOK</p>
       <p><b>Grades:</b> IB MYP, IGCSE, IBDP</p>
       <p><b>Format:</b> Online — to be confirmed</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Kenneth%20C.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Kenneth%20C.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Kenneth C.')">Ask about price</button></p>
       <p class="bg">Previously led IB English and TOK at PLK Ngan Po Ling College as Deputy IB Coordinator; later taught English (IB MYP, IGCSE, IBDP) and TOK at South Island School (ESF)</p>
     </div><div class="card tutor-card" style="display:none" data-subj="MYP English, IB English" data-text="henry l. myp english, ib english myp, igcse, ib diploma, from age 10">
       <h3>Henry L.</h3>
       <p><b>Subjects:</b> MYP English, IB English</p>
       <p><b>Grades:</b> MYP, IGCSE, IB Diploma, from age 10</p>
       <p><b>Format:</b> Online — to be confirmed</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Henry%20L.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Henry%20L.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Henry L.')">Ask about price</button></p>
       <p class="bg">BA (Oxon) in English, MA from York, 10+ years; has taught 250+ students at Hong Kong international schools, from age 10 through MYP / IGCSE / IB Diploma; full-time tutor</p>
     </div><div class="card tutor-card" style="display:none" data-subj="IB MYP / DP English Language and Literature" data-text="paul y. ib myp / dp english language and literature myp, dp">
       <h3>Paul Y.</h3>
       <p><b>Subjects:</b> IB MYP / DP English Language and Literature</p>
       <p><b>Grades:</b> MYP, DP</p>
       <p><b>Format:</b> Online — to be confirmed</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Paul%20Y.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Paul%20Y.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Paul Y.')">Ask about price</button></p>
       <p class="bg">Full-time IB English Language and Literature teacher at Malvern College Hong Kong (Nov 2025–Mar 2026); IGCSE/IB English in 2025; IB MYP/DP at Chinese International School, Hong Kong (2012–2019); 31.5 years of teaching experience</p>
     </div><div class="card tutor-card" style="display:none" data-subj="IB MYP / DP English" data-text="steven s. ib myp / dp english myp, dp">
       <h3>Steven S.</h3>
       <p><b>Subjects:</b> IB MYP / DP English</p>
       <p><b>Grades:</b> MYP, DP</p>
       <p><b>Format:</b> Online — to be confirmed</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Steven%20S.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Steven%20S.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Steven S.')">Ask about price</button></p>
       <p class="bg">High school English teacher at the International School of Beijing; 17 years in international schools (MYP English Language and Literature + DP); Head of Secondary School English and IBDP Paper 2 examiner; BA in English from Trent University, Canadian, BEd</p>
     </div><div class="card tutor-card" style="display:none" data-subj="English Language and Literature" data-text="richard b. english language and literature ; myp">
       <h3>Richard B.</h3>
       <p><b>Subjects:</b> English Language and Literature</p>
       <p><b>Grades:</b> K-G12</p>
       <p><b>Format:</b> Online — to be confirmed</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Richard%20B.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Richard%20B.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Richard B.')">Ask about price</button></p>
       <p class="bg">Head of English and CPD Coordinator at International College Hong Kong; TeachFirst UK; teaches English Language and Literature</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Grade 10-12 English, AP / IB English, History &amp; Social Studies, essay writing, literary analysis" data-text="erin l. grade 10-12 english, ap / ib english, history &amp; social studies, essay writing, literary analysis grades 10–12; grade 8 / myp">
       <h3>Erin L.</h3>
       <p><b>Subjects:</b> Grade 10-12 English, AP / IB English, History &amp; Social Studies, essay writing, literary analysis</p>
       <p><b>Grades:</b> Grades 10–12</p>
       <p><b>Format:</b> 100% online via Google Meet or Discord; progress update for parents every 2 months</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Erin%20L.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Erin%20L.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Erin L.')">Ask about price</button></p>
       <p class="bg">Vancouver-born native English speaker; currently a public secondary school teacher in Surrey with a BC teaching licence; UBC double degree in English Literature and History (with Distinction) + BEd; 8 years tutoring</p>
     </div><div class="card tutor-card" style="display:none" data-subj="English, IELTS" data-text="leilani a. english, ielts">
       <h3>Leilani A.</h3>
       <p><b>Subjects:</b> English, IELTS</p>
       <p><b>Grades:</b> K-G12</p>
       <p><b>Format:</b> Online</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Leilani%20A.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Leilani%20A.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Leilani A.')">Ask about price</button></p>
       <p class="bg">Canadian English teacher and career counsellor, 15+ years; conversational and academic/professional English, IELTS, pronunciation and fluency, vocabulary, interviews, résumés and university application guidance</p>
     </div><div class="card tutor-card" style="display:none" data-subj="K-12 English, writing and humanities, ELL / ELA, reading comprehension, Math &amp; Science Grades 1-10" data-text="karen n. k-12 english, writing and humanities, ell / ela, reading comprehension, math &amp; science grades 1-10 k-12 70">
       <h3>Karen N.</h3>
       <p><b>Subjects:</b> K-12 English, writing and humanities, ELL / ELA, reading comprehension, Math &amp; Science Grades 1-10</p>
       <p><b>Grades:</b> K-12</p>
       <p><b>Format:</b> Online via Zoom, or in person in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Karen%20N.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Karen%20N.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Karen N.')">Ask about price</button></p>
       <p class="bg">BC- and Hong Kong-certified teacher with 10–12 years of teaching and tutoring, currently on call with the Vancouver School Board; graduate of UBC and the University of Sunderland, TESOL; trilingual (English, Cantonese, Mandarin) and mainly teaches in English</p>
     </div><div class="card tutor-card" style="display:none" data-subj="critical thinking, reading comprehension, English writing" data-text="ted c. critical thinking, reading comprehension, english writing elementary school, secondary school, university 35">
       <h3>Ted C.</h3>
       <p><b>Subjects:</b> critical thinking, reading comprehension, English writing</p>
       <p><b>Grades:</b> Elementary school, secondary school, university</p>
       <p><b>Format:</b> In person only, at a public library</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Ted%20C.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Ted%20C.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Ted C.')">Ask about price</button></p>
       <p class="bg">University tutor since 2017; bilingual in Chinese and English, also teaches Mandarin and Chinese literature; author of an English-language parenting guide</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Math, Science, IB" data-text="frank c. math, science, ib grade 8-12">
       <h3>Frank C.</h3>
       <p><b>Subjects:</b> Math, Science, IB</p>
       <p><b>Grades:</b> Grade 8-12</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Frank%20C.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Frank%20C.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Frank C.')">Ask about price</button></p>
       <p class="bg">Certified Math / Science / IB teacher in BC. The same phone number also appears on a youth (ages 11–18) badminton lessons card (Frank, Nov 4/26, NCCP)</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Math, IB Math" data-text="math tutor math, ib math g5-g12">
       <h3>Math Tutor</h3>
       <p><b>Subjects:</b> Math, IB Math</p>
       <p><b>Grades:</b> G5-G12</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Math%20Tutor&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Math%20Tutor%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Math Tutor')">Ask about price</button></p>
       <p class="bg">25 years as a math tutor; Grades 5–12, IB math</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Spanish, ESL, French" data-text="kitty spanish, esl, french 25">
       <h3>Kitty</h3>
       <p><b>Subjects:</b> Spanish, ESL, French</p>
       <p><b>Grades:</b> K-G12</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Kitty&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Kitty%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Kitty')">Ask about price</button></p>
       <p class="bg">TESOL diploma; has lived in Spain and Quebec; offers tutoring and language practice</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Physics, Chemistry, Math" data-text="george physics, chemistry, math grades 5–12 (flyer reads &#x27;grade 7 5–12&#x27;, possibly 7–12 or 5–12)">
       <h3>George</h3>
       <p><b>Subjects:</b> Physics, Chemistry, Math</p>
       <p><b>Grades:</b> Grades 5–12 (flyer reads &#x27;GRADE 7 5–12&#x27;, possibly 7–12 or 5–12)</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20George&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20George%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('George')">Ask about price</button></p>
       <p class="bg">Physics, Chemistry, Math. The flyer just says &#x27;Call Me&#x27;</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Math, Science" data-text="mangala r. math, science grades 4-10 40">
       <h3>Mangala R.</h3>
       <p><b>Subjects:</b> Math, Science</p>
       <p><b>Grades:</b> Grades 4-10</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Mangala%20R.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Mangala%20R.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Mangala R.')">Ask about price</button></p>
       <p class="bg">Makes learning easier and builds confidence; personalised tutoring</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Maths, Science, IT Skills, Python, Java" data-text="charanjit k. maths, science, it skills, python, java grade 8-12 30">
       <h3>Charanjit K.</h3>
       <p><b>Subjects:</b> Maths, Science, IT Skills, Python, Java</p>
       <p><b>Grades:</b> Grade 8-12</p>
       <p><b>Format:</b> One-to-One</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Charanjit%20K.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Charanjit%20K.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Charanjit K.')">Ask about price</button></p>
       <p class="bg">One-to-one, conceptual, focused and student-friendly; assignment and project help; coaching in IT skills, Python and Java</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Math, Science, Pre-cal, Chemistry" data-text="rola math, science, pre-cal, chemistry pre-cal 10-11, chemistry 10-12, math 9-11, science 9-11 25">
       <h3>Rola</h3>
       <p><b>Subjects:</b> Math, Science, Pre-cal, Chemistry</p>
       <p><b>Grades:</b> Pre-cal 10-11, Chemistry 10-12, Math 9-11, Science 9-11</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Rola&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Rola%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Rola')">Ask about price</button></p>
       <p class="bg">Looking for a math and science tutor with unparalleled experience</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Mathematics, Applied Mathematics, Statistics" data-text="sam mathematics, applied mathematics, statistics grade 5-12, undergraduate, master&#x27;s">
       <h3>Sam</h3>
       <p><b>Subjects:</b> Mathematics, Applied Mathematics, Statistics</p>
       <p><b>Grades:</b> Grade 5-12, Undergraduate, Master&#x27;s</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Sam&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Sam%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Sam')">Ask about price</button></p>
       <p class="bg">Retired professor tutoring mathematics, including applied mathematics for physics students and master&#x27;s students in some branches of mathematics</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Math, Calculus, Physics, French, Art, AP Science &amp; Math, DELF Exam Prep, Art Portfolio Prep" data-text="emelia c. math, calculus, physics, french, art, ap science &amp; math, delf exam prep, art portfolio prep elementary, high school, undergraduate">
       <h3>Emelia C.</h3>
       <p><b>Subjects:</b> Math, Calculus, Physics, French, Art, AP Science &amp; Math, DELF Exam Prep, Art Portfolio Prep</p>
       <p><b>Grades:</b> Elementary, high school, undergraduate</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Emelia%20C.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Emelia%20C.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Emelia C.')">Ask about price</button></p>
       <p class="bg">McGill Engineering graduate, now pursuing a Master of Architecture at UBC; 2+ years of tutoring experience; gives clear step-by-step explanations and focuses on deep understanding rather than memorisation</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Math" data-text="carrot l. math grades 3-8 (simple 3-4, intermediate 5-6, advanced 7-8)">
       <h3>Carrot L.</h3>
       <p><b>Subjects:</b> Math</p>
       <p><b>Grades:</b> Grades 3-8 (Simple 3-4, Intermediate 5-6, Advanced 7-8)</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Carrot%20L.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Carrot%20L.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Carrot L.')">Ask about price</button></p>
       <p class="bg">Carrot Learning is a youth-led initiative offering free math tutoring for children</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Pre-Calc Math 10/11/12, Science 10, Chemistry 11/12, Physics 11/12" data-text="jeremy pre-calc math 10/11/12, science 10, chemistry 11/12, physics 11/12 grade 10-12">
       <h3>Jeremy</h3>
       <p><b>Subjects:</b> Pre-Calc Math 10/11/12, Science 10, Chemistry 11/12, Physics 11/12</p>
       <p><b>Grades:</b> Grade 10-12</p>
       <p><b>Format:</b> Online, Tuesday and Thursday evenings; other evenings can be discussed</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Jeremy&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Jeremy%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Jeremy')">Ask about price</button></p>
       <p class="bg">A BC teacher who introduces himself as Jeremy; the flyer only says &#x27;Jeremy&#x27;, and the surname Ratcliffe was inferred from his email address</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Piano, Guitar, Voice, Violin, Flute" data-text="fantasia m. piano, guitar, voice, violin, flute">
       <h3>Fantasia M.</h3>
       <p><b>Subjects:</b> Piano, Guitar, Voice, Violin, Flute</p>
       <p><b>Grades:</b> K-G12</p>
       <p><b>Format:</b> In-home lessons across Greater Vancouver；Book a FREE trial lesson!</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Fantasia%20M.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Fantasia%20M.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Fantasia M.')">Ask about price</button></p>
       <p class="bg">Fantasia Academy of Music: in-home lessons across Greater Vancouver with qualified, patient teachers</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Math, English, Essay Writing" data-text="math tutor math, english, essay writing elementary to high school, grade 12">
       <h3>Math Tutor</h3>
       <p><b>Subjects:</b> Math, English, Essay Writing</p>
       <p><b>Grades:</b> Elementary to high school, Grade 12</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Math%20Tutor&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Math%20Tutor%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Math Tutor')">Ask about price</button></p>
       <p class="bg">Honours Bachelor of Science graduate from the University of Toronto (Math major, Psychology minor); accepted to the University of Chicago for graduate school (September 2024 admission); 10–15 years of tutoring experience with students from elementary to high school; flexible about teaching other subjects; experienced in advising Grade 12 students on university applications</p>
     </div><div class="card tutor-card" style="display:none" data-subj="High school math, physics and chemistry, AP, IB, Math competitions, SAT" data-text="tony high school math, physics and chemistry, ap, ib, math competitions, sat mainly high school; whether they teach physics 11">
       <h3>Tony</h3>
       <p><b>Subjects:</b> High school math, physics and chemistry, AP, IB, Math competitions, SAT</p>
       <p><b>Grades:</b> Mainly high school</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Tony&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Tony%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Tony')">Ask about price</button></p>
       <p class="bg">Individual tutor; local high school graduate, SFU graduate, 10+ years of local tutoring experience; one-on-one and small-group lessons</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Elementary and secondary school math, SSAT, AP, SAT, Math competitions" data-text="kevin elementary and secondary school math, ssat, ap, sat, math competitions elementary and secondary school; for exact grades">
       <h3>Kevin</h3>
       <p><b>Subjects:</b> Elementary and secondary school math, SSAT, AP, SAT, Math competitions</p>
       <p><b>Grades:</b> Elementary and secondary school</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Kevin&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Kevin%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Kevin')">Ask about price</button></p>
       <p class="bg">Private math tutor for elementary and secondary school math, analytical thinking, math olympiads, competition problem-solving, university course support and homework help</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Math Grade 8-12, Calculus 12, Science Grade 8-12" data-text="math tutor (ubc) math grade 8-12, calculus 12, science grade 8-12 grade 8-12 (one-on-one: grades 8–9 , grade 10 , grades 11–12 ; group )">
       <h3>Math Tutor (UBC)</h3>
       <p><b>Subjects:</b> Math Grade 8-12, Calculus 12, Science Grade 8-12</p>
       <p><b>Grades:</b> Grade 8-12</p>
       <p><b>Format:</b> Online only (one-on-one or small groups of 2–4)</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Math%20Tutor%20%28UBC%29&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Math%20Tutor%20%28UBC%29%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Math Tutor (UBC)')">Ask about price</button></p>
       <p class="bg">19 years old, second-year Neuroscience student at UBC, Dean&#x27;s List in first year; graduate of Richmond McMath Secondary with a 95% high school average; 3 years of tutoring and online teaching experience, familiar with the BC curriculum; teaches in Cantonese and English</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Java, Python, HTML/JavaScript for elementary and secondary students, AP Computer Science A, University computer science course tutoring, Waterloo CCC computing competition training" data-text="james java, python, html/javascript for elementary and secondary students, ap computer science a, university computer science course tutoring, waterloo ccc computing competition training elementary and secondary school and university,">
       <h3>James</h3>
       <p><b>Subjects:</b> Java, Python, HTML/JavaScript for elementary and secondary students, AP Computer Science A, University computer science course tutoring, Waterloo CCC computing competition training</p>
       <p><b>Grades:</b> Elementary and secondary school and university</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20James&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20James%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('James')">Ask about price</button></p>
       <p class="bg">Waterloo CCC computing competition training and AP Computer Science A exam preparation</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Math, Calculus, English, Chemistry, Physics, Biology, French" data-text="math tutor math, calculus, english, chemistry, physics, biology, french most familiar with grades 10–12; all students and levels welcome">
       <h3>Math Tutor</h3>
       <p><b>Subjects:</b> Math, Calculus, English, Chemistry, Physics, Biology, French</p>
       <p><b>Grades:</b> Most familiar with Grades 10–12; all students and levels welcome</p>
       <p><b>Format:</b> Individual or group; Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Math%20Tutor&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Math%20Tutor%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Math Tutor')">Ask about price</button></p>
       <p class="bg">UBC Science undergraduate, born and raised in Vancouver, strong English; scored 5 on every AP exam taken: Biology, Calculus BC (and AB), Chemistry, Physics 2 and Physics 1, earning AP Scholar with Distinction; graduated Grade 12 with the highest average in the school; received offers from top universities including UBC, Toronto, McGill and Alberta; can advise on university applications</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Math, Physics, Chemistry, Calculus, Computer Programming, AP" data-text="math tutor math, physics, chemistry, calculus, computer programming, ap">
       <h3>Math Tutor</h3>
       <p><b>Subjects:</b> Math, Physics, Chemistry, Calculus, Computer Programming, AP</p>
       <p><b>Grades:</b> K-G12</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Math%20Tutor&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Math%20Tutor%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Math Tutor')">Ask about price</button></p>
       <p class="bg">A team of teachers, graduates in science and engineering from Tsinghua University, described as responsible, patient and dedicated; the flyer also mentions Shanghai Jiao Tong University</p>
     </div><div class="card tutor-card" style="display:none" data-subj="French" data-text="french tutor french a1–c2, beginners to university students">
       <h3>French Tutor</h3>
       <p><b>Subjects:</b> French</p>
       <p><b>Grades:</b> A1–C2, beginners to university students</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20French%20Tutor&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20French%20Tutor%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('French Tutor')">Ask about price</button></p>
       <p class="bg">French teacher from France with 15 years of teaching experience and tailored lessons; A1–C2, TEF, TCF, DELF and AP exam preparation, IB French</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Spanish" data-text="marco spanish ; can teach any level (private lessons); conversation practice ; free consultation">
       <h3>Marco</h3>
       <p><b>Subjects:</b> Spanish</p>
       <p><b>Grades:</b> K-G12</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Marco&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Marco%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Marco')">Ask about price</button></p>
       <p class="bg">Spanish teacher from Colombia; flexible, fun and informative. &#x27;Learn Spanish the Fun Way.&#x27;</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Math" data-text="richard math mainly university math, ubc courses , 15 minutes; two students together /person">
       <h3>Richard</h3>
       <p><b>Subjects:</b> Math</p>
       <p><b>Grades:</b> Mainly university math, UBC courses</p>
       <p><b>Format:</b> Online or in person; flexible schedule</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Richard&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Richard%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Richard')">Ask about price</button></p>
       <p class="bg">16 years of experience, patient; BSc in Math (advanced degree); explains concepts and calculations step by step, uses diagrams to aid understanding, efficient problem-solving and faster learning, midterm and final exam preparation. UBC specialities: MATH 180, 184, 100, 101, 102, 103, 104, 105, 110, 200, 215, 221, 253, 255, 256, STAT 200, COMM 291, PSYCH 218</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Calculus, Statistics, Physics, Pre-Calculus, Math" data-text="michael b. calculus, statistics, physics, pre-calculus, math individual ; group /person">
       <h3>Michael B.</h3>
       <p><b>Subjects:</b> Calculus, Statistics, Physics, Pre-Calculus, Math</p>
       <p><b>Grades:</b> K-G12</p>
       <p><b>Format:</b> Individual or group; Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Michael%20B.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Michael%20B.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Michael B.')">Ask about price</button></p>
       <p class="bg">BSc, BEd, BC-certified teacher; &#x27;100% Math Tutoring.&#x27;</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Math, Physics, Statistics" data-text="rick math, physics, statistics high school, university, ubc courses ; extra students free">
       <h3>Rick</h3>
       <p><b>Subjects:</b> Math, Physics, Statistics</p>
       <p><b>Grades:</b> High school, university, UBC courses</p>
       <p><b>Format:</b> Online via Zoom</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Rick&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Rick%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Rick')">Ask about price</button></p>
       <p class="bg">15+ years teaching math and physics at UBC; now teaches high school and university math and physics; patient, with clear and detailed explanations. UBC courses: Math 100, 101, 110, 152, 180, 200, Physics 100, 102, 131, Stat 200</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Calculus, Advanced Calculus, Differential Equations, Linear Algebra, Math" data-text="calculus tutor calculus, advanced calculus, differential equations, linear algebra, math university math free trial lesson; regular rate">
       <h3>Calculus Tutor</h3>
       <p><b>Subjects:</b> Calculus, Advanced Calculus, Differential Equations, Linear Algebra, Math</p>
       <p><b>Grades:</b> University math</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Calculus%20Tutor&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Calculus%20Tutor%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Calculus Tutor')">Ask about price</button></p>
       <p class="bg">25+ years of experience in top-level university math tutoring: calculus (100/101, 110, 120/121, 180, 190), advanced calculus (200, 226/227, 253, 254), differential equations (255/256, 257/258, 316, 400) and linear algebra (152, 221, 223, 307, 310). Breaks complex concepts into easy-to-understand steps; recent students have been admitted to UBC, Harvard, UC Berkeley, Stanford, Toronto and other top universities</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Math, Statistics, Python, Data Science, Machine Learning" data-text="marcel math, statistics, python, data science, machine learning university, mainly ubc courses , s; group price negotiable; no charge if not 100% satisfied">
       <h3>Marcel</h3>
       <p><b>Subjects:</b> Math, Statistics, Python, Data Science, Machine Learning</p>
       <p><b>Grades:</b> University, mainly UBC courses</p>
       <p><b>Format:</b> Online or in person; available weekday evenings and daytime</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Marcel&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Marcel%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Marcel')">Ask about price</button></p>
       <p class="bg">Professional IT engineer with 15 years of industry and academic (PhD) experience; teaches most UBC math and statistics courses, plus Python, data science and machine learning; fluent in English</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Chemistry" data-text="chemistry tutor chemistry university, ubc chemistry courses one-on-one ; group">
       <h3>Chemistry Tutor</h3>
       <p><b>Subjects:</b> Chemistry</p>
       <p><b>Grades:</b> University, UBC chemistry courses</p>
       <p><b>Format:</b> One-on-one or group; Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Chemistry%20Tutor&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Chemistry%20Tutor%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Chemistry Tutor')">Ask about price</button></p>
       <p class="bg">PhD in Organic Chemistry with 20 years of university teaching experience, having taught 300+ students at UBC; explains course concepts in depth and gives study plans based on each student&#x27;s background; problem sets, practice, and midterm and final exam review</p>
     </div><div class="card tutor-card" style="display:none" data-subj="IELTS, CELPIP" data-text="poojan ielts, celpip">
       <h3>Poojan</h3>
       <p><b>Subjects:</b> IELTS, CELPIP</p>
       <p><b>Grades:</b> K-G12</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Poojan&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Poojan%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Poojan')">Ask about price</button></p>
       <p class="bg">IELTS / CELPIP; scored CLB 9. Card dated May 18, 2024</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Spanish" data-text="alicia o. spanish cad">
       <h3>Alicia O.</h3>
       <p><b>Subjects:</b> Spanish</p>
       <p><b>Grades:</b> K-G12</p>
       <p><b>Format:</b> In person or online</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Alicia%20O.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Alicia%20O.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Alicia O.')">Ask about price</button></p>
       <p class="bg">Mexican journalist and Spanish teacher. Card dated July 16, 2024</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Math, Science, Chemistry, Biology" data-text="priya d. math, science, chemistry, biology kg–8 all subjects; grades 8–9 and 9–10 science; grades 11–12 chemistry / biology">
       <h3>Priya D.</h3>
       <p><b>Subjects:</b> Math, Science, Chemistry, Biology</p>
       <p><b>Grades:</b> KG–8 all subjects; Grades 8–9 and 9–10 Science; Grades 11–12 Chemistry / Biology</p>
       <p><b>Format:</b> Home visits</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Priya%20D.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Priya%20D.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Priya D.')">Ask about price</button></p>
       <p class="bg">16 years of teaching experience. Card dated June 9, 2024</p>
     </div><div class="card tutor-card" style="display:none" data-subj="English, Language Arts" data-text="jessica l. english, language arts">
       <h3>Jessica L.</h3>
       <p><b>Subjects:</b> English, Language Arts</p>
       <p><b>Grades:</b> K-G12</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Jessica%20L.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Jessica%20L.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Jessica L.')">Ask about price</button></p>
       <p class="bg">Looking for students for English and Language Arts. Card dated June 17, 2024</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Math, Pre-Calculus, Calculus, Physics" data-text="nahid a. math, pre-calculus, calculus, physics grades 8–12">
       <h3>Nahid A.</h3>
       <p><b>Subjects:</b> Math, Pre-Calculus, Calculus, Physics</p>
       <p><b>Grades:</b> Grades 8–12</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Nahid%20A.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Nahid%20A.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Nahid A.')">Ask about price</button></p>
       <p class="bg">Math Grades 8–12, Pre-Calculus 11 and 12, Calculus / IB / AP / SAT / SSAT; Physics (Regular / IB / AP). Card dated June 11, 2024</p>
     </div><div class="card tutor-card" style="display:none" data-subj="English as a Second Language, ESL" data-text="kathy english as a second language, esl">
       <h3>Kathy</h3>
       <p><b>Subjects:</b> English as a Second Language, ESL</p>
       <p><b>Grades:</b> K-G12</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Kathy&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Kathy%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Kathy')">Ask about price</button></p>
       <p class="bg">Specialised ESL lessons covering grammar, spelling, speaking and writing; university student who also works as a teaching assistant. Card dated July 16, 2024</p>
     </div><div class="card tutor-card" style="display:none" data-subj="General Tutoring" data-text="ritu s. general tutoring kindergarten to grade 7 ; first trial lesson free">
       <h3>Ritu S.</h3>
       <p><b>Subjects:</b> General Tutoring</p>
       <p><b>Grades:</b> Kindergarten to Grade 7</p>
       <p><b>Format:</b> Online or in person; flexible schedule</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Ritu%20S.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Ritu%20S.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Ritu S.')">Ask about price</button></p>
       <p class="bg">Experienced teacher. Card dated June 17, 2024</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Math, Science, French, Piano" data-text="karina t. math, science, french, piano below grade 10">
       <h3>Karina T.</h3>
       <p><b>Subjects:</b> Math, Science, French, Piano</p>
       <p><b>Grades:</b> Below Grade 10</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Karina%20T.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Karina%20T.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Karina T.')">Ask about price</button></p>
       <p class="bg">Senior student at Earl Marriott Secondary; tutors math, science and French, is fluent in French and has won recognition awards in all subjects; also teaches piano (RCM Level 10). Card dated September 17, 2024</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Math, Calculus" data-text="charles w. math, calculus grades 7–12, first-year university students (card says &#x27;ask me&#x27;)">
       <h3>Charles W.</h3>
       <p><b>Subjects:</b> Math, Calculus</p>
       <p><b>Grades:</b> Grades 7–12, first-year university students</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Charles%20W.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Charles%20W.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Charles W.')">Ask about price</button></p>
       <p class="bg">Korean math tutor with 22 years of experience in Vancouver; IB and AP math, calculus; Korean students welcome. Card dated May 3, 2024</p>
     </div><div class="card tutor-card" style="display:none" data-subj="French, Math, Language Arts" data-text="diyanna french, math, language arts grades k–7">
       <h3>Diyanna</h3>
       <p><b>Subjects:</b> French, Math, Language Arts</p>
       <p><b>Grades:</b> Grades K–7</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Diyanna&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Diyanna%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Diyanna')">Ask about price</button></p>
       <p class="bg">High school student; tutors French, math and language arts for Grades K–7 and also babysits; has won academic and citizenship awards and is a math honours student. Card dated July 2, 2024</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Science, Chemistry, Biology" data-text="tashi science, chemistry, biology grades 9–10 science; grades 11–12 chemistry / biology">
       <h3>Tashi</h3>
       <p><b>Subjects:</b> Science, Chemistry, Biology</p>
       <p><b>Grades:</b> Grades 9–10 Science; Grades 11–12 Chemistry / Biology</p>
       <p><b>Format:</b> Online or in person; summer classes also available</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Tashi&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Tashi%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Tashi')">Ask about price</button></p>
       <p class="bg">16 years of teaching; Science for Grades 9 and 10, Chemistry and Biology for Grades 11 and 12. Card dated August 6, 2024</p>
     </div><div class="card tutor-card" style="display:none" data-subj="French" data-text="liang w. french">
       <h3>Liang W.</h3>
       <p><b>Subjects:</b> French</p>
       <p><b>Grades:</b> K-G12</p>
       <p><b>Format:</b> Online or in person; lessons 4–8 pm</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Liang%20W.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Liang%20W.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Liang W.')">Ask about price</button></p>
       <p class="bg">French tutor from Montreal, Quebec; scored 92% in French. Card dated October 15, 2024</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Robotics" data-text="nasir k. robotics grades 5–10 ; free trial lesson">
       <h3>Nasir K.</h3>
       <p><b>Subjects:</b> Robotics</p>
       <p><b>Grades:</b> Grades 5–10</p>
       <p><b>Format:</b> Online</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Nasir%20K.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Nasir%20K.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Nasir K.')">Ask about price</button></p>
       <p class="bg">Online robotics classes for Grades 5–10; 30 hours in total, each lesson 1–5 hours, flexible schedule. Card dated July 8, 2024</p>
     </div><div class="card tutor-card" style="display:none" data-subj="ESL, English" data-text="pamela s. esl, english all levels">
       <h3>Pamela S.</h3>
       <p><b>Subjects:</b> ESL, English</p>
       <p><b>Grades:</b> All levels</p>
       <p><b>Format:</b> In person or on Zoom</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Pamela%20S.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Pamela%20S.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Pamela S.')">Ask about price</button></p>
       <p class="bg">Patient ESL teacher with 10 years of experience; helps students build confidence in English. Card dated September 20, 2024</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Math, Chemistry, Physics, Chinese" data-text="richard w. math, chemistry, physics, chinese grade 11 math / science 20 cad/hour">
       <h3>Richard W.</h3>
       <p><b>Subjects:</b> Math, Chemistry, Physics, Chinese</p>
       <p><b>Grades:</b> Grade 11 math / science</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Richard%20W.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Richard%20W.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Richard W.')">Ask about price</button></p>
       <p class="bg">Grade 11 student at Semiahmoo Secondary who scored 97% in Pre-Calculus 11; came to Canada from China this January, having already completed Grade 11 in China, and has mastered the Canadian math and science curriculum; confident teaching math, chemistry, physics and Chinese. Card dated September 17, 2024</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Math, Physics, Chemistry, Science" data-text="anthony math, physics, chemistry, science grades 7–12 from">
       <h3>Anthony</h3>
       <p><b>Subjects:</b> Math, Physics, Chemistry, Science</p>
       <p><b>Grades:</b> Grades 7–12</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Anthony&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Anthony%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Anthony')">Ask about price</button></p>
       <p class="bg">Math, physics, chemistry and science. Card dated June 25, 2024</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Math, Science, Piano, Reading" data-text="nicole w. math, science, piano, reading below grade 10; reading buddy for grades 1–8">
       <h3>Nicole W.</h3>
       <p><b>Subjects:</b> Math, Science, Piano, Reading</p>
       <p><b>Grades:</b> Below Grade 10; reading buddy for Grades 1–8</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Nicole%20W.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Nicole%20W.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Nicole W.')">Ask about price</button></p>
       <p class="bg">Grade 11 student at Semiahmoo Secondary; tutors math, science and piano for students below Grade 10, and is a reading buddy for children in Grades 1–8. Card dated September 17, 2024</p>
     </div><div class="card tutor-card" style="display:none" data-subj="English, Essay Writing, Admissions" data-text="jim english, essay writing, admissions">
       <h3>Jim</h3>
       <p><b>Subjects:</b> English, Essay Writing, Admissions</p>
       <p><b>Grades:</b> K-G12</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Jim&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Jim%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Jim')">Ask about price</button></p>
       <p class="bg">College teacher and professional writer; excellent English, improving communication skills and grades; also teaches top-school admissions — both grades and application essays matter — and how to write the best application essay. Two cards for the same person, merged into one entry. Card dated September 5, 2024</p>
     </div><div class="card tutor-card" style="display:none" data-subj="IELTS, TOEFL, Academic English" data-text="wen ielts, toefl, academic english elementary school to university">
       <h3>Wen</h3>
       <p><b>Subjects:</b> IELTS, TOEFL, Academic English</p>
       <p><b>Grades:</b> Elementary school to university</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Wen&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Wen%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Wen')">Ask about price</button></p>
       <p class="bg">IELTS, TOEFL and academic English teacher with 10+ years of experience; trial lesson free. Card dated June 25, 2024</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Piano" data-text="amy x. piano all ages and levels">
       <h3>Amy X.</h3>
       <p><b>Subjects:</b> Piano</p>
       <p><b>Grades:</b> All ages and levels</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Amy%20X.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Amy%20X.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Amy X.')">Ask about price</button></p>
       <p class="bg">Piano lessons with a classical and jazz pianist, 10+ years of performing experience, RCM Level 10 and Harmony &amp; Counterpoint Level 10, 2–3 years of teaching experience; English and Mandarin. Card dated July 14, 2024</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Reading, Writing, Spelling, Math, Social Studies, Science" data-text="hannah b. reading, writing, spelling, math, social studies, science kindergarten to grade 4">
       <h3>Hannah B.</h3>
       <p><b>Subjects:</b> Reading, Writing, Spelling, Math, Social Studies, Science</p>
       <p><b>Grades:</b> Kindergarten to Grade 4</p>
       <p><b>Format:</b> In person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Hannah%20B.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Hannah%20B.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Hannah B.')">Ask about price</button></p>
       <p class="bg">Homework help: reading, writing, spelling, math, social studies and science; self-regulation and exam strategies. Card dated June 26, 2024</p>
     </div><div class="card tutor-card" style="display:none" data-subj="All Subjects" data-text="fayhaa k. all subjects grade 10 and below ; free trial lesson">
       <h3>Fayhaa K.</h3>
       <p><b>Subjects:</b> All Subjects</p>
       <p><b>Grades:</b> Grade 10 and below</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Fayhaa%20K.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Fayhaa%20K.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Fayhaa K.')">Ask about price</button></p>
       <p class="bg">IB student at Semiahmoo; 3+ years of tutoring experience, all subjects for Grade 10 and below; debate and science fair awards. Card dated August 13, 2024</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Math" data-text="keith v. math grades 3–9 ; small-group price separate">
       <h3>Keith V.</h3>
       <p><b>Subjects:</b> Math</p>
       <p><b>Grades:</b> Grades 3–9</p>
       <p><b>Format:</b> Online or in person; small groups also available</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Keith%20V.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Keith%20V.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Keith V.')">Ask about price</button></p>
       <p class="bg">Extra math support; teaches children to think mathematically and become independent problem-solvers; quick assessment to understand each student&#x27;s needs. Card dated September 5, 2024</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Math" data-text="kiana &amp; niki math grades 8–12">
       <h3>Kiana &amp; Niki</h3>
       <p><b>Subjects:</b> Math</p>
       <p><b>Grades:</b> Grades 8–12</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Kiana%20%26amp%3B%20Niki&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Kiana%20%26amp%3B%20Niki%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Kiana &amp; Niki')">Ask about price</button></p>
       <p class="bg">WVSS students offering math tutoring; they teach together</p>
     </div><div class="card tutor-card" style="display:none" data-subj="French" data-text="maryam r. french children and adults, beginner / intermediate / advanced affordable rates; exact amount">
       <h3>Maryam R.</h3>
       <p><b>Subjects:</b> French</p>
       <p><b>Grades:</b> Children and adults, beginner / intermediate / advanced</p>
       <p><b>Format:</b> Private lessons, noon to 6 pm</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Maryam%20R.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Maryam%20R.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Maryam R.')">Ask about price</button></p>
       <p class="bg">BA in French; foreign language instructor at DEA College; French conversation</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Physics, Math, Calculus" data-text="emtyazi e. physics, math, calculus high school, ib, ap, university / college">
       <h3>Emtyazi E.</h3>
       <p><b>Subjects:</b> Physics, Math, Calculus</p>
       <p><b>Grades:</b> High school, IB, AP, university / college</p>
       <p><b>Format:</b> Online, one-on-one</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Emtyazi%20E.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Emtyazi%20E.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Emtyazi E.')">Ask about price</button></p>
       <p class="bg">Director of E-TUTORPRO; physics, math and calculus; science, engineering, business and art courses at university and college level; standardised test preparation</p>
     </div><div class="card tutor-card" style="display:none" data-subj="English, Reading, Writing, Art" data-text="cathy b. english, reading, writing, art elementary school reasonable rates; exact amount ; 2-hour minimum">
       <h3>Cathy B.</h3>
       <p><b>Subjects:</b> English, Reading, Writing, Art</p>
       <p><b>Grades:</b> Elementary school</p>
       <p><b>Format:</b> In person, at the library</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Cathy%20B.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Cathy%20B.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Cathy B.')">Ask about price</button></p>
       <p class="bg">Experienced, licensed early childhood educator with a background in university English, communications and four years of psychology; has given one-on-one literacy tutoring in an East Vancouver elementary school, teaching kindergarten ELL learners and children with learning difficulties or needing literacy support; also tutors art assignments; clear criminal record check, First Aid/CPR, references available</p>
     </div><div class="card tutor-card" style="display:none" data-subj="French" data-text="entre nous french all ages and levels">
       <h3>ENTRE NOUS</h3>
       <p><b>Subjects:</b> French</p>
       <p><b>Grades:</b> All ages and levels</p>
       <p><b>Format:</b> Online; group lessons 90 minutes, up to 15 students; private lessons 60–90 minutes, one-on-one, tailored to your needs</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20ENTRE%20NOUS&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20ENTRE%20NOUS%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('ENTRE NOUS')">Ask about price</button></p>
       <p class="bg">Online French programme ENTRE NOUS. &#x27;Enjoy expressing yourself in French, again!&#x27;</p>
     </div><div class="card tutor-card" style="display:none" data-subj="English, LSAT, Music Theory" data-text="eric english, lsat, music theory k-12 english">
       <h3>Eric</h3>
       <p><b>Subjects:</b> English, LSAT, Music Theory</p>
       <p><b>Grades:</b> K-12 English</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Eric&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Eric%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Eric')">Ask about price</button></p>
       <p class="bg">Lead tutor at Curriculate; bachelor&#x27;s in Health Science, master&#x27;s in Philosophy, Yale bioethics programme graduate; former children&#x27;s day camp director for many years; part-time tutor for 10+ years, now full-time; all English subjects K–12, LSAT preparation, music theory</p>
     </div><div class="card tutor-card" style="display:none" data-subj="French" data-text="nico french elementary and secondary school">
       <h3>Nico</h3>
       <p><b>Subjects:</b> French</p>
       <p><b>Grades:</b> Elementary and secondary school</p>
       <p><b>Format:</b> In person or online</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Nico&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Nico%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Nico')">Ask about price</button></p>
       <p class="bg">French tutor for elementary and secondary school students</p>
     </div><div class="card tutor-card" style="display:none" data-subj="English, IELTS, TOEIC, SSAT, SAT, Social Studies" data-text="jaimie b. english, ielts, toeic, ssat, sat, social studies k-12 and adults">
       <h3>Jaimie B.</h3>
       <p><b>Subjects:</b> English, IELTS, TOEIC, SSAT, SAT, Social Studies</p>
       <p><b>Grades:</b> K-12 and adults</p>
       <p><b>Format:</b> Group or individual lessons; Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Jaimie%20B.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Jaimie%20B.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Jaimie B.')">Ask about price</button></p>
       <p class="bg">English teacher with 15 years of experience, teaching private and public school students; adult IELTS and TOEIC; academic English, SSAT, SAT and social studies for young people; CELTA (Cambridge), BA in Biblical Studies (Trinity Western), graduate of St. George&#x27;s School in Vancouver; private school references available</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Math, English, Social Studies" data-text="math tutor math, english, social studies grades 1–7">
       <h3>Math Tutor</h3>
       <p><b>Subjects:</b> Math, English, Social Studies</p>
       <p><b>Grades:</b> Grades 1–7</p>
       <p><b>Format:</b> Online and in person, flexible schedule, personalised lessons, homework help</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Math%20Tutor&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Math%20Tutor%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Math Tutor')">Ask about price</button></p>
       <p class="bg">One-on-one tutoring service run by UBC students (Brainstorm Tutors)</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Math" data-text="gol y. math elementary school -">
       <h3>Gol Y.</h3>
       <p><b>Subjects:</b> Math</p>
       <p><b>Grades:</b> Elementary school</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Gol%20Y.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Gol%20Y.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Gol Y.')">Ask about price</button></p>
       <p class="bg">Elementary school math tutor. A separate &#x27;MATH TUTORING&#x27; note was stuck on the flyer; it belongs to another teacher (Mahya)</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Reading" data-text="kathleen reading lower elementary">
       <h3>Kathleen</h3>
       <p><b>Subjects:</b> Reading</p>
       <p><b>Grades:</b> Lower elementary</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Kathleen&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Kathleen%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Kathleen')">Ask about price</button></p>
       <p class="bg">Reading tutor specialising in children who are just starting to read; experienced with dyslexic students; interactive, age-appropriate reading plans tailored to each child&#x27;s level</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Math" data-text="mahya s. math grades 1–8">
       <h3>Mahya S.</h3>
       <p><b>Subjects:</b> Math</p>
       <p><b>Grades:</b> Grades 1–8</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Mahya%20S.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Mahya%20S.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Mahya S.')">Ask about price</button></p>
       <p class="bg">Personalised math tutoring: foundational math, problem-solving, arithmetic, pre-algebra, homework support and exam preparation</p>
     </div><div class="card tutor-card" style="display:none" data-subj="MCAT" data-text="mcat tutor mcat university / medical school applications">
       <h3>MCAT Tutor</h3>
       <p><b>Subjects:</b> MCAT</p>
       <p><b>Grades:</b> University / medical school applications</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20MCAT%20Tutor&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20MCAT%20Tutor%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('MCAT Tutor')">Ask about price</button></p>
       <p class="bg">UBC medical student; MCAT 99th percentile; received four medical school offers; has led an MCAT preparation group and lectured in UBC biochemistry; top quartile in the Manitoba out-of-province CASPer; top 5% GPA in UBC Science; UBC Neuroscience award recipient; a UBC graduating leader award; has presented research at Harvard; WVSS alumnus</p>
     </div><div class="card tutor-card" style="display:none" data-subj="English" data-text="richard english adults / all levels first lesson/session free; regular rate">
       <h3>Richard</h3>
       <p><b>Subjects:</b> English</p>
       <p><b>Grades:</b> Adults / all levels</p>
       <p><b>Format:</b> Online or in person; also volunteers for English conversation at a local library</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Richard&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Richard%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Richard')">Ask about price</button></p>
       <p class="bg">Qualified English as a second language teacher with TESL certification (International House, Vancouver) and an undergraduate arts degree. Note: this Richard is an English teacher with TESL certification, distinct from the math tutor Richard listed earlier and from Richard Wang</p>
     </div><div class="card tutor-card" style="display:none" data-subj="French" data-text="french tutor french">
       <h3>French Tutor</h3>
       <p><b>Subjects:</b> French</p>
       <p><b>Grades:</b> K-G12</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20French%20Tutor&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20French%20Tutor%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('French Tutor')">Ask about price</button></p>
       <p class="bg">French tutor. Contact Mia to learn more.</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Math, Statistics, Linear Algebra, Economics, Physics, Chemistry, MCAT, GMAT, GRE" data-text="math tutor math, statistics, linear algebra, economics, physics, chemistry, mcat, gmat, gre grades 8–12, university years 1–4">
       <h3>Math Tutor</h3>
       <p><b>Subjects:</b> Math, Statistics, Linear Algebra, Economics, Physics, Chemistry, MCAT, GMAT, GRE</p>
       <p><b>Grades:</b> Grades 8–12, university years 1–4</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Math%20Tutor&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Math%20Tutor%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Math Tutor')">Ask about price</button></p>
       <p class="bg">MSc with 10+ years of teaching experience: math, statistics, linear algebra, calculus, differential equations, discrete math and numerical analysis; economics (micro and macro); physics; chemistry (physical and organic); standardised tests (MCAT, GMAT, GRE); final and provincial exam preparation</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Math" data-text="math tutor math">
       <h3>Math Tutor</h3>
       <p><b>Subjects:</b> Math</p>
       <p><b>Grades:</b> K-G12</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Math%20Tutor&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Math%20Tutor%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Math Tutor')">Ask about price</button></p>
       <p class="bg">Professional math tutor with 6+ years of successful experience; helps with homework, preparing for major exams and meeting deadlines</p>
     </div><div class="card tutor-card" style="display:none" data-subj="French" data-text="french tutor french ib grades 10 and 11; elementary to high school for grade 5 and below; for grade 6 and above; for delf/dalf exam prep; free 45-minute trial lesson for assessment">
       <h3>French Tutor</h3>
       <p><b>Subjects:</b> French</p>
       <p><b>Grades:</b> IB Grades 10 and 11; elementary to high school</p>
       <p><b>Format:</b> Online</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20French%20Tutor&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20French%20Tutor%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('French Tutor')">Ask about price</button></p>
       <p class="bg">French teacher from France with 17+ years of experience teaching French in France, Montreal and Vancouver; master&#x27;s in French literature, linguistics and teaching methods, plus learning psychology (cognitive science); teaches IB Grades 10 and 11; most students come from Collingwood, Mulgrave and West Vancouver schools; patient, dedicated and encouraging</p>
     </div><div class="card tutor-card" style="display:none" data-subj="Math, English, French, Calculus, ESL" data-text="nikki a. math, english, french, calculus, esl grades 8–12 from about ; first session free">
       <h3>Nikki A.</h3>
       <p><b>Subjects:</b> Math, English, French, Calculus, ESL</p>
       <p><b>Grades:</b> Grades 8–12</p>
       <p><b>Format:</b> Online or in person</p>
-      <p><a class="pricebtn" href="mailto:mia.lilyfunlearning@gmail.com?subject=Price%20enquiry%3A%20Nikki%20A.&body=Hi%20Mia%2C%0A%0ACould%20you%20tell%20me%20the%20price%20for%20lessons%20with%20Nikki%20A.%3F%0A%0AThank%20you%21">Ask about price</a></p>
+      <p><button class="pricebtn" type="button" onclick="askPrice('Nikki A.')">Ask about price</button></p>
       <p class="bg">Retired BC-certified high school teacher, BEd from McGill; many years of classroom and private tutoring experience; four daughters, all successful professionals, including a pathologist. Teaches Math 8, English 8, Math 9, Math 10, French 9, French 10, Math 11, Math 12, Calculus and ESL; served two years as a school principal; taught at Windermere Secondary (Vancouver, 1975–1979), Maillard Junior Secondary (Coquitlam, 1992–1997), Terry Fox Secondary (Port Coquitlam, 1997–2007) and BC Offshore School #25 (Beijing, China, 2007–2012)</p>
     </div></div>
 <p style="text-align:center"><button class="bigbtn" type="button" id="more">Show more tutors</button></p>
@@ -945,50 +947,67 @@ footer{margin-top:24px;color:#666;font-size:14px}
 </div>
 </div>
 <footer>Contact us: Lily Fun Learning · Mia: <a href="tel:+16049011618">604-901-1618</a> · <a href="mailto:mia.lilyfunlearning@gmail.com">mia.lilyfunlearning@gmail.com</a></footer>
+<div id="msgDlg" style="display:none;position:fixed;left:0;top:0;width:100%;height:100%;background:rgba(0,0,0,.55);z-index:99">
+<div style="background:#fff;max-width:520px;margin:10% auto;padding:22px;border-radius:14px">
+<h3 id="md-title" style="margin-top:0">Ask about price</h3>
+<p id="md-sub" style="color:#555"></p>
+<p>Send this message to <b>mia.lilyfunlearning@gmail.com</b>:</p>
+<textarea id="md-msg" readonly rows="8" style="width:100%;box-sizing:border-box;font-size:15px;padding:10px;border:1px solid #ccc;border-radius:8px"></textarea>
+<p><button type="button" onclick="copyMsg()" style="background:#b3541e;color:#fff;border:0;padding:10px 18px;border-radius:10px;font-weight:700;font-size:15px;cursor:pointer">Copy message</button>
+<a id="md-mail" href="#" style="display:inline-block;background:#2e7d32;color:#fff;padding:10px 18px;border-radius:10px;font-weight:700;font-size:15px;text-decoration:none">Open email app</a></p>
+<p>Or call / text Mia: <a href="tel:+16049011618">604-901-1618</a></p>
+<p><button type="button" onclick="closeMsg()" style="background:#eee;border:0;padding:8px 16px;border-radius:8px;font-size:15px;cursor:pointer">Close</button></p>
+</div>
+</div>
 <script>
+function showMsg(title,subj,body){document.getElementById('md-title').textContent=title;document.getElementById('md-sub').textContent=subj;document.getElementById('md-msg').value=body;document.getElementById('md-mail').href='mailto:mia.lilyfunlearning@gmail.com?subject='+encodeURIComponent(subj)+'&body='+encodeURIComponent(body);document.getElementById('msgDlg').style.display='block';}
+function askPrice(name){showMsg('Ask about price','Price enquiry: '+name,'Hi Mia,\n\nCould you tell me the price for lessons with '+name+'?\n\nThank you!');}
+function closeMsg(){document.getElementById('msgDlg').style.display='none';}
+function copyMsg(){var t=document.getElementById('md-msg');t.focus();t.select();var done=function(){alert('Message copied. Paste it into your email app and send it to mia.lilyfunlearning@gmail.com.');};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,function(){try{document.execCommand('copy');}catch(e){}done();});}else{try{document.execCommand('copy');}catch(e){}done();}}
 function show(id){for(const x of ['home','reading','leadership','teacherled','tutors','forteachers']){document.getElementById(x).style.display=(x===id)?'':'none';}window.scrollTo(0,0);}
 const q=document.getElementById('q'),s=document.getElementById('s'),grid=document.getElementById('grid'),count=document.getElementById('count');
-function f(){let n=0;for(const c of grid.children){const okQ=!q.value||c.dataset.text.includes(q.value.toLowerCase());const okS=!s.value||c.dataset.subj.includes(s.value);c.style.display=(okQ&&okS)?'':'none';if(okQ&&okS&&c.style.display!=='none')n++;}count.textContent=n+' shown';}
-q.addEventListener('input',f);s.addEventListener('change',f);f();
-document.getElementById('more').addEventListener('click',function(){let h=0;for(const c of grid.children){if(c.style.display==='none'&&h<12){c.style.display='';h++;}}f();if(h===0)this.style.display='none';});
-document.getElementById('cta').addEventListener('click',function(){var e=document.getElementById('form');e.style.display=e.style.display==='none'?'block':'none';});
+let shown=12;function f(){let total=0,vis=0;for(const c of grid.children){const okQ=!q.value||c.dataset.text.includes(q.value.toLowerCase());const okS=!s.value||c.dataset.subj.includes(s.value);if(okQ&&okS){total++;if(vis<shown){c.style.display='';vis++;}else{c.style.display='none';}}else{c.style.display='none';}}count.textContent=vis+' of '+total+' shown';document.getElementById('more').style.display=(vis<total)?'':'none';}function setChip(v){document.querySelectorAll('#chips .chip').forEach(function(b){b.classList.toggle('on',b.dataset.v===v);});}
+q.addEventListener('input',function(){shown=12;f();});s.addEventListener('change',function(){shown=12;setChip(s.value);f();});f();
+document.querySelectorAll('#chips .chip').forEach(function(b){b.addEventListener('click',function(){s.value=b.dataset.v;shown=12;setChip(b.dataset.v);f();});});
+document.getElementById('more').addEventListener('click',function(){shown+=12;f();});
+document.getElementById('cta').addEventListener('click',function(){var e=document.getElementById('form');e.style.display=e.style.display==='none'?'block':'none';if(e.style.display==='block'){e.scrollIntoView();}});
 document.getElementById('send').addEventListener('click',function(){
 var g=document.getElementById('f-grade').value,su=document.getElementById('f-subj').value,mo=document.getElementById('f-mode').value,na=document.getElementById('f-name').value,co=document.getElementById('f-contact').value,no=document.getElementById('f-note').value;
 if(!su||!co){alert('Please fill in at least the subject and your contact, so we can reply.');return;}
 var body="Child's grade: "+g+"\nSubject needed: "+su+"\nOnline / in person: "+mo+"\nParent's name: "+na+"\nContact: "+co+"\nNote: "+no;
-window.location.href='mailto:mia.lilyfunlearning@gmail.com?subject='+encodeURIComponent('Find a tutor: '+su+' '+g)+'&body='+encodeURIComponent(body);
+showMsg('Your message is ready','Find a tutor: '+su+' '+g,body);
 });
 document.getElementById('t-send').addEventListener('click',function(){
 var na=document.getElementById('t-name').value,su=document.getElementById('t-subj').value,gr=document.getElementById('t-grades').value,ra=document.getElementById('t-rate').value,mo=document.getElementById('t-mode').value,co=document.getElementById('t-contact').value,inT=document.getElementById('t-intro').value;
 if(!na||!su||!co){alert('Please fill in at least your name, subjects and contact, so we can reply.');return;}
 var body="Teacher name: "+na+"\nSubjects: "+su+"\nGrades: "+gr+"\nRate: "+ra+"\nOnline / in person: "+mo+"\nContact: "+co+"\nIntroduction: "+inT;
-window.location.href='mailto:mia.lilyfunlearning@gmail.com?subject='+encodeURIComponent('Teacher application: '+na+' — '+su)+'&body='+encodeURIComponent(body);
+showMsg('Your message is ready','Teacher application: '+na+' — '+su,body);
 });
 document.getElementById('r-send').addEventListener('click',function(){
 var la=document.getElementById('r-lang').value,g=document.getElementById('r-grade').value,na=document.getElementById('r-name').value,co=document.getElementById('r-contact').value,no=document.getElementById('r-note').value;
 if(!co){alert('Please fill in your contact, so we can reply.');return;}
 var tm=[];document.querySelectorAll('.r-time:checked').forEach(function(c){tm.push(c.value);});var to=document.getElementById('r-time-other').value;if(to)tm.push('Other: '+to);
 var body="Language: "+la+"\nGrade or level: "+g+"\nPreferred times: "+(tm.join(", ")||"Not stated")+"\nName: "+na+"\nContact: "+co+"\nNote: "+no;
-window.location.href='mailto:mia.lilyfunlearning@gmail.com?subject='+encodeURIComponent('Join Teacher-Led Reading: '+la)+'&body='+encodeURIComponent(body);
+showMsg('Your message is ready','Join Teacher-Led Reading: '+la,body);
 });
 document.getElementById('l-send').addEventListener('click',function(){
 var g=document.getElementById('l-grade').value,le=document.getElementById('l-lead').value,na=document.getElementById('l-name').value,co=document.getElementById('l-contact').value,no=document.getElementById('l-note').value;
 if(!co){alert('Please fill in your contact, so we can reply.');return;}
 var tm=[];document.querySelectorAll('.l-time:checked').forEach(function(c){tm.push(c.value);});var to=document.getElementById('l-time-other').value;if(to)tm.push('Other: '+to);
 var body="Child's grade: "+g+"\nWould like to lead: "+le+"\nPreferred times: "+(tm.join(", ")||"Not stated")+"\nParent's name: "+na+"\nContact: "+co+"\nNote: "+no;
-window.location.href='mailto:mia.lilyfunlearning@gmail.com?subject='+encodeURIComponent('Join Leadership Academy')+'&body='+encodeURIComponent(body);
+showMsg('Your message is ready','Join Leadership Academy',body);
 });
 document.getElementById('g-send').addEventListener('click',function(){
 var id=document.getElementById('g-idea').value,dd=document.getElementById('g-do').value,wh=document.getElementById('g-who').value,na=document.getElementById('g-name').value,co=document.getElementById('g-contact').value;
 if(!id||!co){alert('Please fill in at least your group idea and your parent contact, so we can reply.');return;}
 var tm=[];document.querySelectorAll('.g-time:checked').forEach(function(c){tm.push(c.value);});var to=document.getElementById('g-time-other').value;if(to)tm.push('Other: '+to);
 var body="Group idea: "+id+"\nWhat we will do together: "+dd+"\nWho should join: "+wh+"\nPreferred times: "+(tm.join(", ")||"Not stated")+"\nName and grade: "+na+"\nParent contact: "+co;
-window.location.href='mailto:mia.lilyfunlearning@gmail.com?subject='+encodeURIComponent('Start a group: '+id)+'&body='+encodeURIComponent(body);
+showMsg('Your message is ready','Start a group: '+id,body);
 });
 document.getElementById('j-send').addEventListener('click',function(){
 var gr=document.getElementById('j-group').value,g=document.getElementById('j-grade').value,na=document.getElementById('j-name').value,co=document.getElementById('j-contact').value,no=document.getElementById('j-note').value;var tm=[];document.querySelectorAll('.j-time:checked').forEach(function(c){tm.push(c.value);});var to=document.getElementById('j-time-other').value;if(to)tm.push('Other: '+to);
 if(!co){alert('Please fill in your contact, so we can reply.');return;}
 var body="Group: "+gr+"\nPreferred times: "+(tm.join(", ")||"Not stated")+"\nChild's grade: "+g+"\nParent's name: "+na+"\nContact: "+co+"\nNote: "+no;
-window.location.href='mailto:mia.lilyfunlearning@gmail.com?subject='+encodeURIComponent('Join Student-Led Reading Club: '+gr)+'&body='+encodeURIComponent(body);
+showMsg('Your message is ready','Join Student-Led Reading Club: '+gr,body);
 });
 </script></body></html>
