@@ -1,8 +1,8 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Lily Fun Learning</title>
-<meta name="description" content="Lily Fun Learning is an international online learning centre. Free student-led reading clubs for Grades 2-5, teacher-led reading, and one-on-one tutoring in English, French, Spanish and more, matched directly with teachers, no agencies.">
+<meta name="description" content="Lily Fun Learning is an international online learning centre. Free student-led reading clubs for Grades 2-5, teacher-led reading for all levels from kids to adults, and one-on-one tutoring in English, French, Spanish and more, matched directly with teachers, no agencies.">
 <meta property="og:title" content="Lily Fun Learning">
-<meta property="og:description" content="Free student-led reading clubs for Grades 2-5, teacher-led reading, and one-on-one tutoring in English, French, Spanish and more, matched directly with teachers, no agencies.">
+<meta property="og:description" content="Free student-led reading clubs for Grades 2-5, teacher-led reading for all levels from kids to adults, and one-on-one tutoring in English, French, Spanish and more, matched directly with teachers, no agencies.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://lilyfunlearning.github.io/">
 <style>
@@ -48,7 +48,7 @@ footer{margin-top:24px;color:#666;font-size:14px}
 <div class="entry">
 <div class="big" onclick="show('reading')"><span style="display:inline-block;background:#b3541e;color:#fff;font-size:24px;font-weight:800;padding:4px 18px;border-radius:20px">FREE</span><h3>Student-Led Reading Club</h3><p>iReading Club and more programs. Children read, think and create together. First month free. No exams. No pressure.</p><span>Enter free &rarr;</span></div>
 <div class="big" onclick="show('leadership')"><h3>Leadership Academy</h3><p>Every child has a strength. Here children learn to lead — hosting, presenting and organising, one step at a time.</p><span>Enter &rarr;</span></div>
-<div class="big" onclick="show('teacherled')"><h3>Teacher-Led Reading</h3><p>A teacher reads with the children and guides them — English, French and Chinese reading, Grades 2-5. A separate club from Student-Led Reading.</p><span>Enter &rarr;</span></div>
+<div class="big" onclick="show('teacherled')"><h3>Teacher-Led Reading</h3><p>A teacher reads with you and guides you — English, French and Chinese reading, all levels, from kids to adults. A separate club from Student-Led Reading.</p><span>Enter &rarr;</span></div>
 <div class="big" onclick="show('tutors')"><h3>Find a Tutor</h3><p>When your child needs a teacher, we match you with one.</p><span>Enter &rarr;</span></div>
 <div class="big" onclick="show('forteachers')"><h3>For Teachers</h3><p>Are you a teacher looking for students? Tell us about yourself — we match you with families.</p><span>Enter &rarr;</span></div>
 </div>
@@ -146,13 +146,13 @@ footer{margin-top:24px;color:#666;font-size:14px}
 <div id="teacherled" style="display:none">
 <button class="back" type="button" onclick="show('home')">&larr; Back to home</button>
 <h2>Teacher-Led Reading — a separate club</h2>
-<p>This is a <b>separate club</b> from Student-Led Reading. In Student-Led Reading, children organise themselves. Here, a teacher leads the session: reading with the children, guiding discussion, and helping with words and understanding.</p>
-<p>English, French and Chinese reading, Grades 2-5, online first. Tell us what your child needs and we will match a teacher.</p>
+<p>This is a <b>separate club</b> from Student-Led Reading. In Student-Led Reading, children organise themselves. Here, a teacher leads the session: reading with you, guiding discussion, and helping with words and understanding.</p>
+<p>English, French and Chinese reading, all levels, from kids to adults, online first. Tell us what you need and we will match a teacher.</p>
 <div style="background:#fff;border:1px solid #e5ddd2;border-radius:12px;padding:16px;margin-bottom:16px">
 <h2 style="margin-top:0">Join Teacher-Led Reading</h2>
 <p style="color:#555;font-size:14px">Fill this in and send it to us by email. Nothing is stored on this website.</p>
 <label>Language<br><select id="r-lang" style="width:92%"><option>English</option><option>French</option><option>Chinese</option><option>Not sure yet — please advise</option></select></label><br>
-<label>Child's grade<br><input id="r-grade" type="text" placeholder="e.g. Grade 3" style="width:90%"></label><br>
+<label>Your grade or level<br><input id="r-grade" type="text" placeholder="e.g. Grade 3, or adult beginner" style="width:90%"></label><br>
 <fieldset style="border:1px solid #ccc;border-radius:8px;padding:10px;margin:6px 0"><legend>Preferred times — pick all that work</legend>
 <label style="display:block"><input type="checkbox" class="r-time" value="Weekday evening"> Weekday evening</label>
 <label style="display:block"><input type="checkbox" class="r-time" value="Saturday morning"> Saturday morning</label>
@@ -161,9 +161,9 @@ footer{margin-top:24px;color:#666;font-size:14px}
 <label style="display:block"><input type="checkbox" class="r-time" value="Sunday afternoon"> Sunday afternoon</label>
 <label>Other times<br><input id="r-time-other" type="text" placeholder="e.g. Friday 4 PM" style="width:90%"></label>
 </fieldset>
-<label>Parent's name<br><input id="r-name" type="text" placeholder="e.g. Mrs. Wang" style="width:90%"></label><br>
-<label>Parent's contact (phone or email)<br><input id="r-contact" type="text" placeholder="e.g. 604-xxx-xxxx or email" style="width:90%"></label><br>
-<label>Anything else?<br><textarea id="r-note" rows="3" placeholder="e.g. My child needs help with French reading" style="width:90%"></textarea></label><br>
+<label>Your name<br><input id="r-name" type="text" placeholder="e.g. Mrs. Wang" style="width:90%"></label><br>
+<label>Your contact (phone or email)<br><input id="r-contact" type="text" placeholder="e.g. 604-xxx-xxxx or email" style="width:90%"></label><br>
+<label>Anything else?<br><textarea id="r-note" rows="3" placeholder="e.g. I need help with French reading" style="width:90%"></textarea></label><br>
 <p><button class="bigbtn" type="button" id="r-send">Send to Lily Fun Learning</button></p>
 </div>
 </div>
@@ -967,7 +967,7 @@ document.getElementById('r-send').addEventListener('click',function(){
 var la=document.getElementById('r-lang').value,g=document.getElementById('r-grade').value,na=document.getElementById('r-name').value,co=document.getElementById('r-contact').value,no=document.getElementById('r-note').value;
 if(!co){alert('Please fill in your contact, so we can reply.');return;}
 var tm=[];document.querySelectorAll('.r-time:checked').forEach(function(c){tm.push(c.value);});var to=document.getElementById('r-time-other').value;if(to)tm.push('Other: '+to);
-var body="Language: "+la+"\nChild's grade: "+g+"\nPreferred times: "+(tm.join(", ")||"Not stated")+"\nParent's name: "+na+"\nContact: "+co+"\nNote: "+no;
+var body="Language: "+la+"\nGrade or level: "+g+"\nPreferred times: "+(tm.join(", ")||"Not stated")+"\nName: "+na+"\nContact: "+co+"\nNote: "+no;
 window.location.href='mailto:mia.lilyfunlearning@gmail.com?subject='+encodeURIComponent('Join Teacher-Led Reading: '+la)+'&body='+encodeURIComponent(body);
 });
 document.getElementById('l-send').addEventListener('click',function(){
