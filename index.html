@@ -5,6 +5,12 @@
 <meta property="og:description" content="Free student-led reading clubs for Grades 2-5, teacher-led reading for all levels from kids to adults, and one-on-one tutoring in English, French, Spanish and more, matched directly with teachers, no agencies.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://lilyfunlearning.github.io/">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="theme-color" content="#b3541e">
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Lily Fun">
 <style>
 body{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;max-width:960px;margin:0 auto;padding:20px;background:#faf7f2;color:#222}
 .hero{background:linear-gradient(135deg,#b3541e,#e08a3c);color:#fff;border-radius:16px;padding:36px 28px;text-align:center}
@@ -1177,4 +1183,6 @@ if(!co){alert('Please fill in your contact, so we can reply.');return;}
 var body="Child's grade: "+g+"\nSubject: "+su+"\nOnline / in person: "+mo+"\nWhen: "+timeBlock('sp')+"\nParent's name: "+na+"\nContact: "+co;
 showMsg('Your message is ready','Find a Student Tutor: '+su+' '+g,body);
 });
-</script></body></html>
+</script>
+<script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}</script>
+</body></html>
