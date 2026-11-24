@@ -83,13 +83,14 @@ footer{margin-top:24px;color:#666;font-size:14px}
 </div>
 <div style="background:#fff;border:1px solid #e5ddd2;border-radius:12px;padding:16px;margin-bottom:16px">
 <h3 style="margin-top:0;color:#222">Wisdom Beans</h3>
-<p>Every reader starts with 100 wisdom beans when they join. Come to a session +5, lead the read-aloud +5, finish your homework +5 — and each session is 25 beans. Beans are encouragement, not money, and saved-up beans can be exchanged for a little pet, a new skin, and other fun rewards.</p>
-<p style="margin:6px 0">Amy — 100 beans &nbsp;·&nbsp; Ceila — 100 beans &nbsp;·&nbsp; Chengru — 100 beans &nbsp;·&nbsp; Cristal — 100 beans &nbsp;·&nbsp; Emma — 100 beans &nbsp;·&nbsp; Josie — 100 beans</p>
-<p style="color:#555;font-size:14px;margin:6px 0 0">Listed alphabetically — no rankings here, every reader shines in their own way.</p>
+<p>Welcome to the club! Every reader gets 100 wisdom beans to start. Each reading adventure costs 25 beans — and you can earn more every time you come! Come to a session +5, lead the read-aloud +5, finish your homework +5.</p>
+<p>What can you do with your beans? Save them up and adopt a little pet, pick a new skin, and unlock more fun surprises!</p>
+<p><button type="button" onclick="openBeans()" style="background:#b3541e;color:#fff;border:0;padding:10px 18px;border-radius:10px;font-weight:700;font-size:15px;cursor:pointer">🫘 Check my beans</button></p>
+<p style="color:#555;font-size:14px;margin:6px 0 0">Type your first name to see how many wisdom beans you have. No names are shown on this page.</p>
 </div>
 <div style="background:#fff;border:1px solid #e5ddd2;border-radius:12px;padding:16px;margin-bottom:16px">
 <h3 style="margin-top:0;color:#222">🐾 Wisdom Beans Pet Garden</h3>
-<p>Save up 150 wisdom beans and adopt a little pet! Your pet follows your name in every magazine issue and keeps you company while you read.</p>
+<p>Pick your favourite friend! Save up 150 wisdom beans and a little pet is yours. It will follow your name in every magazine and keep you company while you read.</p>
 <div style="display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin-top:12px">
 <div style="flex:1 1 120px;max-width:160px;text-align:center"><img src="images/pet-kitten.jpg" alt="Little orange kitten" style="width:100%;height:auto;border-radius:12px"><p style="margin:6px 0 0;font-weight:700">Little Orange Kitten</p><p style="color:#b3541e;margin:2px 0 0">150 beans</p></div>
 <div style="flex:1 1 120px;max-width:160px;text-align:center"><img src="images/pet-bunny.jpg" alt="Little white bunny" style="width:100%;height:auto;border-radius:12px"><p style="margin:6px 0 0;font-weight:700">Little White Bunny</p><p style="color:#b3541e;margin:2px 0 0">150 beans</p></div>
@@ -1150,10 +1151,24 @@ footer{margin-top:24px;color:#666;font-size:14px}
 <p><button type="button" onclick="closeMsg()" style="background:#eee;border:0;padding:8px 16px;border-radius:8px;font-size:15px;cursor:pointer">Close</button></p>
 </div>
 </div>
+<div id="beansDlg" style="display:none;position:fixed;left:0;top:0;width:100%;height:100%;background:rgba(0,0,0,.55);z-index:99">
+<div style="background:#fff;max-width:520px;margin:10% auto;padding:22px;border-radius:14px">
+<h3 style="margin-top:0">🫘 Check my beans</h3>
+<p>Type your first name to see how many wisdom beans you have.</p>
+<p><input id="beans-name" type="text" placeholder="Your first name" style="width:100%;box-sizing:border-box;font-size:15px;padding:10px;border:1px solid #ccc;border-radius:8px"></p>
+<p><button type="button" onclick="checkBeans()" style="background:#b3541e;color:#fff;border:0;padding:10px 18px;border-radius:10px;font-weight:700;font-size:15px;cursor:pointer">Check</button></p>
+<p id="beans-result" style="font-size:17px;font-weight:700"></p>
+<p><button type="button" onclick="closeBeans()" style="background:#eee;border:0;padding:8px 16px;border-radius:8px;font-size:15px;cursor:pointer">Close</button></p>
+</div>
+</div>
 <script>
 function showMsg(title,subj,body){document.getElementById('md-title').textContent=title;document.getElementById('md-sub').textContent=subj;document.getElementById('md-msg').value=body;document.getElementById('md-mail').href='mailto:mia.lilyfunlearning@gmail.com?subject='+encodeURIComponent(subj)+'&body='+encodeURIComponent(body);document.getElementById('msgDlg').style.display='block';}
 function askPrice(name){showMsg('Ask about price','Price enquiry: '+name,'Hi Mia,\n\nCould you tell me the price for lessons with '+name+'?\n\nThank you!');}
 function closeMsg(){document.getElementById('msgDlg').style.display='none';}
+var BEANS={amy:100,ceila:100,chengru:100,cristal:100,emma:100,josie:100};
+function openBeans(){document.getElementById('beansDlg').style.display='block';}
+function closeBeans(){document.getElementById('beansDlg').style.display='none';}
+function checkBeans(){var n=document.getElementById('beans-name').value.trim().toLowerCase();var r=document.getElementById('beans-result');if(BEANS[n]!==undefined){var name=document.getElementById('beans-name').value.trim();r.textContent='Hi '+name+', you have '+BEANS[n]+' wisdom beans!';}else{r.textContent='We could not find that name. Please check the spelling, or ask Mia for help.';}}
 function copyMsg(){var t=document.getElementById('md-msg');t.focus();t.select();var done=function(){alert('Message copied. Paste it into your email app and send it to mia.lilyfunlearning@gmail.com.');};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,function(){try{document.execCommand('copy');}catch(e){}done();});}else{try{document.execCommand('copy');}catch(e){}done();}}
 function timeBlock(p){var tz=document.getElementById(p+'-tz').value;var d=[];document.querySelectorAll('.'+p+'-day:checked').forEach(function(c){d.push(c.value);});var t=[];document.querySelectorAll('.'+p+'-slot:checked').forEach(function(c){t.push(c.value);});var o=document.getElementById(p+'-time-other').value;var parts=['Time zone: '+tz];if(d.length)parts.push('Days: '+d.join(', '));if(t.length)parts.push('Times: '+t.join(', '));if(o)parts.push('Exact times: '+o);return parts.join('; ');}
 function show(id){for(const x of ['home','reading','leadership','teacherled','tutors','studenttutors','forteachers']){document.getElementById(x).style.display=(x===id)?'':'none';}window.scrollTo(0,0);}
